@@ -3,13 +3,11 @@
 import Image from "next/image";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 
+// Parts-only scenes on purpose: no generated full-bike shots anywhere on the
+// site. The audience can clock a fake bike instantly; a tagged controller on
+// a bench cannot be clocked. Nothing goes here until real bike photography
+// exists.
 const SCENES = [
-  {
-    video: "/hero-loop-a.mp4",
-    poster: "/hero-a.jpg",
-    alt: "Mud-covered electric dirt bike on a stand in a home garage at night",
-    caption: "Week one on a scene bike: everything comes off",
-  },
   {
     video: "/hero-loop-b.mp4",
     poster: "/hero-b.jpg",
