@@ -3,16 +3,28 @@
 import Image from "next/image";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 
-// Parts-only scenes on purpose: no generated full-bike shots anywhere on the
-// site. The audience can clock a fake bike instantly; a tagged controller on
-// a bench cannot be clocked. Nothing goes here until real bike photography
-// exists.
+// Bike scenes here are REAL photographs of the shop's own Light Bee X,
+// upscaled and ambient-animated from the source pixels. Generated full-bike
+// imagery stays banned: the audience can clock a fake bike instantly.
+// Parts-only scenes are fine either way.
 const SCENES = [
+  {
+    video: "/hero-loop-lbx-sunset.mp4",
+    poster: "/hero-lbx-sunset.jpg",
+    alt: "Our Sur-Ron Light Bee X leaning roadside in tall grass at sunset",
+    caption: "Our own Light Bee X. The takeoffs paid for the forks",
+  },
   {
     video: "/hero-loop-b.mp4",
     poster: "/hero-b.jpg",
     alt: "Takeoff brake set, controller, and saddle tagged with part numbers on a workbench",
     caption: "Tagged, weighed, quoted",
+  },
+  {
+    video: "/hero-loop-lbx-bus.mp4",
+    poster: "/hero-lbx-bus.jpg",
+    alt: "Our Sur-Ron Light Bee X leaning against a yellow school bus",
+    caption: "The shop LBX. Real bike, real miles",
   },
   {
     video: "/hero-loop-c.mp4",
