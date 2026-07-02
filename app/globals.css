@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f2efe9;
+  --paper-raised: #fbfaf6;
+  --ink: #16130e;
+  --ink-soft: #57503f;
+  --line: #d9d3c5;
+  --accent: #e84e1b;
+  --accent-ink: #fff4ee;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --font-sans: var(--font-barlow);
+  --font-display: var(--font-barlow-condensed);
+  --font-mono: var(--font-plex-mono);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-barlow), sans-serif;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.font-display {
+  font-family: var(--font-barlow-condensed), sans-serif;
+}
+
+.label-mono {
+  font-family: var(--font-plex-mono), monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
