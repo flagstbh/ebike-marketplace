@@ -2,14 +2,22 @@ import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import HeroRotator from "@/components/hero-rotator";
 import ProductCard from "@/components/product-card";
+import { takeoffPotential } from "@/lib/takeoff-value";
 import type { Category, Product } from "@/lib/types";
 import { usd } from "@/lib/format";
 
 export const revalidate = 300;
 
+const INDEX_STRIP_SLUGS = [
+  "surron-light-bee-x",
+  "radrover-6-plus",
+  "aventon-aventure-2",
+  "lectric-xp-3",
+];
+
 export default async function HomePage() {
   const supabase = await createClient();
-  const [{ data: featured }, { data: categories }, { data: usedDeals }] =
+  const [{ data: featured }, { data: categories }, { data: usedDeals }, { data: stripBikes }] =
     await Promise.all([
       supabase
         .from("products")
@@ -26,7 +34,22 @@ export default async function HomePage() {
         .gt("stock", 0)
         .order("created_at", { ascending: false })
         .limit(3),
+      supabase
+        .from("bike_models")
+        .select("slug, brand, model, bike_stock_parts(component, trade_in_catalog(base_value_cents))")
+        .in("slug", INDEX_STRIP_SLUGS),
     ]);
+
+  const strip = INDEX_STRIP_SLUGS.flatMap((slug) => {
+    const b = (stripBikes ?? []).find((x) => x.slug === slug);
+    if (!b) return [];
+    // supabase-js types nested to-one joins as arrays; runtime is an object.
+    const parts = b.bike_stock_parts as unknown as {
+      component: string;
+      trade_in_catalog: { base_value_cents: number } | null;
+    }[];
+    return [{ slug, name: `${b.brand} ${b.model}`, cents: takeoffPotential(parts) }];
+  });
 
   return (
     <div>
@@ -120,12 +143,7 @@ export default async function HomePage() {
           </Link>
         </div>
         <div className="grid content-center gap-px bg-line p-px sm:grid-cols-2">
-          {[
-            { name: "Sur-Ron Light Bee X", value: "up to $467", slug: "surron-light-bee-x" },
-            { name: "Rad Power RadRover 6 Plus", value: "up to $210", slug: "radrover-6-plus" },
-            { name: "Aventon Aventure.2", value: "up to $205", slug: "aventon-aventure-2" },
-            { name: "Lectric XP 3.0", value: "up to $101", slug: "lectric-xp-3" },
-          ].map((b) => (
+          {strip.map((b) => (
             <Link
               key={b.slug}
               href={`/bikes/${b.slug}`}
@@ -134,7 +152,9 @@ export default async function HomePage() {
               <p className="font-display text-lg font-semibold uppercase leading-tight">
                 {b.name}
               </p>
-              <p className="label-mono mt-2 text-accent">{b.value} in takeoffs</p>
+              <p className="label-mono mt-2 text-accent">
+                up to {usd(b.cents)} in takeoffs
+              </p>
             </Link>
           ))}
         </div>
