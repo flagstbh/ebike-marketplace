@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: "Takeoff Parts Co.",
     type: "website",
-    images: ["/hero-workbench.jpg"],
+    images: ["/hero-emoto.jpg"],
   },
   twitter: {
     card: "summary_large_image",
