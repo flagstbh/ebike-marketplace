@@ -87,8 +87,8 @@ export default async function BikesPage() {
         </div>
         <div className="relative hidden min-h-[280px] border-l border-line bg-ink lg:block">
           <Image
-            src="/bikes-teardown.jpg"
-            alt="E-bike in a repair stand mid-teardown, removed stock parts labeled on the bench"
+            src="/hero-b.jpg"
+            alt="Takeoff brake set, controller, and saddle tagged with handwritten part numbers on a workbench"
             fill
             sizes="40vw"
             className="object-cover"
