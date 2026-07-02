@@ -62,15 +62,26 @@ export default async function HomePage() {
         </div>
         <div className="relative hidden min-h-[420px] border-l border-line bg-ink lg:block">
           <Image
-            src="/hero-workbench.jpg"
-            alt="E-bike parts laid out on a workshop bench"
+            src="/hero-emoto.jpg"
+            alt="Electric dirt bike on a stand in a garage, its takeoff shock, controller, and tires tagged for trade-in"
             fill
             priority
             sizes="42vw"
             className="object-cover opacity-90"
           />
+          <video
+            className="absolute inset-0 h-full w-full object-cover opacity-90 motion-reduce:hidden"
+            autoPlay
+            muted
+            loop
+            playsInline
+            poster="/hero-emoto.jpg"
+            aria-hidden="true"
+          >
+            <source src="/hero-loop.mp4" type="video/mp4" />
+          </video>
           <div className="label-mono absolute bottom-0 left-0 bg-paper px-3 py-2 text-ink">
-            Week one on most e-bikes: saddle, grips, brakes, tires
+            Tonight&apos;s takeoffs: shock, controller, tires, already tagged
           </div>
         </div>
       </section>
