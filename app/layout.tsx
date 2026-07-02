@@ -25,7 +25,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ebike-marketplace.vercel.app"),
+  metadataBase: new URL("https://www.takeoffpartsco.com"),
   title: {
     default: "Takeoff Parts Co. — E-Bike Upgrades & Trade-Ins",
     template: "%s — Takeoff Parts Co.",

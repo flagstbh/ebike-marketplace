@@ -3,7 +3,7 @@ import { createClient } from "@supabase/supabase-js";
 
 export const revalidate = 3600;
 
-const BASE_URL = "https://ebike-marketplace.vercel.app";
+const BASE_URL = "https://www.takeoffpartsco.com";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Plain client: sitemap runs outside a request, so no cookies() context.
