@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { createClient } from "@/lib/supabase/server";
 import type { BikeModel, BikeStockPart } from "@/lib/types";
 import { usd } from "@/lib/format";
@@ -72,16 +73,30 @@ export default async function BikesPage() {
 
   return (
     <div>
-      <div className="border-b border-line px-4 py-12 sm:px-8">
-        <p className="label-mono text-accent">The bike index</p>
-        <h1 className="font-display max-w-3xl text-5xl font-bold uppercase leading-none tracking-tight sm:text-6xl">
-          Find your bike. See what it&apos;s worth in parts.
-        </h1>
-        <p className="mt-4 max-w-xl leading-relaxed text-ink-soft">
-          We track the bikes people actually ride and the stock parts that
-          actually come off them. Pick yours and we&apos;ll preload a trade-in
-          quote with the usual takeoffs.
-        </p>
+      <div className="grid border-b border-line lg:grid-cols-[3fr_2fr]">
+        <div className="px-4 py-12 sm:px-8">
+          <p className="label-mono text-accent">The bike index</p>
+          <h1 className="font-display max-w-3xl text-5xl font-bold uppercase leading-none tracking-tight sm:text-6xl">
+            Find your bike. See what it&apos;s worth in parts.
+          </h1>
+          <p className="mt-4 max-w-xl leading-relaxed text-ink-soft">
+            We track the bikes people actually ride and the stock parts that
+            actually come off them. Pick yours and we&apos;ll preload a
+            trade-in quote with the usual takeoffs.
+          </p>
+        </div>
+        <div className="relative hidden min-h-[280px] border-l border-line bg-ink lg:block">
+          <Image
+            src="/bikes-teardown.jpg"
+            alt="E-bike in a repair stand mid-teardown, removed stock parts labeled on the bench"
+            fill
+            sizes="40vw"
+            className="object-cover"
+          />
+          <div className="label-mono absolute bottom-0 left-0 bg-paper px-3 py-2 text-ink">
+            Week one: the takeoffs come off
+          </div>
+        </div>
       </div>
 
       {/* Scene bikes */}
