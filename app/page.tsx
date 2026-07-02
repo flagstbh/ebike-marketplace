@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
 import { createClient } from "@/lib/supabase/server";
+import HeroRotator from "@/components/hero-rotator";
 import ProductCard from "@/components/product-card";
 import type { Category, Product } from "@/lib/types";
 import { usd } from "@/lib/format";
@@ -61,28 +61,7 @@ export default async function HomePage() {
           </div>
         </div>
         <div className="relative hidden min-h-[420px] border-l border-line bg-ink lg:block">
-          <Image
-            src="/hero-emoto.jpg"
-            alt="Electric dirt bike on a stand in a garage, its takeoff shock, controller, and tires tagged for trade-in"
-            fill
-            priority
-            sizes="42vw"
-            className="object-cover opacity-90"
-          />
-          <video
-            className="absolute inset-0 h-full w-full object-cover opacity-90 motion-reduce:hidden"
-            autoPlay
-            muted
-            loop
-            playsInline
-            poster="/hero-emoto.jpg"
-            aria-hidden="true"
-          >
-            <source src="/hero-loop.mp4" type="video/mp4" />
-          </video>
-          <div className="label-mono absolute bottom-0 left-0 bg-paper px-3 py-2 text-ink">
-            Tonight&apos;s takeoffs: shock, controller, tires, already tagged
-          </div>
+          <HeroRotator />
         </div>
       </section>
 
