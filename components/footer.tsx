@@ -30,11 +30,20 @@ export default function Footer() {
             <li>Trade-in credit never expires</li>
             <li>Free shipping label for trade-ins over $50</li>
             <li>Batteries tested and capacity-graded before resale</li>
+            <li>
+              <Link
+                href="/policies"
+                className="label-mono text-paper hover:text-accent"
+              >
+                All policies →
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
       <div className="label-mono border-t border-paper/15 px-4 py-4 text-paper/50 sm:px-8">
-        Takeoff Parts Co. — Demo storefront
+        Takeoff Parts Co. · Madison, WI — checkout is in demo mode, no payment
+        collected
       </div>
     </footer>
   );

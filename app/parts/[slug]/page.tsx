@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -9,6 +10,40 @@ import { CONDITION_LABELS } from "@/lib/types";
 import { usd, partNumber } from "@/lib/format";
 
 export const revalidate = 60;
+
+function truncate(text: string, max = 155): string {
+  if (text.length <= max) return text;
+  return text.slice(0, max - 1).replace(/\s+\S*$/, "") + "…";
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const supabase = await createClient();
+
+  const { data: product } = await supabase
+    .from("products")
+    .select("name, brand, description, image_url")
+    .eq("slug", slug)
+    .single();
+
+  if (!product) return { title: "Part not found" };
+
+  return {
+    title: `${product.brand} ${product.name}`,
+    description: truncate(product.description),
+    ...(product.image_url && {
+      openGraph: {
+        siteName: "Takeoff Parts Co.",
+        type: "website",
+        images: [product.image_url],
+      },
+    }),
+  };
+}
 
 export default async function ProductPage({
   params,

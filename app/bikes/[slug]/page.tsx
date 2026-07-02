@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
@@ -6,6 +7,35 @@ import { SWAP_LIKELIHOOD_LABELS } from "@/lib/types";
 import { usd } from "@/lib/format";
 
 export const revalidate = 300;
+
+function truncate(text: string, max = 155): string {
+  if (text.length <= max) return text;
+  return text.slice(0, max - 1).replace(/\s+\S*$/, "") + "…";
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const supabase = await createClient();
+
+  const { data: bike } = await supabase
+    .from("bike_models")
+    .select("brand, model, blurb")
+    .eq("slug", slug)
+    .single();
+
+  if (!bike) return { title: "Bike not found" };
+
+  return {
+    title: `${bike.brand} ${bike.model} takeoff values`,
+    description: bike.blurb
+      ? truncate(bike.blurb)
+      : `Trade-in values for the stock parts that come off a ${bike.brand} ${bike.model}. See what each takeoff is worth in store credit.`,
+  };
+}
 
 type PartRow = BikeStockPart & {
   trade_in_catalog:
