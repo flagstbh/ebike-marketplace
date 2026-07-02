@@ -55,6 +55,26 @@ export default function LoginForm() {
     setBusy(false);
   }
 
+  async function forgotPassword() {
+    setError(null);
+    setNotice(null);
+    if (!email) {
+      setError("Enter your email above first.");
+      return;
+    }
+    setBusy(true);
+    const supabase = createClient();
+    const { error: err } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: `${window.location.origin}/account/password`,
+    });
+    if (err) {
+      setError(err.message);
+    } else {
+      setNotice("Reset link sent. Check your email.");
+    }
+    setBusy(false);
+  }
+
   return (
     <form onSubmit={submit} className="mt-8 space-y-4">
       <div className="flex border border-line">
@@ -99,6 +119,16 @@ export default function LoginForm() {
           className="mt-1 w-full border border-line bg-paper-raised px-3 py-2.5 outline-none focus:border-ink"
           autoComplete={mode === "signup" ? "new-password" : "current-password"}
         />
+        {mode === "signin" && (
+          <button
+            type="button"
+            onClick={forgotPassword}
+            disabled={busy}
+            className="label-mono mt-2 text-ink-soft hover:text-accent disabled:text-line"
+          >
+            Forgot password?
+          </button>
+        )}
       </div>
       {error && (
         <p className="border border-accent bg-accent/10 p-3 text-sm text-accent">
