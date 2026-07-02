@@ -71,6 +71,7 @@ export interface BikeStockPart {
   stock_part: string;
   swap_likelihood: SwapLikelihood;
   sort: number;
+  years: string | null;
   trade_in_catalog?: TradeInCatalogEntry | null;
 }
 

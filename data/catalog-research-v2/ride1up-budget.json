@@ -1,0 +1,1294 @@
+{
+  "brand_family": "Ride1Up + Heybike + Engwe",
+  "tier": "volume",
+  "version": "v2-year-verified",
+  "verified": "2026-07-02",
+  "bikes": [
+    {
+      "slug": "ride1up-700",
+      "brand": "Ride1Up",
+      "model": "700 Series",
+      "style": "Commuter",
+      "motor": "750W geared rear hub, 60Nm (Shengyi DGW22 2020-2022 -> Bafang ~2022-mid 2023 -> AKM angled-gear from Aug 2023)",
+      "battery": "48V 14Ah/672Wh Reention Rhino (2020-mid 2023); 48V 15Ah/720Wh 21700-cell Rhino (Aug 2023 onward)",
+      "years": "2020-2025",
+      "tier": "volume",
+      "blurb": "Ride1Up's long-running flagship commuter, discontinued early 2025 in favor of the Vorsa; huge installed base means steady takeoff flow of Selle Royal saddles, Schwalbe tires and Tektro brakes.",
+      "year_notes": "Verified multi-revision run. MOTOR three eras: Shengyi DGW22 750W/60Nm at launch (ElectricBikeReview + Electric Bike Report reviews; EBR-forum owner who bought Sept 2021 confirmed Shengyi DGW22 was still shipping), a brief Bafang 750W/60Nm era (~late 2022 to mid 2023; EBR forum thread dated 2023-05-29: 'they have now switched it to a 750 Watt Bafang, though still with 60nm'), then AKM angled-gear 750W from the Aug 18, 2023 refresh (Electrek 'Top-selling Ride1Up 700 Series gets big upgrades'; 2024 spec sheets on 99spokes/roadbikedatabase list the AKM; some outlets claim 90Nm for the AKM but that is not consistently sourced, so 60Nm kept). BATTERY: 48V 14Ah Reention Rhino through mid-2023, then 48V 15Ah/720Wh with 21700 cells (Samsung per roadbikedatabase, EVE per bikes.fan - cell supplier evidently varied by batch) at the same price from the Aug 2023 refresh (Ebike Escape 2023-11-17 confirms 'introduced in 2023'). Mid-2021 the assist controller was reprogrammed from speed-based cruise to current-based PAS (EBR forum long-term review) - firmware-level, not a takeoff part, so no row split. NO evidence found of display (color LCD at launch and at end), fork (Mozo 100mm w/ lockout throughout), brake (Tektro HD-E350 dual-piston throughout) or drivetrain (Shimano Acera 8-speed at both ends) revisions, so those rows stay unsplit. v1's '9-speed on late models' derailleur claim found no support and was removed.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Selle Royal comfort saddle",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Ride1Up Stock Selle Royal Comfort Saddle",
+          "catalog_brand": "Selle Royal",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "eBay shows 471 used Selle Royal saddles listed, most under $20-35 asking; no specific sold datapoints pulled, so estimating at the low end. No evidence the saddle spec changed across 2020-2025.",
+          "base_value_cents": 1000,
+          "upgrade": {
+            "name": "Cloud-9 Cruiser Select",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 4000,
+            "note": "The default swap for anyone whose butt hurts after week one. Forty bucks, ten minutes, done."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "Schwalbe Super Moto-X 27.5x2.4 (pair)",
+          "swap_likelihood": "common",
+          "catalog_name": "Schwalbe Super Moto-X 27.5x2.4 Tire Pair (takeoff)",
+          "catalog_brand": "Schwalbe",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "New singles run $45-55 retail; found zero used takeoff solds. A lightly worn pair should move around $40 because the tire has a real name, but that is an estimate. Super Moto-X listed on both early and late spec sheets; no year split.",
+          "base_value_cents": 2000,
+          "upgrade": {
+            "name": "Schwalbe Marathon Plus MTB 27.5x2.25 (pair)",
+            "brand": "Schwalbe",
+            "category_slug": "tires-wheels",
+            "price_cents": 13000,
+            "note": "Commuters who are done fixing flats buy these once and never think about tires again."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "48V 14Ah (672Wh) Reention Rhino pack",
+          "years": "2020-2023",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Ride1Up 700 Series 48V 14Ah Reention Rhino Battery (2020-2023, used)",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 17500,
+          "comp_confidence": "estimated",
+          "comp_note": "YEAR SPLIT: 14Ah pack shipped from launch through roughly mid-2023, replaced by the 15Ah pack in the Aug 2023 refresh (Electrek 2023-08-18, Ebike Escape 2023-11-17). New aftermarket Reention-format 48V packs list $274-387 on eBay; no used OEM solds found. Used packs sell at a steep discount because buyers distrust cycle count, so estimating $175.",
+          "base_value_cents": 8700,
+          "upgrade": {
+            "name": "Ride1Up 700 Series Spare Battery (OEM)",
+            "brand": "Ride1Up",
+            "category_slug": "batteries",
+            "price_cents": 39500,
+            "note": "Sold direct on ride1up.com. Buy the real pack, not a mystery-cell clone that voids the frame warranty."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "48V 15Ah (720Wh) Reention Rhino pack, 21700 cells",
+          "years": "2023-2025",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Ride1Up 700 Series 48V 15Ah Reention Rhino Battery (2023-2025, used)",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 19000,
+          "comp_confidence": "estimated",
+          "comp_note": "YEAR SPLIT: 15Ah/720Wh pack introduced with the Aug 2023 refresh at no price increase (Electrek 2023-08-18; Ebike Escape 2023-11-17). Cell supplier varied by batch - Samsung 21700s per roadbikedatabase, EVE per bikes.fan. Newer and bigger than the 14Ah pack so it clears a little more; $190 estimate, no solds found.",
+          "base_value_cents": 9500,
+          "upgrade": {
+            "name": "Ride1Up 700 Series Spare Battery (OEM)",
+            "brand": "Ride1Up",
+            "category_slug": "batteries",
+            "price_cents": 39500,
+            "note": "Sold direct on ride1up.com. Buy the real pack, not a mystery-cell clone that voids the frame warranty."
+          }
+        },
+        {
+          "component": "Brakes",
+          "stock_part": "Tektro HD-E350 hydraulic set, 180mm rotors",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Tektro HD-E350 Hydraulic Brake Set (e-bike takeoff)",
+          "catalog_brand": "Tektro",
+          "ebay_comp_cents": 5500,
+          "comp_confidence": "estimated",
+          "comp_note": "New sets on eBay run $80-130 with one outlier at $299; saw a takeoff listing but no confirmed sold price. Estimating $55 for a complete set with cutoff levers. HD-E350 confirmed at 2020 launch (EBR review) and on 2024 spec sheets - no brake revision found, no year split.",
+          "base_value_cents": 2700,
+          "upgrade": null
+        },
+        {
+          "component": "Display",
+          "stock_part": "KD-style color LCD",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Ride1Up Stock Color LCD Display",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 2500,
+          "comp_confidence": "estimated",
+          "comp_note": "KD218-class displays sell new for $45-70; used units only move as repair parts to owners who smashed theirs. Estimating $25. Color LCD documented at both launch (EBR) and end of run - no evidence of a display revision, no year split.",
+          "base_value_cents": 1200,
+          "upgrade": null
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "Mozo 100mm coil fork with hydraulic lockout",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Mozo 100mm Suspension Fork (700 Series takeoff)",
+          "catalog_brand": "Mozo",
+          "ebay_comp_cents": 3000,
+          "comp_confidence": "estimated",
+          "comp_note": "No-name-adjacent coil fork with almost no aftermarket demand; no solds found. $30 as a repair part is generous. Mozo 100mm w/ lockout confirmed on both 2020-era reviews and 2024 spec sheets - no fork revision found, no year split.",
+          "base_value_cents": 1500,
+          "upgrade": {
+            "name": "SR Suntour XCM34 27.5",
+            "brand": "SR Suntour",
+            "category_slug": "suspension",
+            "price_cents": 12500,
+            "note": "Cheapest fork swap that actually feels different. Heavier riders notice it first."
+          }
+        },
+        {
+          "component": "Rear derailleur",
+          "stock_part": "Shimano Acera 8-speed",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Shimano Acera 8-Speed Rear Derailleur (takeoff)",
+          "catalog_brand": "Shimano",
+          "ebay_comp_cents": 1800,
+          "comp_confidence": "estimated",
+          "comp_note": "Used Acera mechs are a $15-20 eBay commodity with slow turnover; no specific solds pulled. CORRECTION: v1 claimed '9-speed on late models' - 2024 spec sheets still list Acera 8-speed and no 9-speed 700 Series was found, so that claim is removed.",
+          "base_value_cents": 900,
+          "upgrade": null
+        },
+        {
+          "component": "Grips",
+          "stock_part": "Stock lock-on ergonomic grips",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Ride1Up Stock Lock-On Grips",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "No resale market for stock grips. Bin-filler.",
+          "base_value_cents": 300,
+          "upgrade": {
+            "name": "Ergon GP1",
+            "brand": "Ergon",
+            "category_slug": "cockpit",
+            "price_cents": 3500,
+            "note": "The grip everyone lands on after their hands go numb at mile ten."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ride1up-turris",
+      "brand": "Ride1Up",
+      "model": "Turris",
+      "style": "Commuter",
+      "motor": "750W geared rear hub (Shengyi at Feb-2023 launch per Ebike Escape pre-release review; AKM listed on later spec sheets per EBR/Ride1Up)",
+      "battery": "48V 12.8Ah LG-cell pack (2023); 48V 14Ah (2024 onward, shared with LMT'D V2)",
+      "years": "2023-present",
+      "tier": "volume",
+      "blurb": "The entry commuter that reviewers keep calling the value pick - launched Feb 2023 at $1,295, now $1,095; owners upgrade the budget shifting and coil fork first, and the no-name takeoffs are worth little.",
+      "year_notes": "CORRECTION: launched Feb 23, 2023 (Electrek launch coverage; Ebike Escape pre-release review same date) - v1's 2022 start year was wrong. Launch build per the pre-release review: Shengyi 750W hub, Zoom 180mm hydraulic brakes, 48V 12.8Ah genuine-LG battery, KD21C MONOCHROME display (v1 wrongly filed it under the color-LCD catalog part), Shimano Altus rear derailleur with SIS index thumb shifter, Kenda 27.5x2.4. Running revisions by 2024 (EBR updated review, current ride1up.com page, 99spokes 2024): brakes Zoom -> LBN hydraulic (EBR notes the Zooms felt spongy over time), battery 12.8Ah -> 14Ah (described as the largest pack that fits this frame; Ride1Up sells it as the combined 'Turris and LMT'D V2 Battery'), and later spec sheets list the motor as AKM rather than Shengyi. Brake and battery rows split accordingly; motor change is captured here because no motor takeoff row exists.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Plush unbranded comfort saddle",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Turris Stock Comfort Saddle",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 1500,
+          "comp_confidence": "estimated",
+          "comp_note": "Unbranded saddle, no comps exist; $15 optimistic estimate against generic used-saddle asks.",
+          "base_value_cents": 700,
+          "upgrade": {
+            "name": "Cloud-9 Cruiser Select",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 4000,
+            "note": "Same story as every commuter: stock saddle lasts until the first long weekend ride."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "Kenda 27.5x2.4 (pair)",
+          "swap_likelihood": "common",
+          "catalog_name": "Kenda 27.5x2.4 Commuter Tire Pair (takeoff)",
+          "catalog_brand": "Kenda",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Budget Kenda takeoffs barely sell; new pairs are only $60-80 so used ceiling is low. No solds found. Kenda confirmed at launch; no evidence of a tire change.",
+          "base_value_cents": 1000,
+          "upgrade": {
+            "name": "Schwalbe Super Moto-X 27.5x2.4 (pair)",
+            "brand": "Schwalbe",
+            "category_slug": "tires-wheels",
+            "price_cents": 10000,
+            "note": "The classic Turris tire bump: quieter, tougher, and it rolls faster than the stock Kendas."
+          }
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "100mm coil fork with lockout",
+          "swap_likelihood": "common",
+          "catalog_name": "Turris Stock 100mm Coil Fork (takeoff)",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Reviewers name the fork as the first thing to outgrow; the takeoff itself is a $20 repair part at best, no market found. No evidence of a fork revision across the run.",
+          "base_value_cents": 1000,
+          "upgrade": {
+            "name": "SR Suntour XCM34 27.5",
+            "brand": "SR Suntour",
+            "category_slug": "suspension",
+            "price_cents": 12500,
+            "note": "Affordable fork that turns the Turris from boardwalk bike into light-trail bike."
+          }
+        },
+        {
+          "component": "Shifter and derailleur",
+          "stock_part": "Shimano Altus 7-speed derailleur with SIS index thumb shifter",
+          "swap_likelihood": "common",
+          "catalog_name": "Shimano 7-Speed Shifter + Derailleur Set (Turris takeoff)",
+          "catalog_brand": "Shimano",
+          "ebay_comp_cents": 1200,
+          "comp_confidence": "estimated",
+          "comp_note": "Launch review confirms an Altus rear mech (not Tourney) paired with a bottom-rung SIS thumb shifter - v1's 'Tourney/Altus' hedge tightened to Altus. Forum consensus is still to replace the clunky thumb shifter first, which tells you what the takeoff is worth: near nothing.",
+          "base_value_cents": 600,
+          "upgrade": {
+            "name": "Shimano Altus M310 shifter + derailleur",
+            "brand": "Shimano",
+            "category_slug": "drivetrain",
+            "price_cents": 2500,
+            "note": "Twenty-five bucks kills the clunky thumb shifter. Cheapest quality-of-life fix on the bike."
+          }
+        },
+        {
+          "component": "Brakes",
+          "stock_part": "Zoom hydraulic disc set, 180mm rotors",
+          "years": "2023",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Zoom Hydraulic Brake Set (Turris 2023 takeoff)",
+          "catalog_brand": "Zoom",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "YEAR SPLIT: launch-year Turris shipped Zoom 180mm hydraulics (Ebike Escape pre-release review, Feb 2023); EBR notes they went spongy with time and Ride1Up moved to LBN on later builds. Budget Zoom hydros have effectively no resale market. Parts-bin value only.",
+          "base_value_cents": 800,
+          "upgrade": null
+        },
+        {
+          "component": "Brakes",
+          "stock_part": "LBN hydraulic disc set",
+          "years": "2024-present",
+          "swap_likelihood": "occasional",
+          "catalog_name": "LBN Hydraulic Brake Set (Turris 2024+ takeoff)",
+          "catalog_brand": "LBN",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "YEAR SPLIT: LBN hydraulics appear on the revised Turris (EBR updated review + current ride1up.com listing, in market by 2024). No-name hydraulics, zero brand recognition, zero resale market found. Parts-bin value only.",
+          "base_value_cents": 800,
+          "upgrade": null
+        },
+        {
+          "component": "Display",
+          "stock_part": "KD21C monochrome backlit LCD",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Ride1Up Turris KD21C Monochrome Display (takeoff)",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "CORRECTION: launch review identifies a KD21C monochrome display - v1 had wrongly mapped this to the shared 'Color LCD' catalog part. Repair-part demand only, same as every stock display. Estimating $20. No evidence of a display revision.",
+          "base_value_cents": 1000,
+          "upgrade": null
+        },
+        {
+          "component": "Battery",
+          "stock_part": "48V 12.8Ah pack, genuine LG cells",
+          "years": "2023",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Ride1Up Turris 48V 12.8Ah LG Battery (2023, used)",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 13000,
+          "comp_confidence": "estimated",
+          "comp_note": "NEW ROW + YEAR SPLIT (v1 had no Turris battery row): launch pack was 48V 12.8Ah with LG cells (Ebike Escape pre-release review). Superseded by the 14Ah pack on later builds. Smaller pack, wary buyers; $130 estimate, no solds found.",
+          "base_value_cents": 6500,
+          "upgrade": {
+            "name": "Turris / LMT'D V2 Spare Battery (OEM)",
+            "brand": "Ride1Up",
+            "category_slug": "batteries",
+            "price_cents": 39500,
+            "note": "Ride1Up sells one pack that fits Turris and LMT'D V2. OEM or nothing on a frame-fitted battery."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "48V 14Ah pack (shared with LMT'D V2)",
+          "years": "2024-present",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Ride1Up Turris (2024+) / LMT'D V2 48V 14Ah Battery (used)",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 15000,
+          "comp_confidence": "estimated",
+          "comp_note": "NEW ROW + YEAR SPLIT: later Turris builds ship a 48V 14Ah pack, described as the largest that fits the frame, and Ride1Up sells it as the combined 'Turris and LMT'D V2 Battery' - so this row is shared with the LMT'D V2 listing. $150 estimate, no solds found.",
+          "base_value_cents": 7500,
+          "upgrade": {
+            "name": "Turris / LMT'D V2 Spare Battery (OEM)",
+            "brand": "Ride1Up",
+            "category_slug": "batteries",
+            "price_cents": 39500,
+            "note": "Ride1Up sells one pack that fits Turris and LMT'D V2. OEM or nothing on a frame-fitted battery."
+          }
+        },
+        {
+          "component": "Grips",
+          "stock_part": "Stock lock-on grips",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Ride1Up Stock Lock-On Grips",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "No resale market for stock grips.",
+          "base_value_cents": 300,
+          "upgrade": {
+            "name": "Ergon GP1",
+            "brand": "Ergon",
+            "category_slug": "cockpit",
+            "price_cents": 3500,
+            "note": "Numb hands are a grips problem, not a you problem."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ride1up-prodigy-v2",
+      "brand": "Ride1Up",
+      "model": "Prodigy V2",
+      "style": "Commuter (mid-drive)",
+      "motor": "Brose TF Sprinter 250W mid-drive, 90Nm",
+      "battery": "36V 14Ah (504Wh, Samsung cells, smart BMS)",
+      "years": "2023-present",
+      "tier": "volume",
+      "blurb": "The cheapest real Brose mid-drive in the US market; parts spec is a tier above the rest of this list, so its takeoffs (Tektro 4-piston hydros, microShift Advent, Maxxis) actually hold some value.",
+      "year_notes": "Launched Sept 25, 2023 (Electrek launch coverage) - v1's 2023 start year verified. Launch spec confirmed: Brose TF Sprinter 90Nm, 36V 14Ah Samsung pack with smart BMS, 100mm air fork, 180mm Tektro hydraulics, Maxxis 27.5 tires, and on the XR chain model a Shimano Alivio 9-speed cassette with microShift Advent 9-speed derailleur. The LS/LX trims (Gates belt + Enviolo CVT, $2,695) are launch-day trim variants, NOT year revisions - takeoffs from those trims differ but by trim, not by year. No mid-production spec changes found through 2026, so no rows are split. One honesty flag: the exact 'HD-M745' 4-piston model number carries over from Prodigy V1 reviews; V2 coverage confirms 4-piston Tektro hydraulics but cites the model number less consistently.",
+      "stock_parts": [
+        {
+          "component": "Battery",
+          "stock_part": "36V 14Ah (504Wh) semi-integrated pack",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Ride1Up Prodigy 36V 14Ah Battery (used)",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 17500,
+          "comp_confidence": "estimated",
+          "comp_note": "OEM replacement is $395 new from Ride1Up. Proprietary fit props up used value for Prodigy owners specifically, but the buyer pool is small. No solds found; estimating $175.",
+          "base_value_cents": 8700,
+          "upgrade": {
+            "name": "Prodigy v2 Spare Battery (OEM)",
+            "brand": "Ride1Up",
+            "category_slug": "batteries",
+            "price_cents": 39500,
+            "note": "Proprietary pack, so OEM is the only sane option. Second battery doubles commute range."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "Maxxis 27.5x2.4 (pair)",
+          "swap_likelihood": "common",
+          "catalog_name": "Maxxis 27.5x2.4 Tire Pair (Prodigy takeoff)",
+          "catalog_brand": "Maxxis",
+          "ebay_comp_cents": 3500,
+          "comp_confidence": "estimated",
+          "comp_note": "Maxxis name carries a little weight used, but takeoff tire pairs still move slow. No solds found; estimating $35 the pair. Launch coverage names Maxxis Rekon Race.",
+          "base_value_cents": 1700,
+          "upgrade": {
+            "name": "Schwalbe Marathon E-Plus 27.5 (pair)",
+            "brand": "Schwalbe",
+            "category_slug": "tires-wheels",
+            "price_cents": 14000,
+            "note": "For the all-weather commuter who bought a Brose bike to ride it every single day."
+          }
+        },
+        {
+          "component": "Saddle",
+          "stock_part": "Selle Royal comfort saddle",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Ride1Up Stock Selle Royal Comfort Saddle",
+          "catalog_brand": "Selle Royal",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Same Selle Royal takeoff pool as the 700 Series; used asks $15-35, no confirmed solds.",
+          "base_value_cents": 1000,
+          "upgrade": {
+            "name": "Ergon ST Gel",
+            "brand": "Ergon",
+            "category_slug": "cockpit",
+            "price_cents": 7500,
+            "note": "Prodigy buyers spend a little more everywhere, saddle included."
+          }
+        },
+        {
+          "component": "Brakes",
+          "stock_part": "Tektro 4-piston hydraulic set (HD-M745 class), 180mm rotors",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Tektro HD-M745 4-Piston Brake Set (takeoff)",
+          "catalog_brand": "Tektro",
+          "ebay_comp_cents": 8000,
+          "comp_confidence": "estimated",
+          "comp_note": "Real 4-piston brakes with genuine MTB demand; new sets run $170-200. No used solds pulled, so estimating $80 for a complete takeoff set. Exact HD-M745 model number is carried from Prodigy V1 reviews; V2 coverage confirms 4-piston Tektro 180mm but names the model less consistently.",
+          "base_value_cents": 4000,
+          "upgrade": null
+        },
+        {
+          "component": "Rear derailleur",
+          "stock_part": "microShift Advent 9-speed with clutch",
+          "swap_likelihood": "occasional",
+          "catalog_name": "microShift Advent 9-Speed Rear Derailleur (takeoff)",
+          "catalog_brand": "microShift",
+          "ebay_comp_cents": 3500,
+          "comp_confidence": "estimated",
+          "comp_note": "Advent has a cult following and sells around $50 new; used clutch mechs do move. Estimating $35 without sold datapoints. Confirmed on the XR chain model at launch (LS/LX trims run Enviolo CVT instead - trim variant, not year variant).",
+          "base_value_cents": 1700,
+          "upgrade": null
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "100mm air suspension fork",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Prodigy Stock 100mm Air Fork (takeoff)",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "Air fork beats coil for resale but it is still an unbranded OEM unit. No market found; $40 estimate. 100mm air fork confirmed at launch.",
+          "base_value_cents": 2000,
+          "upgrade": null
+        },
+        {
+          "component": "Display",
+          "stock_part": "Brose Allround color display",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Brose Allround Color Display (takeoff)",
+          "catalog_brand": "Brose",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "Brose spares are expensive and annoying to source, which gives a smashed-display owner a reason to pay. Thin market, no solds; estimating $40.",
+          "base_value_cents": 2000,
+          "upgrade": null
+        },
+        {
+          "component": "Grips",
+          "stock_part": "Stock lock-on grips",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Ride1Up Stock Lock-On Grips",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "No resale market for stock grips.",
+          "base_value_cents": 300,
+          "upgrade": {
+            "name": "Ergon GP1",
+            "brand": "Ergon",
+            "category_slug": "cockpit",
+            "price_cents": 3500,
+            "note": "Standard issue for anyone commuting more than 20 minutes each way."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ride1up-roadster-v2",
+      "brand": "Ride1Up",
+      "model": "Roadster V2",
+      "style": "City / fitness (stealth single-speed)",
+      "motor": "350W geared rear hub, 40Nm, cadence sensor",
+      "battery": "36V 7Ah (252Wh, integrated, non-removable)",
+      "years": "2020-2024",
+      "tier": "volume",
+      "blurb": "33 lb stealth belt-drive single-speed, replaced by the V3 in late 2024; minimalist build means few takeoffs, and the battery is sealed in the frame so it never trades.",
+      "year_notes": "CORRECTION: v1's 2019 start year belonged to the original Roadster (V1) - the V2 launched in 2020, so years corrected to 2020-2024. The V2 ran with the same core spec for its whole life: 350W/40Nm cadence-sensor hub, sealed 252Wh battery, Gates Carbon Drive CDN belt single-speed. The Roadster V3 that replaced it in late 2024 ($1,495 at unveiling, later $1,295) is a genuinely different bike - 500W angled-gear motor, Intui-Drive torque sensor, removable 360Wh UL-certified Samsung pack, and a DAYCO Power Carbon belt (or optional 9-speed microShift Advent chain drive) - which confirms the Gates CDN belt spec held to the end of the V2 run (Electrek/EBR/Tom's Guide V3 coverage). No evidence of any mid-production V2 component change; no rows split.",
+      "stock_parts": [
+        {
+          "component": "Tires",
+          "stock_part": "700x28c road tires (pair)",
+          "swap_likelihood": "common",
+          "catalog_name": "Roadster Stock 700x28c Tire Pair (takeoff)",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 1500,
+          "comp_confidence": "estimated",
+          "comp_note": "Generic wire-bead road tires; used 700c tire pairs are yard-sale goods. No market found.",
+          "base_value_cents": 700,
+          "upgrade": {
+            "name": "Continental Gatorskin 700x32 (pair)",
+            "brand": "Continental",
+            "category_slug": "tires-wheels",
+            "price_cents": 11000,
+            "note": "Skinny stock tires plus city glass equals walk of shame. Gatorskins fix that."
+          }
+        },
+        {
+          "component": "Saddle",
+          "stock_part": "Slim stock saddle",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Roadster Stock Slim Saddle",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 1000,
+          "comp_confidence": "estimated",
+          "comp_note": "Unbranded slim saddle, effectively no resale. $10 estimate is the ceiling.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Brooks Cambium C17",
+            "brand": "Brooks",
+            "category_slug": "cockpit",
+            "price_cents": 11000,
+            "note": "The Roadster crowd skews fixie-adjacent and this is the saddle that crowd buys."
+          }
+        },
+        {
+          "component": "Belt drive",
+          "stock_part": "Gates CDN belt with 64T/20T cogs",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Gates CDN Belt + Cog Set (Roadster takeoff)",
+          "catalog_brand": "Gates",
+          "ebay_comp_cents": 2500,
+          "comp_confidence": "estimated",
+          "comp_note": "Gates name helps but CDN consumables are cheap new and buyers want fresh belts. No solds found; $25 estimate. Gates CDN held for the whole V2 run - the belt-brand switch (to Dayco) only happened on the V3, a different bike.",
+          "base_value_cents": 1200,
+          "upgrade": {
+            "name": "Gates CDX upgrade kit",
+            "brand": "Gates",
+            "category_slug": "drivetrain",
+            "price_cents": 18000,
+            "note": "CDX is the metal-reinforced grown-up version. High-milers do this once the CDN stretches."
+          }
+        },
+        {
+          "component": "Pedals",
+          "stock_part": "Stock plastic platform pedals",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Stock Plastic Platform Pedals (takeoff)",
+          "catalog_brand": "Generic",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "Plastic stock pedals have no resale value anywhere on earth.",
+          "base_value_cents": 200,
+          "upgrade": {
+            "name": "Wellgo alloy platform pedals",
+            "brand": "Wellgo",
+            "category_slug": "drivetrain",
+            "price_cents": 2500,
+            "note": "First thing off every new bike. Metal pedals, no flex, done."
+          }
+        },
+        {
+          "component": "Grips",
+          "stock_part": "Stock lock-on grips",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Ride1Up Stock Lock-On Grips",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "No resale market for stock grips.",
+          "base_value_cents": 300,
+          "upgrade": {
+            "name": "Ergon GP1",
+            "brand": "Ergon",
+            "category_slug": "cockpit",
+            "price_cents": 3500,
+            "note": "Flat-bar city bike, long rides, same numb-hands cure as always."
+          }
+        },
+        {
+          "component": "Display",
+          "stock_part": "Compact stock LCD",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Roadster Stock Compact LCD (takeoff)",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 1500,
+          "comp_confidence": "estimated",
+          "comp_note": "Repair-part demand only from other Roadster owners. Thin market, $15 estimate.",
+          "base_value_cents": 700,
+          "upgrade": null
+        }
+      ]
+    },
+    {
+      "slug": "ride1up-lmtd",
+      "brand": "Ride1Up",
+      "model": "LMT'D",
+      "style": "Commuter (performance)",
+      "motor": "750W geared rear hub with torque sensor (V1 2021-2023; V2 from Mar 2024 with quieter angled-gear motor)",
+      "battery": "48V 14Ah / 672Wh both generations (V1: Reention Eel, Samsung cells; V2: shares the Turris 14Ah pack)",
+      "years": "2021-2025",
+      "tier": "volume",
+      "blurb": "The torque-sensor commuter that rides a tier above its price; V1 shipped an 80mm air fork, V2 a Suntour XCM32 coil, and the Samsung-cell battery is the best takeoff on the bike either way.",
+      "year_notes": "Two clean generations, verified - not silent revisions. V1 (2021 to early 2024): 80mm air fork, Reention EEL 48V 14Ah Samsung-cell pack, KD218 color display, Tektro HD-E350 hydraulics. V2 launched Mar 5, 2024 at $1,595 (Electrek launch coverage - v1 dossier implied no generation dates): SR Suntour XCM32 100mm coil fork ('increased travel' vs V1 per Ebike Escape/Ride1Up), upgraded angled-gear motor for quieter running, updated frame geometry, stock fenders with integrated brake light, and the battery moved to the pack Ride1Up sells jointly as the 'Turris and LMT'D V2 Battery' - same 48V 14Ah / 672Wh capacity, different pack from the V1 EEL. Display stayed KD218 color across both generations (Ebike Escape; Ride1Up support lists one display article for 700/LMT'D/LMT'D V2). Both generations are now listed as discontinued on Ride1Up's support site, so years capped at 2025. Fork and battery rows split by generation; brake row not split (no evidence the V2 changed brake spec).",
+      "stock_parts": [
+        {
+          "component": "Battery",
+          "stock_part": "48V 14Ah Reention Eel pack (Samsung cells)",
+          "years": "2021-2023",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Ride1Up LMT'D V1 48V 14Ah Reention Eel Battery (2021-2023, used)",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 16000,
+          "comp_confidence": "estimated",
+          "comp_note": "YEAR SPLIT: the EEL-case Samsung pack is V1-only - the V2 (Mar 2024+) moved to the shared Turris/LMT'D V2 pack. New aftermarket 48V packs list $274-387. Used Samsung-cell packs should clear $160 but no solds were found.",
+          "base_value_cents": 8000,
+          "upgrade": {
+            "name": "LMT'D 14Ah Eel Spare Battery (OEM)",
+            "brand": "Ride1Up",
+            "category_slug": "batteries",
+            "price_cents": 39500,
+            "note": "OEM pack, Samsung cells, direct from ride1up.com. Skip the clone packs."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "48V 14Ah pack (shared with Turris)",
+          "years": "2024-2025",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Ride1Up Turris (2024+) / LMT'D V2 48V 14Ah Battery (used)",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 15000,
+          "comp_confidence": "estimated",
+          "comp_note": "YEAR SPLIT: LMT'D V2 (Mar 2024 onward) uses the pack Ride1Up sells as the combined 'Turris and LMT'D V2 Battery' - same catalog part as the 2024+ Turris row, so inventory pools. $150 estimate, no solds found.",
+          "base_value_cents": 7500,
+          "upgrade": {
+            "name": "Turris / LMT'D V2 Spare Battery (OEM)",
+            "brand": "Ride1Up",
+            "category_slug": "batteries",
+            "price_cents": 39500,
+            "note": "Ride1Up sells one pack that fits Turris and LMT'D V2. OEM or nothing on a frame-fitted battery."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "WTB Groov-e 27.5x2.4 (pair)",
+          "swap_likelihood": "common",
+          "catalog_name": "WTB Groov-e 27.5x2.4 Tire Pair (takeoff)",
+          "catalog_brand": "WTB",
+          "ebay_comp_cents": 2500,
+          "comp_confidence": "estimated",
+          "comp_note": "WTB is a real brand but the Groov-e is a nothing tire on the used market. No solds; $25 the pair. V2 tire spec not independently re-verified; no evidence of a change, so not split.",
+          "base_value_cents": 1200,
+          "upgrade": {
+            "name": "Schwalbe Super Moto-X 27.5x2.4 (pair)",
+            "brand": "Schwalbe",
+            "category_slug": "tires-wheels",
+            "price_cents": 10000,
+            "note": "Faster and tougher than the stock WTBs, and it suits how people actually ride this bike."
+          }
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "80mm air suspension fork",
+          "years": "2021-2023",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Ride1Up LMT'D V1 80mm Air Fork (2021-2023 takeoff)",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "YEAR SPLIT: V1-only air fork - the Mar 2024 V2 switched to an SR Suntour XCM32 coil with more travel (Ebike Escape/Ride1Up launch material). Unbranded OEM air unit with modest parts value; no solds found, $40 estimate.",
+          "base_value_cents": 2000,
+          "upgrade": null
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "SR Suntour XCM32 100mm coil fork",
+          "years": "2024-2025",
+          "swap_likelihood": "occasional",
+          "catalog_name": "SR Suntour XCM32 100mm Coil Fork (LMT'D V2 takeoff)",
+          "catalog_brand": "SR Suntour",
+          "ebay_comp_cents": 4500,
+          "comp_confidence": "estimated",
+          "comp_note": "YEAR SPLIT: XCM32 100mm coil confirmed on the V2 at its Mar 2024 launch. Heavier than the V1 air fork but a durable commodity with a real name; XCM-family forks trade around $40-60 used. $45 estimate, no solds pulled.",
+          "base_value_cents": 2250,
+          "upgrade": null
+        },
+        {
+          "component": "Saddle",
+          "stock_part": "Selle Royal comfort saddle",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Ride1Up Stock Selle Royal Comfort Saddle",
+          "catalog_brand": "Selle Royal",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Same used Selle Royal pool: $15-35 asks on eBay, no confirmed solds.",
+          "base_value_cents": 1000,
+          "upgrade": {
+            "name": "Cloud-9 Cruiser Select",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 4000,
+            "note": "Cheap, wide, and it ends the saddle complaints."
+          }
+        },
+        {
+          "component": "Brakes",
+          "stock_part": "Tektro HD-E350 hydraulic set, 180mm rotors",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Tektro HD-E350 Hydraulic Brake Set (e-bike takeoff)",
+          "catalog_brand": "Tektro",
+          "ebay_comp_cents": 5500,
+          "comp_confidence": "estimated",
+          "comp_note": "Same pool as the 700 Series takeoffs: new sets $80-130, takeoff sets estimated at $55. HD-E350 confirmed on V1; no evidence the V2 changed brake spec, so not split.",
+          "base_value_cents": 2700,
+          "upgrade": null
+        },
+        {
+          "component": "Display",
+          "stock_part": "KD218 color LCD display",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Ride1Up Stock Color LCD Display",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": 2500,
+          "comp_confidence": "estimated",
+          "comp_note": "KD218 color display confirmed on BOTH V1 and V2 (Ebike Escape; Ride1Up support covers 700/LMT'D/LMT'D V2 with one display article) - no year split. Repair-part demand only, $25 estimate.",
+          "base_value_cents": 1200,
+          "upgrade": null
+        },
+        {
+          "component": "Grips",
+          "stock_part": "Stock lock-on grips",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Ride1Up Stock Lock-On Grips",
+          "catalog_brand": "Ride1Up",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "No resale market for stock grips.",
+          "base_value_cents": 300,
+          "upgrade": {
+            "name": "Ergon GP1",
+            "brand": "Ergon",
+            "category_slug": "cockpit",
+            "price_cents": 3500,
+            "note": "Torque sensor means you actually pedal this one, so your hands log real miles."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "heybike-mars-2",
+      "brand": "Heybike",
+      "model": "Mars 2.0",
+      "style": "Folding fat tire",
+      "motor": "750W geared rear hub, 80Nm (1200W peak)",
+      "battery": "48V 12.5Ah (600Wh, external removable)",
+      "years": "2023-present",
+      "tier": "volume",
+      "blurb": "Best-selling budget folding fat bike; everything on it is no-name except the Shimano 7-speed, so takeoffs are near worthless but the saddle, tires and seatpost churn constantly.",
+      "year_notes": "Released 2023 (first major reviews Sept-Nov 2023: Tom's Guide, AppleInsider, Gear Diary) - v1's 2023 start year verified. Launch spec confirmed across reviews: 750W/1200W-peak 80Nm hub, 48V 12.5Ah (600Wh) removable pack, 65mm-travel fork, Shimano 7-speed, 20x4 tires, Class 3. CORRECTION: found NO evidence for v1's '(later 1000W variant)' motor claim - removed; the only spec-different Mars 2.0s are regional/regulatory versions, not year revisions. No mid-production component changes found; no rows split.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Unbranded comfort saddle",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Generic Comfort Saddle (budget folder takeoff)",
+          "catalog_brand": "Generic",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "No-name saddle, no resale market. These pile up in every shop.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Cloud-9 Cruiser Select",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 4000,
+            "note": "Upright folder, boardwalk miles, wide saddle. Easy call."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "ChaoYang Hippo Skin 20x4.0 puncture-resistant (pair)",
+          "swap_likelihood": "common",
+          "catalog_name": "ChaoYang 20x4.0 Fat Tire Pair (takeoff)",
+          "catalog_brand": "ChaoYang",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Every budget fat bike sheds these; supply swamps demand and new Kenda Krusades are only $35 each. $20 the pair is honest.",
+          "base_value_cents": 1000,
+          "upgrade": {
+            "name": "Vee Tire Co Speedster 20x4.0 (pair)",
+            "brand": "Vee Tire Co",
+            "category_slug": "tires-wheels",
+            "price_cents": 13000,
+            "note": "Street slicks that drop the knobby drone and add real miles of range."
+          }
+        },
+        {
+          "component": "Suspension seatpost",
+          "stock_part": "Stock 45mm-travel suspension seatpost",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Stock Suspension Seatpost (budget takeoff)",
+          "catalog_brand": "Generic",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "Unbranded pogo post, no resale market found.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "SR Suntour NCX SP12",
+            "brand": "SR Suntour",
+            "category_slug": "suspension",
+            "price_cents": 11000,
+            "note": "The one suspension seatpost worth buying. Night and day over the stock pogo stick."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "48V 12.5Ah (600Wh) pack",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Heybike Mars 2.0 48V 12.5Ah Battery (used)",
+          "catalog_brand": "Heybike",
+          "ebay_comp_cents": 10000,
+          "comp_confidence": "estimated",
+          "comp_note": "Heybike sells the spare direct (model-specific fit, Mars and Ranger packs do not interchange). Used no-name-cell packs sell poorly; $100 is a fair ceiling, no solds found. 600Wh spec stable since the 2023 launch.",
+          "base_value_cents": 5000,
+          "upgrade": {
+            "name": "Mars 2.0 Spare Battery (OEM)",
+            "brand": "Heybike",
+            "category_slug": "batteries",
+            "price_cents": 29900,
+            "note": "Model-specific fit, so OEM or nothing. Ranger packs will not physically fit this frame."
+          }
+        },
+        {
+          "component": "Display",
+          "stock_part": "Heybike integrated LCD with app connectivity",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Heybike Stock LCD Display",
+          "catalog_brand": "Heybike",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Only buyers are Heybike owners with cracked screens. Monster Scooter Parts sells new spares, capping used value around $20.",
+          "base_value_cents": 1000,
+          "upgrade": null
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "65mm coil fork with preload and lockout",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Budget Folder Coil Fork (takeoff)",
+          "catalog_brand": "Generic",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "Folding-frame-specific no-name fork; no aftermarket demand found. 65mm travel confirmed in 2023-24 reviews.",
+          "base_value_cents": 500,
+          "upgrade": null
+        },
+        {
+          "component": "Rear derailleur",
+          "stock_part": "Shimano Tourney 7-speed",
+          "swap_likelihood": "common",
+          "catalog_name": "Shimano Tourney 7-Speed Rear Derailleur (takeoff)",
+          "catalog_brand": "Shimano",
+          "ebay_comp_cents": 800,
+          "comp_confidence": "estimated",
+          "comp_note": "Tourney is the bottom of Shimano's line and sells new for $15. Used takeoff is $8 on a good day.",
+          "base_value_cents": 400,
+          "upgrade": {
+            "name": "Shimano Altus M310",
+            "brand": "Shimano",
+            "category_slug": "drivetrain",
+            "price_cents": 2500,
+            "note": "Cheapest shifting upgrade that exists. Crisper in one ride."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "heybike-ranger-s",
+      "brand": "Heybike",
+      "model": "Ranger S",
+      "style": "Folding fat tire (step-thru)",
+      "motor": "750W geared rear hub, 80Nm (1100W peak)",
+      "battery": "48V 14.4Ah (692Wh)",
+      "years": "2023-present",
+      "tier": "volume",
+      "blurb": "28 mph step-thru folder sold direct and through Amazon; rare 750W folding format, but the component takeoffs are the same near-worthless budget fare as the Mars.",
+      "year_notes": "Announced Apr 27, 2023 (Electrek), pre-sale May 5, 2023, official availability May 15 with Amazon from early June (PR Newswire) - v1's 2023 start year verified. Launch spec confirmed: 750W sustained hub, 48V 14.4Ah, Shimano 7-speed, 20x4 tires, Class 3 pedal assist to 28 mph. CORRECTION: launch retail was Heybike direct + Amazon; v1's 'sold through Best Buy' framing was not supported by launch coverage and was softened, and the 'UL-listed' claim could not be verified from pulled sources so it was dropped from the blurb. No mid-production component changes found; no rows split.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Wide padded saddle with comfort groove",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Generic Comfort Saddle (budget folder takeoff)",
+          "catalog_brand": "Generic",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "Unbranded, no resale market.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Cloud-9 Cruiser Select",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 4000,
+            "note": "Step-thru cruiser posture wants a wide saddle. This is the one."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "20x4.0 street-tread fat tires (pair)",
+          "swap_likelihood": "common",
+          "catalog_name": "ChaoYang 20x4.0 Fat Tire Pair (takeoff)",
+          "catalog_brand": "ChaoYang",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Same 20x4 takeoff glut as every budget folder. $20 the pair, estimated, no solds.",
+          "base_value_cents": 1000,
+          "upgrade": {
+            "name": "Vee Tire Co Speedster 20x4.0 (pair)",
+            "brand": "Vee Tire Co",
+            "category_slug": "tires-wheels",
+            "price_cents": 13000,
+            "note": "The stock tread is already street-ish; the Speedster just does it better and quieter."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "48V 14.4Ah integrated downtube pack",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Heybike Ranger S 48V 14.4Ah Battery (used)",
+          "catalog_brand": "Heybike",
+          "ebay_comp_cents": 11000,
+          "comp_confidence": "estimated",
+          "comp_note": "Heybike sells Ranger-S-specific spares direct; the pack does not interchange with the standard Ranger. Used budget packs move slow, $110 estimate, no solds. 14.4Ah spec stable since the May 2023 launch.",
+          "base_value_cents": 5500,
+          "upgrade": {
+            "name": "Ranger-S Spare Battery (OEM)",
+            "brand": "Heybike",
+            "category_slug": "batteries",
+            "price_cents": 29900,
+            "note": "Frame-specific pack. Do not buy the standard Ranger battery, it will not fit."
+          }
+        },
+        {
+          "component": "Brakes",
+          "stock_part": "RSX hydraulic disc set",
+          "swap_likelihood": "occasional",
+          "catalog_name": "RSX Hydraulic Brake Set (Heybike takeoff)",
+          "catalog_brand": "RSX",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "No-name hydraulics with zero brand pull. No resale market found.",
+          "base_value_cents": 800,
+          "upgrade": null
+        },
+        {
+          "component": "Rear derailleur",
+          "stock_part": "Shimano Tourney 7-speed",
+          "swap_likelihood": "common",
+          "catalog_name": "Shimano Tourney 7-Speed Rear Derailleur (takeoff)",
+          "catalog_brand": "Shimano",
+          "ebay_comp_cents": 800,
+          "comp_confidence": "estimated",
+          "comp_note": "Bottom-rung Shimano, $8-10 used at best.",
+          "base_value_cents": 400,
+          "upgrade": {
+            "name": "Shimano Altus M310",
+            "brand": "Shimano",
+            "category_slug": "drivetrain",
+            "price_cents": 2500,
+            "note": "Twenty-five dollars, fifteen minutes, permanently better shifts."
+          }
+        },
+        {
+          "component": "Display",
+          "stock_part": "Heybike LCD with app connectivity",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Heybike Stock LCD Display",
+          "catalog_brand": "Heybike",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Repair-part demand only; new spares available, capping used at about $20.",
+          "base_value_cents": 1000,
+          "upgrade": null
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "Hydraulic front suspension fork (folding-specific)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Budget Folder Coil Fork (takeoff)",
+          "catalog_brand": "Generic",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "Folder-specific geometry, no-name unit, no market found.",
+          "base_value_cents": 500,
+          "upgrade": null
+        }
+      ]
+    },
+    {
+      "slug": "engwe-engine-pro",
+      "brand": "Engwe",
+      "model": "Engine Pro",
+      "style": "Folding fat tire (full suspension)",
+      "motor": "750W geared rear hub (1000W peak, cadence sensor 2021-2023; Engine Pro 2.0 from 2024: 1200W peak, torque sensor)",
+      "battery": "48V 16Ah / 768Wh (2021-2023); 52V 16Ah / 832Wh (Engine Pro 2.0, 2024 onward)",
+      "years": "2021-present",
+      "tier": "volume",
+      "blurb": "83 lb full-suspension budget folder that reviewers call a great canvas for customization; the big 16Ah battery and the controller are the only takeoffs with a pulse - and both split 48V/52V across the 2.0 boundary.",
+      "year_notes": "Engwe revised this platform as the 'Engine Pro 2.0' in 2024 (reviews from Jun 2024: The Gadgeteer, BikeRide, bikes.org.uk comparison). Same folding full-suspension frame, so treated as year variants of one listing rather than an invented generation. Verified 2.0 changes: electrical system 48V -> 52V, battery 768Wh -> 832Wh (both 16Ah), motor peak 1000W -> 1200W, and cadence sensor -> torque sensor. Battery and controller rows are split because 48V and 52V electronics do NOT interchange across the boundary. Engwe's published torque figures for these motors (claims like 500Nm -> 750Nm) are marketing nonsense and were not carried into the specs. No other verified component changes (display/brakes/derailleur claims for the 2.0 were too thin to split on).",
+      "stock_parts": [
+        {
+          "component": "Battery",
+          "stock_part": "48V 16Ah (768Wh) removable pack",
+          "years": "2021-2023",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Engwe Engine Pro 48V 16Ah Battery (2021-2023, used)",
+          "catalog_brand": "Engwe",
+          "ebay_comp_cents": 12000,
+          "comp_confidence": "estimated",
+          "comp_note": "YEAR SPLIT: 48V pack is original-Engine-Pro only - the 2024 Engine Pro 2.0 moved to a 52V system and the packs do not interchange. Biggest pack in this cohort so it tops the budget-battery pile, but no-name cells cap what buyers pay. No solds found; $120 estimate.",
+          "base_value_cents": 6000,
+          "upgrade": {
+            "name": "Engine Pro Spare Battery (OEM)",
+            "brand": "Engwe",
+            "category_slug": "batteries",
+            "price_cents": 29900,
+            "note": "Engwe sells spares direct. Second battery is the only real range fix for an 83 lb bike - match your voltage."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "52V 16Ah (832Wh) removable pack",
+          "years": "2024-present",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Engwe Engine Pro 2.0 52V 16Ah Battery (2024+, used)",
+          "catalog_brand": "Engwe",
+          "ebay_comp_cents": 14000,
+          "comp_confidence": "estimated",
+          "comp_note": "YEAR SPLIT: Engine Pro 2.0 (2024 onward) runs a 52V/832Wh pack (The Gadgeteer, BikeRide, retailer listings). Will NOT work on 48V original-Engine-Pro bikes. Newer and bigger so it clears a bit more; $140 estimate, no solds found.",
+          "base_value_cents": 7000,
+          "upgrade": {
+            "name": "Engine Pro 2.0 Spare Battery (OEM)",
+            "brand": "Engwe",
+            "category_slug": "batteries",
+            "price_cents": 29900,
+            "note": "52V pack for the 2.0 only. Match your voltage or you will smoke the controller."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "20x4.0 fat tires (pair)",
+          "swap_likelihood": "common",
+          "catalog_name": "ChaoYang 20x4.0 Fat Tire Pair (takeoff)",
+          "catalog_brand": "ChaoYang",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Same 20x4 budget takeoff glut. $20 the pair, estimated.",
+          "base_value_cents": 1000,
+          "upgrade": {
+            "name": "Vee Tire Co Speedster 20x4.0 (pair)",
+            "brand": "Vee Tire Co",
+            "category_slug": "tires-wheels",
+            "price_cents": 13000,
+            "note": "Delivery riders on these bikes swap to street tread first and thank themselves daily."
+          }
+        },
+        {
+          "component": "Saddle",
+          "stock_part": "Unbranded comfort saddle",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Generic Comfort Saddle (budget folder takeoff)",
+          "catalog_brand": "Generic",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "No-name saddle, no resale market.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Cloud-9 Cruiser Select",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 4000,
+            "note": "Full suspension does not save your sit bones. This does."
+          }
+        },
+        {
+          "component": "Display",
+          "stock_part": "Engwe color LCD",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Engwe Stock Color LCD Display",
+          "catalog_brand": "Engwe",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Sells only as a repair part to other Engwe owners; Engwe stocks new spares cheap. $20 estimate. Evidence of a 2.0-specific display change was too thin to split on.",
+          "base_value_cents": 1000,
+          "upgrade": null
+        },
+        {
+          "component": "Controller",
+          "stock_part": "48V stock controller",
+          "years": "2021-2023",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Engwe 48V Stock Controller (Engine Pro 2021-2023 takeoff)",
+          "catalog_brand": "Engwe",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "YEAR SPLIT: 48V cadence-sensor controller fits original Engine Pros only - the 2.0 runs 52V with a torque-sensor system. Budget controllers fry, so working takeoffs have steady repair demand, but new spares are only $50-60. $20 used estimate.",
+          "base_value_cents": 1000,
+          "upgrade": null
+        },
+        {
+          "component": "Controller",
+          "stock_part": "52V stock controller (torque-sensor system)",
+          "years": "2024-present",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Engwe 52V Stock Controller (Engine Pro 2.0 2024+ takeoff)",
+          "catalog_brand": "Engwe",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "YEAR SPLIT: 52V controller from the 2024 Engine Pro 2.0, paired with its torque sensor. Same fry-and-replace repair demand as every budget controller; $20 used estimate, no solds.",
+          "base_value_cents": 1000,
+          "upgrade": null
+        },
+        {
+          "component": "Rear derailleur",
+          "stock_part": "Shimano 8-speed (Altus/Acera class)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Shimano 8-Speed Rear Derailleur (Engwe takeoff)",
+          "catalog_brand": "Shimano",
+          "ebay_comp_cents": 1200,
+          "comp_confidence": "estimated",
+          "comp_note": "Low-line Shimano 8-speed, $12 used estimate, no solds pulled.",
+          "base_value_cents": 600,
+          "upgrade": null
+        },
+        {
+          "component": "Rear shock",
+          "stock_part": "Stock coil rear shock",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Budget Coil Rear Shock (Engwe takeoff)",
+          "catalog_brand": "Generic",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "Unbranded coil shock in a folder-specific mount. No market found.",
+          "base_value_cents": 500,
+          "upgrade": null
+        },
+        {
+          "component": "Brakes",
+          "stock_part": "No-name hydraulic disc set, 160mm rotors",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Generic Hydraulic Brake Set (Engwe takeoff)",
+          "catalog_brand": "Generic",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "160mm no-name hydros on an 83 lb bike are undersized to begin with; nobody buys them used.",
+          "base_value_cents": 800,
+          "upgrade": null
+        }
+      ]
+    },
+    {
+      "slug": "engwe-ep-2-pro",
+      "brand": "Engwe",
+      "model": "EP-2 Pro",
+      "style": "Folding fat tire",
+      "motor": "750W geared rear hub (960W peak), 50Nm",
+      "battery": "48V 13Ah (624Wh)",
+      "years": "2021-present",
+      "tier": "volume",
+      "blurb": "The $1,050 bestseller of budget folding fat bikes; entry-level everything, and the mechanical disc brakes are the one takeoff nearly every owner replaces.",
+      "year_notes": "CORRECTION: years tightened to 2021-present. Earliest credible review coverage is late 2021 (CleanTechnica Dec 21, 2021; techreviewer.de and others 2021-22); v1's 2020 start most likely conflated the 500W EP-2 (non-Pro, 2020) with the EP-2 Pro. The US EP-2 Pro spec has stayed 750W (960W peak) / 48V 13Ah with mechanical disc brakes across the run; the 250W EP-2 Pro on Engwe's EU store is a regulatory regional variant, not a year change. Found no evidence of a mid-production component change (including no confirmed switch to hydraulic brakes on the US model), so no rows are split.",
+      "stock_parts": [
+        {
+          "component": "Battery",
+          "stock_part": "48V 13Ah removable pack",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Engwe EP-2 Pro 48V 13Ah Battery (used)",
+          "catalog_brand": "Engwe",
+          "ebay_comp_cents": 9000,
+          "comp_confidence": "estimated",
+          "comp_note": "Smaller pack, no-name cells, wary buyers. $90 estimate, no solds found. 48V 13Ah spec stable across the 2021-present run.",
+          "base_value_cents": 4500,
+          "upgrade": {
+            "name": "EP-2 Pro Spare Battery (OEM)",
+            "brand": "Engwe",
+            "category_slug": "batteries",
+            "price_cents": 24900,
+            "note": "Engwe even sells the bike bundled with a spare. Take the hint about real-world range."
+          }
+        },
+        {
+          "component": "Brakes",
+          "stock_part": "Mechanical disc calipers and levers",
+          "swap_likelihood": "common",
+          "catalog_name": "Generic Mechanical Disc Brake Set (takeoff)",
+          "catalog_brand": "Generic",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "Takeoff mechanical calipers are effectively worthless; new ones cost $12. Scrap-bin value. Mechanical discs confirmed in reviews across the run - no verified hydraulic revision on the US model.",
+          "base_value_cents": 300,
+          "upgrade": {
+            "name": "Tektro HD-E350 hydraulic brake kit",
+            "brand": "Tektro",
+            "category_slug": "brakes",
+            "price_cents": 11000,
+            "note": "A 74 lb bike on cable discs is a dare. This kit is the best money you can put into an EP-2."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "20x4.0 all-terrain fat tires (pair)",
+          "swap_likelihood": "common",
+          "catalog_name": "ChaoYang 20x4.0 Fat Tire Pair (takeoff)",
+          "catalog_brand": "ChaoYang",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Same 20x4 glut; supply far exceeds demand. $20 the pair, estimated.",
+          "base_value_cents": 1000,
+          "upgrade": {
+            "name": "Vee Tire Co Speedster 20x4.0 (pair)",
+            "brand": "Vee Tire Co",
+            "category_slug": "tires-wheels",
+            "price_cents": 13000,
+            "note": "Kills the knobby hum and buys back a few miles of range."
+          }
+        },
+        {
+          "component": "Saddle",
+          "stock_part": "Unbranded comfort saddle",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Generic Comfort Saddle (budget folder takeoff)",
+          "catalog_brand": "Generic",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "No-name saddle, no resale market.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Cloud-9 Cruiser Select",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 4000,
+            "note": "Forty dollars against a saddle your bike maker spent four on."
+          }
+        },
+        {
+          "component": "Rear derailleur",
+          "stock_part": "Shimano Tourney 7-speed",
+          "swap_likelihood": "common",
+          "catalog_name": "Shimano Tourney 7-Speed Rear Derailleur (takeoff)",
+          "catalog_brand": "Shimano",
+          "ebay_comp_cents": 800,
+          "comp_confidence": "estimated",
+          "comp_note": "Tourney takeoffs are near-free on the used market.",
+          "base_value_cents": 400,
+          "upgrade": {
+            "name": "Shimano Altus M310",
+            "brand": "Shimano",
+            "category_slug": "drivetrain",
+            "price_cents": 2500,
+            "note": "The standard Tourney escape hatch. Cheap and instant."
+          }
+        },
+        {
+          "component": "Display",
+          "stock_part": "Engwe color LCD",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Engwe Stock Color LCD Display",
+          "catalog_brand": "Engwe",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Repair-part demand only from other Engwe owners. $20 estimate.",
+          "base_value_cents": 1000,
+          "upgrade": null
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "Stock coil spring fork",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Budget Folder Coil Fork (takeoff)",
+          "catalog_brand": "Generic",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "No-name folder fork, no aftermarket demand found.",
+          "base_value_cents": 500,
+          "upgrade": null
+        }
+      ]
+    }
+  ]
+}
