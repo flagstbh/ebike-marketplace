@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/admin", "/account", "/cart"],
     },
-    sitemap: "https://ebike-marketplace.vercel.app/sitemap.xml",
+    sitemap: "https://www.takeoffpartsco.com/sitemap.xml",
   };
 }

@@ -4,7 +4,7 @@ import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 
-const base = process.env.SITE_URL ?? "https://ebike-marketplace.vercel.app";
+const base = process.env.SITE_URL ?? "https://www.takeoffpartsco.com";
 const supabaseUrl = "https://jabktttgfxvcuszksncj.supabase.co";
 const anonKey = "sb_publishable_u5ojX6kskzYfglTnpXk2_w_uyDVJfRY";
 
