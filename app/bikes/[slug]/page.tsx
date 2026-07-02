@@ -197,9 +197,11 @@ export default async function BikePage({
           })}
         </div>
         <p className="label-mono mt-4 text-ink-soft">
-          Values shown are like-new grade, pegged at 50% of the 90-day eBay
-          sold average — the other half covers shipping, fees, hold time, and
-          no-sale risk. Good, fair, and rough grades pay 80%, 60%, and 35%.
+          Values shown are like-new grade. Confirmed eBay comps pay 50% of the
+          90-day sold average (40% on scene bikes, where takeoff supply runs
+          deep); thin data is marked estimated and priced conservative. The
+          rest covers shipping, fees, hold time, and no-sale risk. Good, fair,
+          and rough grades pay 80%, 60%, and 35% of the listed value.
         </p>
       </div>
     </div>

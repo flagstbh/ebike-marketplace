@@ -109,7 +109,7 @@ export default function TradeInBuilder({
                   <p className="font-medium">{entry.name}</p>
                   <p className="label-mono mt-0.5 text-ink-soft">
                     {entry.ebay_comp_cents
-                      ? `eBay sold avg ${usd(entry.ebay_comp_cents)} · we pay up to ${usd(entry.base_value_cents)}`
+                      ? `${entry.comp_confidence === "solid" ? "eBay sold avg" : "est. resale"} ${usd(entry.ebay_comp_cents)} · we pay up to ${usd(entry.base_value_cents)}`
                       : `up to ${usd(entry.base_value_cents)}`}
                   </p>
                 </div>

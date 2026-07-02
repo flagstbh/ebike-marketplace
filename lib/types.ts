@@ -36,6 +36,8 @@ export interface TradeInCatalogEntry {
   brand: string;
   base_value_cents: number;
   ebay_comp_cents: number | null;
+  comp_confidence: "solid" | "estimated" | null;
+  comp_note: string | null;
   active: boolean;
   replaces_with_product_id: string | null;
   upgrade_note: string | null;

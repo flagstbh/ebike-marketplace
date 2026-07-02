@@ -1,0 +1,2307 @@
+{
+ "when": "2026-07-02T16:37:41.938Z",
+ "dbBikes": [
+  {
+   "id": "127f2832-6077-4e9e-bbb6-cdfdcf6b36e4",
+   "slug": "radrover-6-plus",
+   "brand": "Rad Power Bikes",
+   "model": "RadRover 6 Plus",
+   "style": "Fat tire",
+   "motor": "750W geared rear hub",
+   "battery": "48V 14Ah (672Wh)",
+   "years": "2021–2024",
+   "blurb": "The best-selling fat e-bike in the US. Owners swap the heavy Kenda Juggernauts for street tires and ditch the stock saddle within the first month.",
+   "sort": 1,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "e8f31fd6-2063-41b2-9808-0e5befa60a09",
+   "slug": "radcity-5-plus",
+   "brand": "Rad Power Bikes",
+   "model": "RadCity 5 Plus",
+   "style": "Commuter",
+   "motor": "750W geared rear hub",
+   "battery": "48V 14Ah (672Wh)",
+   "years": "2021–2024",
+   "blurb": "Rad's commuter workhorse. Saddle, grips, and pedals are the classic first-week takeoffs.",
+   "sort": 2,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "435a0237-4130-45c3-bd70-1f713adb9f52",
+   "slug": "radrunner-2",
+   "brand": "Rad Power Bikes",
+   "model": "RadRunner 2",
+   "style": "Utility",
+   "motor": "750W geared rear hub",
+   "battery": "48V 14Ah (672Wh)",
+   "years": "2021–2024",
+   "blurb": "Moped-style utility bike. The bench pad and mechanical brakes are the most common swaps.",
+   "sort": 3,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "7d4bc85f-6563-4a31-a173-c33930c789f7",
+   "slug": "lectric-xp-3",
+   "brand": "Lectric",
+   "model": "XP 3.0",
+   "style": "Folding fat",
+   "motor": "500W (1,000W peak) rear hub",
+   "battery": "48V 10.4Ah (500Wh)",
+   "years": "2022–2025",
+   "blurb": "America's best-selling e-bike, period. Upgrading the mechanical brakes to hydraulic is the #1 mod, so clean stock brake sets are everywhere.",
+   "sort": 4,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "4cabdf34-e76c-480e-8346-3a498c05a10c",
+   "slug": "lectric-xpedition",
+   "brand": "Lectric",
+   "model": "XPedition",
+   "style": "Cargo",
+   "motor": "750W rear hub",
+   "battery": "48V 14Ah (672Wh)",
+   "years": "2023–2025",
+   "blurb": "Budget cargo hauler. Contact points get replaced fast once owners start carrying kids.",
+   "sort": 5,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "089cf1cb-3ce6-4bf0-b312-e259059f5720",
+   "slug": "aventon-aventure-2",
+   "brand": "Aventon",
+   "model": "Aventure.2",
+   "style": "Fat tire",
+   "motor": "750W rear hub",
+   "battery": "48V 15Ah (720Wh)",
+   "years": "2023–2025",
+   "blurb": "Fat-tire flagship with torque sensor. Fat tires come off for commuter rubber constantly.",
+   "sort": 6,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "8e4ea3e6-6dd6-4b17-8657-f90cbb06d2db",
+   "slug": "aventon-level-2",
+   "brand": "Aventon",
+   "model": "Level.2",
+   "style": "Commuter",
+   "motor": "500W rear hub",
+   "battery": "48V 14Ah (672Wh)",
+   "years": "2022–2025",
+   "blurb": "Torque-sensing commuter. Saddle and suspension fork are the usual first upgrades.",
+   "sort": 7,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "1819fe23-2ea0-4aaf-aab7-0f7bbe080cb0",
+   "slug": "aventon-pace-500-3",
+   "brand": "Aventon",
+   "model": "Pace 500.3",
+   "style": "Cruiser",
+   "motor": "500W rear hub",
+   "battery": "48V 12.8Ah (614Wh)",
+   "years": "2023–2025",
+   "blurb": "Upright cruiser. Cruiser saddle and swept-back grips get personalized more than any other part.",
+   "sort": 8,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "43252984-52b1-43f0-8fcc-fc8d2b655c11",
+   "slug": "ride1up-700",
+   "brand": "Ride1Up",
+   "model": "700 Series",
+   "style": "Commuter",
+   "motor": "750W geared rear hub",
+   "battery": "48V 15Ah (720Wh)",
+   "years": "2020–2025",
+   "blurb": "Value commuter favorite. Mozo fork and stock contact points are frequent takeoffs.",
+   "sort": 9,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "83acba2e-d7d9-4d2a-8618-2998e6c0282b",
+   "slug": "velotric-discover-1",
+   "brand": "Velotric",
+   "model": "Discover 1",
+   "style": "Commuter",
+   "motor": "500W rear hub",
+   "battery": "48V 14.4Ah (691Wh)",
+   "years": "2022–2024",
+   "blurb": "Comfort commuter. Mechanical brakes and the plush-but-wide saddle are the usual swaps.",
+   "sort": 10,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "ed1bdf83-70b4-47d6-b2b9-2575a755892a",
+   "slug": "juiced-crosscurrent-x",
+   "brand": "Juiced Bikes",
+   "model": "CrossCurrent X",
+   "style": "Commuter",
+   "motor": "750W Bafang rear hub",
+   "battery": "52V 19.2Ah (998Wh)",
+   "years": "2019–2023",
+   "blurb": "Juiced shut down in 2024, so working 52V batteries, displays, and controllers from parted-out bikes are in serious demand.",
+   "sort": 11,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "b658a9a0-5d09-4610-b9a3-11973bb6c4af",
+   "slug": "trek-verve-plus-2",
+   "brand": "Trek",
+   "model": "Verve+ 2",
+   "style": "Trekking",
+   "motor": "Bosch Active Line mid-drive",
+   "battery": "Bosch PowerPack 400 (36V)",
+   "years": "2019–2023",
+   "blurb": "Dealer-sold Bosch bike. Motor and battery stay put — Bontrager contact points and tires are what come off.",
+   "sort": 12,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "e8230375-7d29-4829-8b42-d268b3ac3ec2",
+   "slug": "specialized-turbo-vado-4",
+   "brand": "Specialized",
+   "model": "Turbo Vado 4.0",
+   "style": "Commuter",
+   "motor": "Specialized 2.0 mid-drive",
+   "battery": "710Wh integrated",
+   "years": "2022–2025",
+   "blurb": "Premium commuter. Owners fine-tune saddle, grips, and tires; the takeoffs are barely used.",
+   "sort": 13,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "f90f8dc1-6097-4b00-9e7e-7fa1e890f15a",
+   "slug": "gazelle-ultimate-c380",
+   "brand": "Gazelle",
+   "model": "Ultimate C380",
+   "style": "Trekking",
+   "motor": "Bosch Performance Line mid-drive",
+   "battery": "Bosch PowerTube 500 (36V)",
+   "years": "2020–2024",
+   "blurb": "Dutch touring bike with premium stock parts — Ultimate takeoffs sell fast on the used shelf.",
+   "sort": 14,
+   "created_at": "2026-07-02T01:20:49.882603+00:00",
+   "tier": "volume"
+  },
+  {
+   "id": "3451244e-ee1f-4136-88dd-37d7e34cfc8b",
+   "slug": "surron-light-bee-x",
+   "brand": "Sur-Ron",
+   "model": "Light Bee X",
+   "style": "E-moto",
+   "motor": "6kW mid-mounted PMSM",
+   "battery": "60V 32Ah (1,920Wh)",
+   "years": "2019–2025",
+   "blurb": "The bike everyone comes to gawk at. Owners upgrade everything — suspension, controller, seat — so takeoff supply is deep and moves slower than commuter parts. Credit runs lean; clean parts still find homes.",
+   "sort": 101,
+   "created_at": "2026-07-02T01:30:24.658788+00:00",
+   "tier": "halo"
+  },
+  {
+   "id": "07b1e248-d023-43a2-b62a-ec7ee70faec3",
+   "slug": "talaria-sting-mx4",
+   "brand": "Talaria",
+   "model": "Sting MX4",
+   "style": "E-moto",
+   "motor": "8kW mid-drive",
+   "battery": "60V 45Ah (2,700Wh)",
+   "years": "2022–2025",
+   "blurb": "Sur-Ron's gearbox-driven rival. Same story: huge parts culture, everything gets swapped, takeoffs pile up. We price accordingly.",
+   "sort": 102,
+   "created_at": "2026-07-02T01:30:24.658788+00:00",
+   "tier": "halo"
+  },
+  {
+   "id": "ba1bbb61-036e-4fc7-972f-622e85fc2219",
+   "slug": "super73-rx",
+   "brand": "Super73",
+   "model": "RX",
+   "style": "Moped-style",
+   "motor": "2kW rear hub",
+   "battery": "48V 960Wh",
+   "years": "2020–2025",
+   "blurb": "The style icon. Seats, bars, and tires get personalized constantly — stock takeoffs are plentiful and mostly cosmetic-swap pulls in great shape.",
+   "sort": 103,
+   "created_at": "2026-07-02T01:30:24.658788+00:00",
+   "tier": "halo"
+  },
+  {
+   "id": "eb0af2f0-456c-4e32-9c45-0ee7bec45976",
+   "slug": "segway-x260",
+   "brand": "Segway",
+   "model": "Dirt eBike X260",
+   "style": "E-moto",
+   "motor": "5kW mid-drive",
+   "battery": "74V 31.2Ah (2,300Wh)",
+   "years": "2020–2024",
+   "blurb": "The third name in the e-moto trio. Suspension and controller swaps dominate; stock parts show up here constantly.",
+   "sort": 104,
+   "created_at": "2026-07-02T01:30:24.658788+00:00",
+   "tier": "halo"
+  }
+ ],
+ "dbParts": [
+  {
+   "id": "564a99bd-6c65-45dc-90cf-aacd9df3badf",
+   "bike_id": "ed1bdf83-70b4-47d6-b2b9-2575a755892a",
+   "catalog_id": "12b7936f-b304-47b5-8536-b4baf5bc5083",
+   "component": "Battery",
+   "stock_part": "52V 19.2Ah pack — high demand since Juiced closed",
+   "swap_likelihood": "common",
+   "sort": 1
+  },
+  {
+   "id": "535aafbb-e169-4105-852c-9fcb548b490a",
+   "bike_id": "83acba2e-d7d9-4d2a-8618-2998e6c0282b",
+   "catalog_id": "12b7936f-b304-47b5-8536-b4baf5bc5083",
+   "component": "Battery",
+   "stock_part": "48V 14.4Ah removable pack",
+   "swap_likelihood": "occasional",
+   "sort": 7
+  },
+  {
+   "id": "28b22f01-45e3-402d-a4ad-f78511b33835",
+   "bike_id": "43252984-52b1-43f0-8fcc-fc8d2b655c11",
+   "catalog_id": "12b7936f-b304-47b5-8536-b4baf5bc5083",
+   "component": "Battery",
+   "stock_part": "Reention Rhino 48V 15Ah",
+   "swap_likelihood": "occasional",
+   "sort": 8
+  },
+  {
+   "id": "61852e31-1667-4a7d-84ba-902404742534",
+   "bike_id": "089cf1cb-3ce6-4bf0-b312-e259059f5720",
+   "catalog_id": "12b7936f-b304-47b5-8536-b4baf5bc5083",
+   "component": "Battery",
+   "stock_part": "48V 15Ah integrated pack",
+   "swap_likelihood": "occasional",
+   "sort": 8
+  },
+  {
+   "id": "2d6f32ed-201d-4ab2-aab2-99b20c0f98c8",
+   "bike_id": "4cabdf34-e76c-480e-8346-3a498c05a10c",
+   "catalog_id": "12b7936f-b304-47b5-8536-b4baf5bc5083",
+   "component": "Battery",
+   "stock_part": "48V 14Ah pack",
+   "swap_likelihood": "occasional",
+   "sort": 7
+  },
+  {
+   "id": "3431218f-fbc2-4084-b151-baa423fe6489",
+   "bike_id": "435a0237-4130-45c3-bd70-1f713adb9f52",
+   "catalog_id": "12b7936f-b304-47b5-8536-b4baf5bc5083",
+   "component": "Battery",
+   "stock_part": "48V 14Ah external pack",
+   "swap_likelihood": "occasional",
+   "sort": 7
+  },
+  {
+   "id": "2bc0286a-9377-47ca-904d-d2f23ad35879",
+   "bike_id": "e8f31fd6-2063-41b2-9808-0e5befa60a09",
+   "catalog_id": "12b7936f-b304-47b5-8536-b4baf5bc5083",
+   "component": "Battery",
+   "stock_part": "48V 14Ah semi-integrated pack",
+   "swap_likelihood": "occasional",
+   "sort": 8
+  },
+  {
+   "id": "2ace9d93-6248-4b97-8a30-93e82a59b974",
+   "bike_id": "127f2832-6077-4e9e-bbb6-cdfdcf6b36e4",
+   "catalog_id": "12b7936f-b304-47b5-8536-b4baf5bc5083",
+   "component": "Battery",
+   "stock_part": "48V 14Ah semi-integrated pack",
+   "swap_likelihood": "occasional",
+   "sort": 9
+  },
+  {
+   "id": "07452b07-2a2b-4ce6-ba8f-2895264cc04d",
+   "bike_id": "f90f8dc1-6097-4b00-9e7e-7fa1e890f15a",
+   "catalog_id": "66a7f27f-20b3-43c6-9940-abe9bdaeff5d",
+   "component": "Battery",
+   "stock_part": "Bosch PowerTube 500",
+   "swap_likelihood": "occasional",
+   "sort": 6
+  },
+  {
+   "id": "1810c447-0e9a-4a49-8254-d4339661ad30",
+   "bike_id": "b658a9a0-5d09-4610-b9a3-11973bb6c4af",
+   "catalog_id": "66a7f27f-20b3-43c6-9940-abe9bdaeff5d",
+   "component": "Battery",
+   "stock_part": "Bosch PowerPack 400",
+   "swap_likelihood": "occasional",
+   "sort": 6
+  },
+  {
+   "id": "95642989-e67a-448c-a0ab-c4cdb5c5b2ee",
+   "bike_id": "ed1bdf83-70b4-47d6-b2b9-2575a755892a",
+   "catalog_id": "170b4960-bae1-4eb5-86b7-f612be8b63fa",
+   "component": "Motor",
+   "stock_part": "Bafang 750W rear hub (in wheel)",
+   "swap_likelihood": "occasional",
+   "sort": 4
+  },
+  {
+   "id": "7b082d4a-a875-45a4-b10e-cbd84b5fa41e",
+   "bike_id": "ed1bdf83-70b4-47d6-b2b9-2575a755892a",
+   "catalog_id": "22130a57-4b91-40a7-bece-dd0cdde39556",
+   "component": "Controller",
+   "stock_part": "52V stock controller",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "952948a8-8664-46f0-934c-73f2a2ff75f1",
+   "bike_id": "435a0237-4130-45c3-bd70-1f713adb9f52",
+   "catalog_id": "22130a57-4b91-40a7-bece-dd0cdde39556",
+   "component": "Controller",
+   "stock_part": "Rad 48V controller",
+   "swap_likelihood": "occasional",
+   "sort": 6
+  },
+  {
+   "id": "c83578a5-a793-4dde-a458-f1f0441b0e07",
+   "bike_id": "f90f8dc1-6097-4b00-9e7e-7fa1e890f15a",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Bosch Intuvia display",
+   "swap_likelihood": "occasional",
+   "sort": 5
+  },
+  {
+   "id": "e6b6a455-d4a7-4525-982e-e16e98c82ff6",
+   "bike_id": "e8230375-7d29-4829-8b42-d268b3ac3ec2",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Mastermind TCU display",
+   "swap_likelihood": "occasional",
+   "sort": 6
+  },
+  {
+   "id": "a9d73de1-96a8-4b49-8c6c-7b9bf41d7084",
+   "bike_id": "b658a9a0-5d09-4610-b9a3-11973bb6c4af",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Bosch Purion display",
+   "swap_likelihood": "occasional",
+   "sort": 5
+  },
+  {
+   "id": "cae33656-92a1-4374-b30a-e90ba491bcad",
+   "bike_id": "ed1bdf83-70b4-47d6-b2b9-2575a755892a",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Juiced color LCD display",
+   "swap_likelihood": "common",
+   "sort": 2
+  },
+  {
+   "id": "78452dfe-96f0-4b35-8a86-ee5b0fc314a2",
+   "bike_id": "83acba2e-d7d9-4d2a-8618-2998e6c0282b",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Velotric LCD display",
+   "swap_likelihood": "occasional",
+   "sort": 6
+  },
+  {
+   "id": "b196bb1a-e435-4041-a41f-c603686f7922",
+   "bike_id": "43252984-52b1-43f0-8fcc-fc8d2b655c11",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Backlit LCD display",
+   "swap_likelihood": "occasional",
+   "sort": 7
+  },
+  {
+   "id": "41003db1-f5a0-4b6f-af7d-fa3ea8f0a5fb",
+   "bike_id": "1819fe23-2ea0-4aaf-aab7-0f7bbe080cb0",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Aventon full-color display",
+   "swap_likelihood": "occasional",
+   "sort": 5
+  },
+  {
+   "id": "246c3605-e684-4199-a2e1-5975ea5bd13a",
+   "bike_id": "8e4ea3e6-6dd6-4b17-8657-f90cbb06d2db",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Aventon full-color display",
+   "swap_likelihood": "occasional",
+   "sort": 7
+  },
+  {
+   "id": "a48be42b-de96-470d-81ae-45d3d6fb7e3d",
+   "bike_id": "089cf1cb-3ce6-4bf0-b312-e259059f5720",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Aventon full-color display",
+   "swap_likelihood": "common",
+   "sort": 6
+  },
+  {
+   "id": "7e84bc1d-56a4-4437-8651-6bbd94e70330",
+   "bike_id": "4cabdf34-e76c-480e-8346-3a498c05a10c",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Backlit LCD display",
+   "swap_likelihood": "occasional",
+   "sort": 6
+  },
+  {
+   "id": "ea33d8bd-d2c2-4ca6-a28e-0f4a738d8150",
+   "bike_id": "7d4bc85f-6563-4a31-a173-c33930c789f7",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Backlit LCD display",
+   "swap_likelihood": "occasional",
+   "sort": 8
+  },
+  {
+   "id": "14d6f506-105e-4fb2-b02e-8148789d5ada",
+   "bike_id": "435a0237-4130-45c3-bd70-1f713adb9f52",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Rad LED control pad",
+   "swap_likelihood": "common",
+   "sort": 4
+  },
+  {
+   "id": "270915a0-9428-44e1-aa0e-2e6014068c31",
+   "bike_id": "e8f31fd6-2063-41b2-9808-0e5befa60a09",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Rad LCD display",
+   "swap_likelihood": "common",
+   "sort": 6
+  },
+  {
+   "id": "ea5f0a76-e8a0-48b2-8b6e-5b4509844b86",
+   "bike_id": "127f2832-6077-4e9e-bbb6-cdfdcf6b36e4",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Rad LED remote + LCD display",
+   "swap_likelihood": "common",
+   "sort": 6
+  },
+  {
+   "id": "65737930-57ff-4d72-8f37-573f1f9bce5a",
+   "bike_id": "83acba2e-d7d9-4d2a-8618-2998e6c0282b",
+   "catalog_id": "751d50e9-15fc-43ba-a25f-f7582bcb0188",
+   "component": "Brakes",
+   "stock_part": "Mechanical disc set, 180mm",
+   "swap_likelihood": "common",
+   "sort": 2
+  },
+  {
+   "id": "05212916-af2d-43c1-89cb-feeb4d64ac5f",
+   "bike_id": "7d4bc85f-6563-4a31-a173-c33930c789f7",
+   "catalog_id": "751d50e9-15fc-43ba-a25f-f7582bcb0188",
+   "component": "Brakes",
+   "stock_part": "Mechanical disc set, 180mm",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "02d8fa73-3aa8-4db1-b106-c3f60523e7d2",
+   "bike_id": "435a0237-4130-45c3-bd70-1f713adb9f52",
+   "catalog_id": "751d50e9-15fc-43ba-a25f-f7582bcb0188",
+   "component": "Brakes",
+   "stock_part": "Mechanical disc set, 180mm",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "c8e72643-1ba5-4e5c-afbf-65337e3ea0db",
+   "bike_id": "1819fe23-2ea0-4aaf-aab7-0f7bbe080cb0",
+   "catalog_id": "cb5243a3-9bd5-4bae-98d8-bfe75d00f342",
+   "component": "Brakes",
+   "stock_part": "Hydraulic disc set",
+   "swap_likelihood": "occasional",
+   "sort": 6
+  },
+  {
+   "id": "b25df402-af02-4934-ae62-4186ca4ade37",
+   "bike_id": "089cf1cb-3ce6-4bf0-b312-e259059f5720",
+   "catalog_id": "cb5243a3-9bd5-4bae-98d8-bfe75d00f342",
+   "component": "Brakes",
+   "stock_part": "Hydraulic disc set, 180mm",
+   "swap_likelihood": "occasional",
+   "sort": 7
+  },
+  {
+   "id": "beef3f53-327f-44ed-92f2-cd48bb8e8cfe",
+   "bike_id": "4cabdf34-e76c-480e-8346-3a498c05a10c",
+   "catalog_id": "cb5243a3-9bd5-4bae-98d8-bfe75d00f342",
+   "component": "Brakes",
+   "stock_part": "Hydraulic disc set, 180mm",
+   "swap_likelihood": "occasional",
+   "sort": 5
+  },
+  {
+   "id": "9d675dc0-8b66-4ef6-b643-a7f7bff77f8e",
+   "bike_id": "127f2832-6077-4e9e-bbb6-cdfdcf6b36e4",
+   "catalog_id": "cb5243a3-9bd5-4bae-98d8-bfe75d00f342",
+   "component": "Brakes",
+   "stock_part": "Nutt hydraulic disc set",
+   "swap_likelihood": "occasional",
+   "sort": 8
+  },
+  {
+   "id": "5ed1c81e-6266-43aa-8d6a-c37f797ecfeb",
+   "bike_id": "f90f8dc1-6097-4b00-9e7e-7fa1e890f15a",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "Schwalbe Energizer Plus 700×50c",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "015a839e-3388-4697-a069-c246830a3ca9",
+   "bike_id": "e8230375-7d29-4829-8b42-d268b3ac3ec2",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "Pathfinder Sport 650b×2.3\"",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "7176d01b-d333-49a1-a022-e66c4f9d924e",
+   "bike_id": "b658a9a0-5d09-4610-b9a3-11973bb6c4af",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "Bontrager H2 700×45c",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "7b092d8a-6866-4ca0-bb87-35c479c0335b",
+   "bike_id": "ed1bdf83-70b4-47d6-b2b9-2575a755892a",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "700×45c commuter tires",
+   "swap_likelihood": "common",
+   "sort": 6
+  },
+  {
+   "id": "a2bc8a1b-7deb-4bcf-bf83-e31f9e26803a",
+   "bike_id": "83acba2e-d7d9-4d2a-8618-2998e6c0282b",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "26×2.5\" commuter tires",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "40e6719a-689d-4a01-9203-402175c565a3",
+   "bike_id": "43252984-52b1-43f0-8fcc-fc8d2b655c11",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "Schwalbe Super Moto-X 27.5×2.4\"",
+   "swap_likelihood": "occasional",
+   "sort": 5
+  },
+  {
+   "id": "905a181e-812e-4b1c-b425-b09518d0eb25",
+   "bike_id": "1819fe23-2ea0-4aaf-aab7-0f7bbe080cb0",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "27.5×2.2\" street tires",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "078703b6-9038-4202-b126-d4fad8dab58e",
+   "bike_id": "8e4ea3e6-6dd6-4b17-8657-f90cbb06d2db",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "27.5×2.1\" commuter tires",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "f2b6b2e0-958f-498e-ae51-e3ef86b8541c",
+   "bike_id": "089cf1cb-3ce6-4bf0-b312-e259059f5720",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "26×4\" fat tires",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "6b1b31a9-ab18-4b4a-9a19-9ea4048c9b54",
+   "bike_id": "4cabdf34-e76c-480e-8346-3a498c05a10c",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "20×3.0\" cargo-rated tires",
+   "swap_likelihood": "common",
+   "sort": 2
+  },
+  {
+   "id": "64f2b03c-f97e-4352-96fe-62f2db4b80fd",
+   "bike_id": "7d4bc85f-6563-4a31-a173-c33930c789f7",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "20×3.0\" street tires",
+   "swap_likelihood": "very_common",
+   "sort": 3
+  },
+  {
+   "id": "8a5b31ae-c29c-4a3f-89f2-a6c899a29f71",
+   "bike_id": "435a0237-4130-45c3-bd70-1f713adb9f52",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "Kenda K-Rad 20×3.3\"",
+   "swap_likelihood": "common",
+   "sort": 2
+  },
+  {
+   "id": "82ed2926-22f2-4a86-b307-918ce4bf99a3",
+   "bike_id": "e8f31fd6-2063-41b2-9808-0e5befa60a09",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "Rad 27.5×2.0\" city tires",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "ce6725b8-8536-4a98-a7b8-e0663f15c173",
+   "bike_id": "127f2832-6077-4e9e-bbb6-cdfdcf6b36e4",
+   "catalog_id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "component": "Tires",
+   "stock_part": "Kenda Juggernaut 26×4\" fat tires",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "57a109c0-f581-4750-8362-8f833136f7c9",
+   "bike_id": "f90f8dc1-6097-4b00-9e7e-7fa1e890f15a",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Saddle",
+   "stock_part": "Selle Royal Essenza saddle",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "36830843-516e-4acc-af61-97931025c2a9",
+   "bike_id": "e8230375-7d29-4829-8b42-d268b3ac3ec2",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Saddle",
+   "stock_part": "Body Geometry comfort saddle",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "89bb78e4-5050-45a3-aa91-f6b05b14b164",
+   "bike_id": "b658a9a0-5d09-4610-b9a3-11973bb6c4af",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Saddle",
+   "stock_part": "Bontrager Boulevard saddle",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "b3ac1f45-fd87-4006-8234-0af9a62f8c02",
+   "bike_id": "ed1bdf83-70b4-47d6-b2b9-2575a755892a",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Saddle",
+   "stock_part": "Stock sport saddle",
+   "swap_likelihood": "very_common",
+   "sort": 5
+  },
+  {
+   "id": "3f33994e-168e-47bb-9031-0946836af941",
+   "bike_id": "83acba2e-d7d9-4d2a-8618-2998e6c0282b",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Saddle",
+   "stock_part": "Velotric wide comfort saddle",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "55f07f2b-91da-4da5-9bdf-232487305e1c",
+   "bike_id": "43252984-52b1-43f0-8fcc-fc8d2b655c11",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Saddle",
+   "stock_part": "Stock commuter saddle",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "38fd4824-6072-437f-ab84-cd88458761d8",
+   "bike_id": "1819fe23-2ea0-4aaf-aab7-0f7bbe080cb0",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Saddle",
+   "stock_part": "Cruiser comfort saddle",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "6ba324d3-d00f-4795-b345-75f7b2570749",
+   "bike_id": "8e4ea3e6-6dd6-4b17-8657-f90cbb06d2db",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Saddle",
+   "stock_part": "Aventon commuter saddle",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "f648ec19-5273-4116-a19d-1564a6bf7495",
+   "bike_id": "089cf1cb-3ce6-4bf0-b312-e259059f5720",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Saddle",
+   "stock_part": "Aventon padded saddle",
+   "swap_likelihood": "very_common",
+   "sort": 2
+  },
+  {
+   "id": "70b1a757-3bba-404f-8147-784bcc06ed6f",
+   "bike_id": "4cabdf34-e76c-480e-8346-3a498c05a10c",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Saddle",
+   "stock_part": "Lectric comfort saddle",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "374a624a-a285-4ac0-8b2f-ebbffa5a7541",
+   "bike_id": "7d4bc85f-6563-4a31-a173-c33930c789f7",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Saddle",
+   "stock_part": "Lectric comfort saddle",
+   "swap_likelihood": "very_common",
+   "sort": 2
+  },
+  {
+   "id": "3ed26c82-d44f-4d15-9811-2f46e8a9c947",
+   "bike_id": "435a0237-4130-45c3-bd70-1f713adb9f52",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Seat",
+   "stock_part": "Bench-style seat pad",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "26f21f86-2baf-4100-a289-8ad854ab5de6",
+   "bike_id": "e8f31fd6-2063-41b2-9808-0e5befa60a09",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Saddle",
+   "stock_part": "Rad comfort saddle",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "8f03cd9a-35a2-4094-9dd0-d7fcee3233e8",
+   "bike_id": "127f2832-6077-4e9e-bbb6-cdfdcf6b36e4",
+   "catalog_id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "component": "Saddle",
+   "stock_part": "Rad comfort saddle",
+   "swap_likelihood": "very_common",
+   "sort": 2
+  },
+  {
+   "id": "742d2f85-019b-4d0e-acc3-07e8e005983b",
+   "bike_id": "f90f8dc1-6097-4b00-9e7e-7fa1e890f15a",
+   "catalog_id": "e55730ab-1a8c-4ce4-a88c-503aaaa8fcc5",
+   "component": "Grips",
+   "stock_part": "Ergonomic touring grips",
+   "swap_likelihood": "common",
+   "sort": 2
+  },
+  {
+   "id": "35ebad9d-9b14-4c6a-8ffc-9ce0b96ef114",
+   "bike_id": "e8230375-7d29-4829-8b42-d268b3ac3ec2",
+   "catalog_id": "e55730ab-1a8c-4ce4-a88c-503aaaa8fcc5",
+   "component": "Grips",
+   "stock_part": "Specialized ergonomic grips",
+   "swap_likelihood": "common",
+   "sort": 2
+  },
+  {
+   "id": "fef0156e-d2dd-49c1-89e8-e864b17a8c8b",
+   "bike_id": "b658a9a0-5d09-4610-b9a3-11973bb6c4af",
+   "catalog_id": "e55730ab-1a8c-4ce4-a88c-503aaaa8fcc5",
+   "component": "Grips",
+   "stock_part": "Bontrager Satellite grips",
+   "swap_likelihood": "common",
+   "sort": 2
+  },
+  {
+   "id": "833b562b-5cc1-4ad6-b78e-beafaf963246",
+   "bike_id": "83acba2e-d7d9-4d2a-8618-2998e6c0282b",
+   "catalog_id": "e55730ab-1a8c-4ce4-a88c-503aaaa8fcc5",
+   "component": "Grips",
+   "stock_part": "Stock rubber grips",
+   "swap_likelihood": "common",
+   "sort": 5
+  },
+  {
+   "id": "d14c9c1e-62b0-4adf-b8ff-82d9cb3ada73",
+   "bike_id": "43252984-52b1-43f0-8fcc-fc8d2b655c11",
+   "catalog_id": "e55730ab-1a8c-4ce4-a88c-503aaaa8fcc5",
+   "component": "Grips",
+   "stock_part": "Ergonomic stock grips",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "a66f11d0-0cae-45aa-ab3e-92ebbbf5cdc2",
+   "bike_id": "1819fe23-2ea0-4aaf-aab7-0f7bbe080cb0",
+   "catalog_id": "e55730ab-1a8c-4ce4-a88c-503aaaa8fcc5",
+   "component": "Grips",
+   "stock_part": "Swept-back cruiser grips",
+   "swap_likelihood": "common",
+   "sort": 2
+  },
+  {
+   "id": "b550cd27-e107-4f48-aa5b-4cce445b2710",
+   "bike_id": "8e4ea3e6-6dd6-4b17-8657-f90cbb06d2db",
+   "catalog_id": "e55730ab-1a8c-4ce4-a88c-503aaaa8fcc5",
+   "component": "Grips",
+   "stock_part": "Ergonomic lock-on grips",
+   "swap_likelihood": "common",
+   "sort": 4
+  },
+  {
+   "id": "efc1e109-525c-458f-96cf-7b3315e66494",
+   "bike_id": "4cabdf34-e76c-480e-8346-3a498c05a10c",
+   "catalog_id": "e55730ab-1a8c-4ce4-a88c-503aaaa8fcc5",
+   "component": "Grips",
+   "stock_part": "Stock rubber grips",
+   "swap_likelihood": "common",
+   "sort": 4
+  },
+  {
+   "id": "5ccb3f11-0b17-400d-b453-052e338d6a55",
+   "bike_id": "7d4bc85f-6563-4a31-a173-c33930c789f7",
+   "catalog_id": "e55730ab-1a8c-4ce4-a88c-503aaaa8fcc5",
+   "component": "Grips",
+   "stock_part": "Stock rubber grips",
+   "swap_likelihood": "common",
+   "sort": 5
+  },
+  {
+   "id": "c7cf3ff9-8719-4e41-9d0f-276782ec7e6c",
+   "bike_id": "e8f31fd6-2063-41b2-9808-0e5befa60a09",
+   "catalog_id": "e55730ab-1a8c-4ce4-a88c-503aaaa8fcc5",
+   "component": "Grips",
+   "stock_part": "Ergonomic lock-on grips",
+   "swap_likelihood": "common",
+   "sort": 4
+  },
+  {
+   "id": "8f164c13-61d5-42f2-ba03-878158251c29",
+   "bike_id": "127f2832-6077-4e9e-bbb6-cdfdcf6b36e4",
+   "catalog_id": "e55730ab-1a8c-4ce4-a88c-503aaaa8fcc5",
+   "component": "Grips",
+   "stock_part": "Velo ergonomic grips",
+   "swap_likelihood": "common",
+   "sort": 7
+  },
+  {
+   "id": "7971f460-4257-4c10-b075-b02da720fd3c",
+   "bike_id": "8e4ea3e6-6dd6-4b17-8657-f90cbb06d2db",
+   "catalog_id": "4efc7ab5-7701-4a6d-bc89-ce17f64e5f3e",
+   "component": "Fenders",
+   "stock_part": "Stock fender set",
+   "swap_likelihood": "occasional",
+   "sort": 8
+  },
+  {
+   "id": "75ad53fb-36de-4c04-96ee-d67e8e4da640",
+   "bike_id": "e8f31fd6-2063-41b2-9808-0e5befa60a09",
+   "catalog_id": "4efc7ab5-7701-4a6d-bc89-ce17f64e5f3e",
+   "component": "Rack & fenders",
+   "stock_part": "Stock fender set + rear rack",
+   "swap_likelihood": "occasional",
+   "sort": 7
+  },
+  {
+   "id": "d0970262-a51a-477e-b6e5-f5c7ec3b40e6",
+   "bike_id": "f90f8dc1-6097-4b00-9e7e-7fa1e890f15a",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Touring platform pedals",
+   "swap_likelihood": "very_common",
+   "sort": 4
+  },
+  {
+   "id": "3dc0cae1-d049-4f3c-8a6d-fc892c4f5248",
+   "bike_id": "e8230375-7d29-4829-8b42-d268b3ac3ec2",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Specialized platform pedals",
+   "swap_likelihood": "very_common",
+   "sort": 4
+  },
+  {
+   "id": "570d1291-fc25-4734-9f58-48dd7de2fbf7",
+   "bike_id": "b658a9a0-5d09-4610-b9a3-11973bb6c4af",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Wellgo platform pedals",
+   "swap_likelihood": "very_common",
+   "sort": 4
+  },
+  {
+   "id": "848e6204-2a4c-4344-af9f-0152a1eebad1",
+   "bike_id": "83acba2e-d7d9-4d2a-8618-2998e6c0282b",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Alloy platform pedals",
+   "swap_likelihood": "very_common",
+   "sort": 4
+  },
+  {
+   "id": "55120e7a-c5a0-498c-b588-198f27562408",
+   "bike_id": "43252984-52b1-43f0-8fcc-fc8d2b655c11",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Alloy platform pedals",
+   "swap_likelihood": "common",
+   "sort": 6
+  },
+  {
+   "id": "0febfe34-3795-4977-b695-0797e91c5715",
+   "bike_id": "1819fe23-2ea0-4aaf-aab7-0f7bbe080cb0",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Alloy platform pedals",
+   "swap_likelihood": "very_common",
+   "sort": 4
+  },
+  {
+   "id": "20ba4476-7de5-4f8a-8f6b-d89233eee5d4",
+   "bike_id": "8e4ea3e6-6dd6-4b17-8657-f90cbb06d2db",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Alloy platform pedals",
+   "swap_likelihood": "very_common",
+   "sort": 2
+  },
+  {
+   "id": "424ca6a9-89b0-4883-87cb-a5f0e4eeab42",
+   "bike_id": "089cf1cb-3ce6-4bf0-b312-e259059f5720",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Alloy platform pedals",
+   "swap_likelihood": "very_common",
+   "sort": 3
+  },
+  {
+   "id": "304519c9-6171-4391-a8be-adf78289158a",
+   "bike_id": "4cabdf34-e76c-480e-8346-3a498c05a10c",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Wellgo platform pedals",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "e1625733-ddbc-4025-8128-99e11461e591",
+   "bike_id": "7d4bc85f-6563-4a31-a173-c33930c789f7",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Folding platform pedals",
+   "swap_likelihood": "common",
+   "sort": 4
+  },
+  {
+   "id": "a522b418-1915-48c4-bf98-2a612e1e4d27",
+   "bike_id": "435a0237-4130-45c3-bd70-1f713adb9f52",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Wellgo platform pedals",
+   "swap_likelihood": "very_common",
+   "sort": 5
+  },
+  {
+   "id": "ceb435b4-2e2d-46b0-995c-8bc40734babd",
+   "bike_id": "e8f31fd6-2063-41b2-9808-0e5befa60a09",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Wellgo platform pedals",
+   "swap_likelihood": "very_common",
+   "sort": 2
+  },
+  {
+   "id": "1128c839-e0a2-4358-ac23-22eca28e502c",
+   "bike_id": "127f2832-6077-4e9e-bbb6-cdfdcf6b36e4",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Wellgo alloy platform pedals",
+   "swap_likelihood": "very_common",
+   "sort": 3
+  },
+  {
+   "id": "dad3c33f-9d9b-4dd4-a552-ef6aa8ed46f0",
+   "bike_id": "e8230375-7d29-4829-8b42-d268b3ac3ec2",
+   "catalog_id": "5ffa3147-a0b7-4f45-adce-c46e23347ab8",
+   "component": "Suspension fork",
+   "stock_part": "SR Suntour Mobie 25, 80mm",
+   "swap_likelihood": "occasional",
+   "sort": 5
+  },
+  {
+   "id": "34a34a3e-8152-43ec-af1b-38edc654c067",
+   "bike_id": "43252984-52b1-43f0-8fcc-fc8d2b655c11",
+   "catalog_id": "5ffa3147-a0b7-4f45-adce-c46e23347ab8",
+   "component": "Suspension fork",
+   "stock_part": "Mozo coil fork, 100mm",
+   "swap_likelihood": "common",
+   "sort": 2
+  },
+  {
+   "id": "7bd89aed-20e0-405a-931f-383aad059a59",
+   "bike_id": "8e4ea3e6-6dd6-4b17-8657-f90cbb06d2db",
+   "catalog_id": "5ffa3147-a0b7-4f45-adce-c46e23347ab8",
+   "component": "Suspension fork",
+   "stock_part": "75mm coil fork with lockout",
+   "swap_likelihood": "occasional",
+   "sort": 6
+  },
+  {
+   "id": "16c4bcca-6440-48db-ab8d-55c6a4a1159b",
+   "bike_id": "089cf1cb-3ce6-4bf0-b312-e259059f5720",
+   "catalog_id": "5ffa3147-a0b7-4f45-adce-c46e23347ab8",
+   "component": "Suspension fork",
+   "stock_part": "80mm coil fork with lockout",
+   "swap_likelihood": "common",
+   "sort": 4
+  },
+  {
+   "id": "96f5a596-7d2e-41ac-8a2b-12c319fbcc32",
+   "bike_id": "7d4bc85f-6563-4a31-a173-c33930c789f7",
+   "catalog_id": "5ffa3147-a0b7-4f45-adce-c46e23347ab8",
+   "component": "Suspension fork",
+   "stock_part": "Coil fork, 50mm travel",
+   "swap_likelihood": "occasional",
+   "sort": 7
+  },
+  {
+   "id": "fc0c4fbe-cb42-452b-af79-a24c6812a41e",
+   "bike_id": "127f2832-6077-4e9e-bbb6-cdfdcf6b36e4",
+   "catalog_id": "5ffa3147-a0b7-4f45-adce-c46e23347ab8",
+   "component": "Suspension fork",
+   "stock_part": "RST spring fork, 60mm travel",
+   "swap_likelihood": "common",
+   "sort": 4
+  },
+  {
+   "id": "57b9af28-b56c-4e49-8dae-63e0eca24dda",
+   "bike_id": "b658a9a0-5d09-4610-b9a3-11973bb6c4af",
+   "catalog_id": "9fca7640-d698-4d89-9dbc-65d908efb464",
+   "component": "Drivetrain",
+   "stock_part": "Shimano Altus 9-speed",
+   "swap_likelihood": "occasional",
+   "sort": 7
+  },
+  {
+   "id": "ddebcee2-c88e-4d5f-ad2e-813a5359541f",
+   "bike_id": "ed1bdf83-70b4-47d6-b2b9-2575a755892a",
+   "catalog_id": "9fca7640-d698-4d89-9dbc-65d908efb464",
+   "component": "Drivetrain",
+   "stock_part": "Shimano Alivio 9-speed",
+   "swap_likelihood": "common",
+   "sort": 7
+  },
+  {
+   "id": "0b349ba3-7e27-4b0f-a980-1276bf353fee",
+   "bike_id": "43252984-52b1-43f0-8fcc-fc8d2b655c11",
+   "catalog_id": "9fca7640-d698-4d89-9dbc-65d908efb464",
+   "component": "Drivetrain",
+   "stock_part": "Shimano Acera 8-speed",
+   "swap_likelihood": "common",
+   "sort": 4
+  },
+  {
+   "id": "8b901dcf-b0eb-47bb-94e4-fc7746f858bd",
+   "bike_id": "8e4ea3e6-6dd6-4b17-8657-f90cbb06d2db",
+   "catalog_id": "9fca7640-d698-4d89-9dbc-65d908efb464",
+   "component": "Drivetrain",
+   "stock_part": "Shimano Acera 8-speed",
+   "swap_likelihood": "common",
+   "sort": 5
+  },
+  {
+   "id": "4e2063cd-b01b-4e23-9fa8-c71a3a125635",
+   "bike_id": "089cf1cb-3ce6-4bf0-b312-e259059f5720",
+   "catalog_id": "9fca7640-d698-4d89-9dbc-65d908efb464",
+   "component": "Drivetrain",
+   "stock_part": "Shimano Acera 8-speed",
+   "swap_likelihood": "common",
+   "sort": 5
+  },
+  {
+   "id": "69e14608-7562-496c-9ff8-6f51aabafe3a",
+   "bike_id": "7d4bc85f-6563-4a31-a173-c33930c789f7",
+   "catalog_id": "9fca7640-d698-4d89-9dbc-65d908efb464",
+   "component": "Drivetrain",
+   "stock_part": "Shimano Tourney 7-speed",
+   "swap_likelihood": "common",
+   "sort": 6
+  },
+  {
+   "id": "b4cc2b2c-066f-4d4f-8399-9bb52c690a0f",
+   "bike_id": "e8f31fd6-2063-41b2-9808-0e5befa60a09",
+   "catalog_id": "9fca7640-d698-4d89-9dbc-65d908efb464",
+   "component": "Drivetrain",
+   "stock_part": "Shimano Altus 7-speed",
+   "swap_likelihood": "common",
+   "sort": 5
+  },
+  {
+   "id": "6d817b55-8773-4303-ad22-97bf4b5d3e11",
+   "bike_id": "127f2832-6077-4e9e-bbb6-cdfdcf6b36e4",
+   "catalog_id": "9fca7640-d698-4d89-9dbc-65d908efb464",
+   "component": "Drivetrain",
+   "stock_part": "Shimano Altus 7-speed",
+   "swap_likelihood": "common",
+   "sort": 5
+  },
+  {
+   "id": "ec6421df-73be-447e-b411-32f5b84580f5",
+   "bike_id": "3451244e-ee1f-4136-88dd-37d7e34cfc8b",
+   "catalog_id": "266eae20-d1fa-4acb-8397-458b03b86a73",
+   "component": "Battery",
+   "stock_part": "60V 32Ah pack",
+   "swap_likelihood": "occasional",
+   "sort": 7
+  },
+  {
+   "id": "79b63a3c-d674-4b1e-9089-6ac95c45d243",
+   "bike_id": "3451244e-ee1f-4136-88dd-37d7e34cfc8b",
+   "catalog_id": "403c2c2a-ec15-4388-be12-bf235331f071",
+   "component": "Display & throttle",
+   "stock_part": "Stock display + thumb throttle",
+   "swap_likelihood": "common",
+   "sort": 6
+  },
+  {
+   "id": "20fa7977-f07f-46f7-83fd-ce358ea69a5a",
+   "bike_id": "3451244e-ee1f-4136-88dd-37d7e34cfc8b",
+   "catalog_id": "c1d2a58d-d46b-43d9-b3e8-5faa52a5e825",
+   "component": "Final drive",
+   "stock_part": "Stock 48T sprocket + 420 chain",
+   "swap_likelihood": "common",
+   "sort": 5
+  },
+  {
+   "id": "54296774-d176-4d1a-83a3-fc3376edfeb5",
+   "bike_id": "3451244e-ee1f-4136-88dd-37d7e34cfc8b",
+   "catalog_id": "e036119a-cb23-4829-9a46-cda8be1098b2",
+   "component": "Tires",
+   "stock_part": "CST 19\" knobbies",
+   "swap_likelihood": "common",
+   "sort": 4
+  },
+  {
+   "id": "a7105305-6850-4b02-ba64-3baebd41a507",
+   "bike_id": "3451244e-ee1f-4136-88dd-37d7e34cfc8b",
+   "catalog_id": "f88cbd86-f653-40e2-bc8a-97e3ed871711",
+   "component": "Seat",
+   "stock_part": "Stock slim seat",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "6da0a350-9e53-4ba0-948c-4f524754e8a2",
+   "bike_id": "3451244e-ee1f-4136-88dd-37d7e34cfc8b",
+   "catalog_id": "13775c29-25c0-4c5c-8718-970ff1475d43",
+   "component": "Controller",
+   "stock_part": "Stock 60V controller",
+   "swap_likelihood": "very_common",
+   "sort": 2
+  },
+  {
+   "id": "0022ea06-e01a-40d2-89d6-fb019f026868",
+   "bike_id": "3451244e-ee1f-4136-88dd-37d7e34cfc8b",
+   "catalog_id": "86693fd4-1172-48a4-a2d0-79246a57a037",
+   "component": "Suspension",
+   "stock_part": "Stock inverted fork + rear shock",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "4dca3929-96b2-4d5e-bc50-9c68d49c50a7",
+   "bike_id": "07b1e248-d023-43a2-b62a-ec7ee70faec3",
+   "catalog_id": "403c2c2a-ec15-4388-be12-bf235331f071",
+   "component": "Display & throttle",
+   "stock_part": "Stock display + throttle",
+   "swap_likelihood": "common",
+   "sort": 6
+  },
+  {
+   "id": "68a88b6d-0706-4de3-aa26-aeba5ea2d382",
+   "bike_id": "07b1e248-d023-43a2-b62a-ec7ee70faec3",
+   "catalog_id": "c1d2a58d-d46b-43d9-b3e8-5faa52a5e825",
+   "component": "Final drive",
+   "stock_part": "Stock sprocket + chain",
+   "swap_likelihood": "occasional",
+   "sort": 5
+  },
+  {
+   "id": "4548f19c-4a5a-4607-8681-0ce902380898",
+   "bike_id": "07b1e248-d023-43a2-b62a-ec7ee70faec3",
+   "catalog_id": "e036119a-cb23-4829-9a46-cda8be1098b2",
+   "component": "Tires",
+   "stock_part": "Stock 19\" knobbies",
+   "swap_likelihood": "common",
+   "sort": 4
+  },
+  {
+   "id": "069ad443-0907-4162-91da-11b8dc40dcd6",
+   "bike_id": "07b1e248-d023-43a2-b62a-ec7ee70faec3",
+   "catalog_id": "f88cbd86-f653-40e2-bc8a-97e3ed871711",
+   "component": "Seat",
+   "stock_part": "Stock MX seat",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "7bbd3262-b57f-440f-9a33-b5443ac1a3a4",
+   "bike_id": "07b1e248-d023-43a2-b62a-ec7ee70faec3",
+   "catalog_id": "13775c29-25c0-4c5c-8718-970ff1475d43",
+   "component": "Controller",
+   "stock_part": "Stock 60V controller",
+   "swap_likelihood": "common",
+   "sort": 2
+  },
+  {
+   "id": "30e652e0-1fb1-4ed0-a13a-dc142aa8d740",
+   "bike_id": "07b1e248-d023-43a2-b62a-ec7ee70faec3",
+   "catalog_id": "86693fd4-1172-48a4-a2d0-79246a57a037",
+   "component": "Suspension",
+   "stock_part": "Stock fork + rear shock",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "b961bff9-828c-4ab8-ba39-1908ae28c8d4",
+   "bike_id": "ba1bbb61-036e-4fc7-972f-622e85fc2219",
+   "catalog_id": "86693fd4-1172-48a4-a2d0-79246a57a037",
+   "component": "Suspension",
+   "stock_part": "Stock fork + coil-over shock",
+   "swap_likelihood": "occasional",
+   "sort": 6
+  },
+  {
+   "id": "6c0a0f06-4926-436c-8b30-6f622d2dccf6",
+   "bike_id": "ba1bbb61-036e-4fc7-972f-622e85fc2219",
+   "catalog_id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "component": "Pedals",
+   "stock_part": "Stock platform pedals",
+   "swap_likelihood": "common",
+   "sort": 5
+  },
+  {
+   "id": "dac0ceed-8c6f-4748-abca-49c36321b64d",
+   "bike_id": "ba1bbb61-036e-4fc7-972f-622e85fc2219",
+   "catalog_id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "component": "Display",
+   "stock_part": "Stock color display",
+   "swap_likelihood": "occasional",
+   "sort": 4
+  },
+  {
+   "id": "872569af-118d-41b5-9c16-799b06fe9793",
+   "bike_id": "ba1bbb61-036e-4fc7-972f-622e85fc2219",
+   "catalog_id": "e55730ab-1a8c-4ce4-a88c-503aaaa8fcc5",
+   "component": "Bars & grips",
+   "stock_part": "Stock moto bars + grips",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "fb6c7b13-6acd-4a39-a7d9-a22f4364ad69",
+   "bike_id": "ba1bbb61-036e-4fc7-972f-622e85fc2219",
+   "catalog_id": "e036119a-cb23-4829-9a46-cda8be1098b2",
+   "component": "Tires",
+   "stock_part": "GRZLY 20×4.5\" tires",
+   "swap_likelihood": "common",
+   "sort": 2
+  },
+  {
+   "id": "2d6d12db-6721-4b37-ab09-a80c2541538b",
+   "bike_id": "ba1bbb61-036e-4fc7-972f-622e85fc2219",
+   "catalog_id": "f88cbd86-f653-40e2-bc8a-97e3ed871711",
+   "component": "Seat",
+   "stock_part": "Stock bench seat",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  },
+  {
+   "id": "80ea1d4d-49a8-4703-8b9a-8f096e15ebe9",
+   "bike_id": "eb0af2f0-456c-4e32-9c45-0ee7bec45976",
+   "catalog_id": "403c2c2a-ec15-4388-be12-bf235331f071",
+   "component": "Display & throttle",
+   "stock_part": "Stock dash + throttle",
+   "swap_likelihood": "common",
+   "sort": 6
+  },
+  {
+   "id": "8c985e9f-4a1a-4b9a-af8d-fbe62ef78d94",
+   "bike_id": "eb0af2f0-456c-4e32-9c45-0ee7bec45976",
+   "catalog_id": "c1d2a58d-d46b-43d9-b3e8-5faa52a5e825",
+   "component": "Final drive",
+   "stock_part": "Stock sprocket + chain",
+   "swap_likelihood": "occasional",
+   "sort": 5
+  },
+  {
+   "id": "42e24747-56f4-40d4-a5bc-2c5bcdd02180",
+   "bike_id": "eb0af2f0-456c-4e32-9c45-0ee7bec45976",
+   "catalog_id": "e036119a-cb23-4829-9a46-cda8be1098b2",
+   "component": "Tires",
+   "stock_part": "Stock 19\"/17\" knobbies",
+   "swap_likelihood": "common",
+   "sort": 4
+  },
+  {
+   "id": "993a7185-9007-40cb-8016-01342ee1d92c",
+   "bike_id": "eb0af2f0-456c-4e32-9c45-0ee7bec45976",
+   "catalog_id": "f88cbd86-f653-40e2-bc8a-97e3ed871711",
+   "component": "Seat",
+   "stock_part": "Stock seat",
+   "swap_likelihood": "common",
+   "sort": 3
+  },
+  {
+   "id": "e42e4bb9-a7e0-4dfe-9a1b-e55e532cc3f2",
+   "bike_id": "eb0af2f0-456c-4e32-9c45-0ee7bec45976",
+   "catalog_id": "13775c29-25c0-4c5c-8718-970ff1475d43",
+   "component": "Controller",
+   "stock_part": "Stock 74V controller",
+   "swap_likelihood": "common",
+   "sort": 2
+  },
+  {
+   "id": "5aa5630b-f91a-47f1-a137-27e8e3d229e1",
+   "bike_id": "eb0af2f0-456c-4e32-9c45-0ee7bec45976",
+   "catalog_id": "86693fd4-1172-48a4-a2d0-79246a57a037",
+   "component": "Suspension",
+   "stock_part": "Stock fork + rear shock",
+   "swap_likelihood": "very_common",
+   "sort": 1
+  }
+ ],
+ "dbCatalog": [
+  {
+   "id": "12b7936f-b304-47b5-8536-b4baf5bc5083",
+   "category_id": "33e2efe0-3303-47e3-b793-15045ee39825",
+   "name": "Stock 48V 10-14Ah battery pack",
+   "brand": "OEM",
+   "base_value_cents": 9500,
+   "active": true,
+   "replaces_with_product_id": "55043c22-5054-4852-943c-79091adf5709",
+   "upgrade_note": "The range-anxiety cure: bigger 52V pack",
+   "ebay_comp_cents": 19000,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "170b4960-bae1-4eb5-86b7-f612be8b63fa",
+   "category_id": "6c913fc1-adfc-41d0-ad91-140940d01a6e",
+   "name": "Stock 500-750W hub motor (wheel included)",
+   "brand": "OEM",
+   "base_value_cents": 5500,
+   "active": true,
+   "replaces_with_product_id": "6b38ae12-3f54-4ae8-abaa-dad90a4e9240",
+   "upgrade_note": "Hub-to-mid-drive is the big-league swap",
+   "ebay_comp_cents": 11000,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "22130a57-4b91-40a7-bece-dd0cdde39556",
+   "category_id": "f8dddd27-2327-44a3-8b40-f5d45f26785b",
+   "name": "Stock controller",
+   "brand": "OEM",
+   "base_value_cents": 1750,
+   "active": true,
+   "replaces_with_product_id": "959feace-1fa9-4250-8ee8-74d57391b8da",
+   "upgrade_note": "More amps, smoother throttle mapping",
+   "ebay_comp_cents": 3500,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "d684a982-8b37-4005-94c9-bd6b362f0e5a",
+   "category_id": "f8dddd27-2327-44a3-8b40-f5d45f26785b",
+   "name": "Stock LCD display",
+   "brand": "OEM",
+   "base_value_cents": 2000,
+   "active": true,
+   "replaces_with_product_id": "204151c4-0c12-4d57-8564-c2b1fd22f223",
+   "upgrade_note": "App-programmable and half the size",
+   "ebay_comp_cents": 4000,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "751d50e9-15fc-43ba-a25f-f7582bcb0188",
+   "category_id": "435a9ce0-781a-4658-8ace-9fd8415ad9a0",
+   "name": "Stock mechanical disc brake set",
+   "brand": "OEM",
+   "base_value_cents": 900,
+   "active": true,
+   "replaces_with_product_id": "7fb742b5-bc0b-4868-ba6b-01ebd45794d0",
+   "upgrade_note": "The #1 upgrade on every cable-brake bike",
+   "ebay_comp_cents": 1800,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "cb5243a3-9bd5-4bae-98d8-bfe75d00f342",
+   "category_id": "435a9ce0-781a-4658-8ace-9fd8415ad9a0",
+   "name": "Stock hydraulic brake set (MT200 class)",
+   "brand": "OEM",
+   "base_value_cents": 2250,
+   "active": true,
+   "replaces_with_product_id": "7fb742b5-bc0b-4868-ba6b-01ebd45794d0",
+   "upgrade_note": "MT200s work; MT5e's stop a loaded bike",
+   "ebay_comp_cents": 4500,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "3897d446-cb95-40d4-b9ce-769ffa9027f9",
+   "category_id": "bc5399d0-6389-4e17-8a64-483a62e99ac2",
+   "name": "Stock tire pair (street or fat)",
+   "brand": "OEM",
+   "base_value_cents": 1750,
+   "active": true,
+   "replaces_with_product_id": "b8b06a22-2284-4e2b-bf8f-ee4b1b408168",
+   "upgrade_note": "Street rubber transforms fat-tire commuters",
+   "ebay_comp_cents": 3500,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "b2c18249-5340-4486-be79-d4deff026fb9",
+   "category_id": "73411bb3-99bf-4a9f-bd86-c378e02768a2",
+   "name": "Stock saddle",
+   "brand": "OEM",
+   "base_value_cents": 900,
+   "active": true,
+   "replaces_with_product_id": "04423453-7589-4654-8342-764a9edea423",
+   "upgrade_note": "Usually paired with a suspension seatpost",
+   "ebay_comp_cents": 1800,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "e55730ab-1a8c-4ce4-a88c-503aaaa8fcc5",
+   "category_id": "73411bb3-99bf-4a9f-bd86-c378e02768a2",
+   "name": "Stock grips / cockpit parts",
+   "brand": "OEM",
+   "base_value_cents": 500,
+   "active": true,
+   "replaces_with_product_id": "9fd4589a-019d-4d4e-9fe6-7235e51b1fc4",
+   "upgrade_note": "Wing grips fix numb hands on hour-plus rides",
+   "ebay_comp_cents": 1000,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "4efc7ab5-7701-4a6d-bc89-ce17f64e5f3e",
+   "category_id": "58c8e0e6-bb3c-46a4-89d7-bff728186acc",
+   "name": "Stock rear rack or fender set",
+   "brand": "OEM",
+   "base_value_cents": 1400,
+   "active": true,
+   "replaces_with_product_id": "4b30132d-6a9f-47b8-b744-66b1425ddaeb",
+   "upgrade_note": "Standardized mounts beat proprietary racks",
+   "ebay_comp_cents": 2800,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "9fca7640-d698-4d89-9dbc-65d908efb464",
+   "category_id": "7295211b-d86c-4841-801e-57ef180026b8",
+   "name": "Stock 7/8-speed drivetrain (derailleur + shifter + cassette)",
+   "brand": "OEM",
+   "base_value_cents": 1500,
+   "active": true,
+   "replaces_with_product_id": "257fd3ad-295b-4ebc-8da5-2e704aa4efef",
+   "upgrade_note": "LinkGlide is built for motor torque",
+   "ebay_comp_cents": 3000,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "66a7f27f-20b3-43c6-9940-abe9bdaeff5d",
+   "category_id": "33e2efe0-3303-47e3-b793-15045ee39825",
+   "name": "Stock 36V battery pack",
+   "brand": "OEM",
+   "base_value_cents": 7000,
+   "active": true,
+   "replaces_with_product_id": null,
+   "upgrade_note": "Bosch riders usually add a second OEM pack",
+   "ebay_comp_cents": 14000,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "a59a708a-6400-43eb-8fc9-243158c96c06",
+   "category_id": "73411bb3-99bf-4a9f-bd86-c378e02768a2",
+   "name": "Stock pedals",
+   "brand": "OEM",
+   "base_value_cents": 600,
+   "active": true,
+   "replaces_with_product_id": null,
+   "upgrade_note": "Pinned alloy platforms, first week",
+   "ebay_comp_cents": 1200,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "ab870ac1-185b-4bda-8ee8-a34c321655f1",
+   "category_id": "73411bb3-99bf-4a9f-bd86-c378e02768a2",
+   "name": "Stock light set (headlight + taillight)",
+   "brand": "OEM",
+   "base_value_cents": 750,
+   "active": true,
+   "replaces_with_product_id": null,
+   "upgrade_note": "High-lumen units wired to the pack",
+   "ebay_comp_cents": 1500,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "5ffa3147-a0b7-4f45-adce-c46e23347ab8",
+   "category_id": "a0bb0065-c9ba-43d7-9543-679c54627b74",
+   "name": "Stock coil suspension fork",
+   "brand": "OEM",
+   "base_value_cents": 2000,
+   "active": true,
+   "replaces_with_product_id": null,
+   "upgrade_note": "Air fork upgrade, usually 100-120mm",
+   "ebay_comp_cents": 4000,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "266eae20-d1fa-4acb-8397-458b03b86a73",
+   "category_id": "33e2efe0-3303-47e3-b793-15045ee39825",
+   "name": "Stock e-moto battery (60V class)",
+   "brand": "OEM",
+   "base_value_cents": 27500,
+   "active": true,
+   "replaces_with_product_id": null,
+   "upgrade_note": "72V aftermarket packs for more top end",
+   "ebay_comp_cents": 55000,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "13775c29-25c0-4c5c-8718-970ff1475d43",
+   "category_id": "f8dddd27-2327-44a3-8b40-f5d45f26785b",
+   "name": "Stock e-moto controller",
+   "brand": "OEM",
+   "base_value_cents": 4000,
+   "active": true,
+   "replaces_with_product_id": null,
+   "upgrade_note": "Aftermarket 72V FOC controller — the amp chase",
+   "ebay_comp_cents": 8000,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "403c2c2a-ec15-4388-be12-bf235331f071",
+   "category_id": "f8dddd27-2327-44a3-8b40-f5d45f26785b",
+   "name": "Stock e-moto display + throttle",
+   "brand": "OEM",
+   "base_value_cents": 2000,
+   "active": true,
+   "replaces_with_product_id": null,
+   "upgrade_note": "Aftermarket dash + quick-turn throttle",
+   "ebay_comp_cents": 4000,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "86693fd4-1172-48a4-a2d0-79246a57a037",
+   "category_id": "a0bb0065-c9ba-43d7-9543-679c54627b74",
+   "name": "Stock e-moto fork + rear shock set",
+   "brand": "OEM",
+   "base_value_cents": 7500,
+   "active": true,
+   "replaces_with_product_id": null,
+   "upgrade_note": "DNM / Fastace upgrade, usually first month",
+   "ebay_comp_cents": 15000,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "f88cbd86-f653-40e2-bc8a-97e3ed871711",
+   "category_id": "73411bb3-99bf-4a9f-bd86-c378e02768a2",
+   "name": "Stock e-moto seat",
+   "brand": "OEM",
+   "base_value_cents": 1750,
+   "active": true,
+   "replaces_with_product_id": null,
+   "upgrade_note": "Tall comfort seat or grippy MX cover",
+   "ebay_comp_cents": 3500,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "e036119a-cb23-4829-9a46-cda8be1098b2",
+   "category_id": "bc5399d0-6389-4e17-8a64-483a62e99ac2",
+   "name": "Stock e-moto knobby tire pair",
+   "brand": "OEM",
+   "base_value_cents": 2500,
+   "active": true,
+   "replaces_with_product_id": null,
+   "upgrade_note": "Street moto rubber or aggressive MX knobbies",
+   "ebay_comp_cents": 5000,
+   "comp_confidence": null,
+   "comp_note": null
+  },
+  {
+   "id": "c1d2a58d-d46b-43d9-b3e8-5faa52a5e825",
+   "category_id": "7295211b-d86c-4841-801e-57ef180026b8",
+   "name": "Stock sprocket + chain (e-moto)",
+   "brand": "OEM",
+   "base_value_cents": 1500,
+   "active": true,
+   "replaces_with_product_id": null,
+   "upgrade_note": "Taller gearing for street, shorter for trail",
+   "ebay_comp_cents": 3000,
+   "comp_confidence": null,
+   "comp_note": null
+  }
+ ],
+ "dbProducts": [
+  {
+   "id": "6348f3f7-e005-4c1a-b1cf-9305842da032",
+   "slug": "grin-satiator-charger",
+   "name": "Cycle Satiator Programmable Charger",
+   "brand": "Grin",
+   "category_id": "33e2efe0-3303-47e3-b793-15045ee39825",
+   "condition": "new",
+   "description": "Set an 80% charge profile for daily commuting and a 100% profile for long weekends. Doubles the calendar life of most packs.",
+   "specs": {
+    "power": "360W",
+    "output": "24-63V",
+    "profiles": "Unlimited"
+   },
+   "fits": [
+    "Any lithium pack 24-63V"
+   ],
+   "price_cents": 32900,
+   "compare_at_cents": null,
+   "stock": 22,
+   "image_url": "/products/grin-satiator-charger-2.png",
+   "featured": false,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "55043c22-5054-4852-943c-79091adf5709",
+   "slug": "bafang-52v-17-5ah",
+   "name": "52V 17.5Ah Extended Range Pack",
+   "brand": "Bafang",
+   "category_id": "33e2efe0-3303-47e3-b793-15045ee39825",
+   "condition": "new",
+   "description": "Samsung 50E cells in a hard-case downtube pack. Roughly 40% more usable range than the stock 48V 13Ah packs shipped on most commuter e-bikes, with the same rail mount.",
+   "specs": {
+    "cells": "Samsung 50E",
+    "weight": "4.3 kg",
+    "voltage": "52V",
+    "capacity": "17.5Ah"
+   },
+   "fits": [
+    "Bafang BBS02/BBSHD",
+    "Rad-style rail mounts",
+    "Most 48V downtube bikes"
+   ],
+   "price_cents": 54900,
+   "compare_at_cents": 62900,
+   "stock": 14,
+   "image_url": "/products/bafang-52v-17-5ah-2.png",
+   "featured": true,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "959feace-1fa9-4250-8ee8-74d57391b8da",
+   "slug": "kt-35a-controller",
+   "name": "35A Sine-Wave Controller",
+   "brand": "KT",
+   "category_id": "f8dddd27-2327-44a3-8b40-f5d45f26785b",
+   "condition": "new",
+   "description": "Silent sine-wave replacement for the buzzy square-wave controller most hub-drive bikes ship with. Direct plug for KT displays.",
+   "specs": {
+    "type": "Sine wave",
+    "current": "35A",
+    "voltage": "36-52V"
+   },
+   "fits": [
+    "KT-compatible hub drives",
+    "Rad, Ride1Up, Lectric (check connector)"
+   ],
+   "price_cents": 12900,
+   "compare_at_cents": null,
+   "stock": 31,
+   "image_url": "/products/kt-35a-controller.png",
+   "featured": false,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "f6472410-c7b2-4491-8e80-2ac6273d23a6",
+   "slug": "used-rad-controller",
+   "name": "Rad Power Stock 22A Controller",
+   "brand": "Rad Power",
+   "category_id": "f8dddd27-2327-44a3-8b40-f5d45f26785b",
+   "condition": "lightly_used",
+   "description": "OEM controller pulled during a 35A upgrade. A cheap way to get a dead bike back on the road.",
+   "specs": {
+    "current": "22A",
+    "voltage": "48V"
+   },
+   "fits": [
+    "RadRover 6",
+    "RadCity 5 (check connectors)"
+   ],
+   "price_cents": 3900,
+   "compare_at_cents": 9900,
+   "stock": 2,
+   "image_url": "/products/used-rad-controller.png",
+   "featured": false,
+   "source": "trade_in",
+   "condition_note": "Tested working. Connectors intact.",
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "fe75c5ee-83f4-4454-b355-7be144d17775",
+   "slug": "used-surron-shock",
+   "name": "Light Bee Stock Rear Shock",
+   "brand": "Sur-Ron",
+   "category_id": "a0bb0065-c9ba-43d7-9543-679c54627b74",
+   "condition": "lightly_used",
+   "description": "The stock Light Bee coil-over, pulled when the previous owner went to a DNM. Full travel, no leaks, hardware included. If you are building a spare bike or just want a known-good backup, this is the cheap way in.",
+   "specs": {
+    "Spring": "Coil, stock rate",
+    "Travel": "Stock spec",
+    "Mounting": "OEM eyelets + hardware",
+    "Pulled at": "~100 miles"
+   },
+   "fits": [
+    "Sur-Ron Light Bee X",
+    "Sur-Ron Light Bee S"
+   ],
+   "price_cents": 7900,
+   "compare_at_cents": 21000,
+   "stock": 4,
+   "image_url": "/products/used-surron-shock.png",
+   "featured": false,
+   "source": "trade_in",
+   "condition_note": "Takeoff at roughly 100 miles. Cosmetic scuffs on the spring, damper is tight, no seepage.",
+   "created_at": "2026-07-02T01:32:58.777433+00:00"
+  },
+  {
+   "id": "77adbb63-b13e-4423-a5db-8d4f5692b994",
+   "slug": "used-surron-controller",
+   "name": "Light Bee Stock Controller",
+   "brand": "Sur-Ron",
+   "category_id": "f8dddd27-2327-44a3-8b40-f5d45f26785b",
+   "condition": "lightly_used",
+   "description": "Stock 60V Sur-Ron controller from an amp-chasing upgrade pull. Every connector intact, no heat discoloration. The smart money keeps one of these in the parts bin — aftermarket controllers die, this one just works.",
+   "specs": {
+    "Type": "Stock sine-wave",
+    "Voltage": "60V",
+    "Firmware": "Stock",
+    "Connectors": "All OEM, uncut"
+   },
+   "fits": [
+    "Sur-Ron Light Bee X",
+    "Sur-Ron Light Bee S"
+   ],
+   "price_cents": 5900,
+   "compare_at_cents": 15000,
+   "stock": 6,
+   "image_url": "/products/used-surron-controller.png",
+   "featured": false,
+   "source": "trade_in",
+   "condition_note": "Pulled working from a running bike. Case scratches only, wiring uncut with factory connectors.",
+   "created_at": "2026-07-02T01:32:58.777433+00:00"
+  },
+  {
+   "id": "aba7154a-b118-4b13-ab07-fcc6d81efc7b",
+   "slug": "used-super73-seat",
+   "name": "RX Stock Bench Seat",
+   "brand": "Super73",
+   "category_id": "73411bb3-99bf-4a9f-bd86-c378e02768a2",
+   "condition": "like_new",
+   "description": "The classic Super73 diamond-stitch bench, swapped for a custom cover two weeks after purchase like they always are. Rails and mounting hardware included. This is the part everyone breaks and nobody can find.",
+   "specs": {
+    "Rails": "Steel, included",
+    "Style": "Bench, diamond stitch",
+    "Length": "Full bench",
+    "Hardware": "Complete"
+   },
+   "fits": [
+    "Super73 RX",
+    "Super73 R",
+    "Super73 S2"
+   ],
+   "price_cents": 4900,
+   "compare_at_cents": 12000,
+   "stock": 3,
+   "image_url": "/products/used-super73-seat.png",
+   "featured": false,
+   "source": "trade_in",
+   "condition_note": "Two weeks of use. Minor corner wear on the piping, foam and rails are perfect.",
+   "created_at": "2026-07-02T01:32:58.777433+00:00"
+  },
+  {
+   "id": "6b38ae12-3f54-4ae8-abaa-dad90a4e9240",
+   "slug": "bbshd-1000w-kit",
+   "name": "BBSHD 1000W Mid-Drive Kit",
+   "brand": "Bafang",
+   "category_id": "6c913fc1-adfc-41d0-ad91-140940d01a6e",
+   "condition": "new",
+   "description": "The default answer for hill country. 160Nm at the crank, fits a standard 68-73mm bottom bracket, and takes the stock chainring you already have.",
+   "specs": {
+    "bb": "68-73mm",
+    "power": "1000W",
+    "torque": "160Nm"
+   },
+   "fits": [
+    "Standard BSA bottom brackets"
+   ],
+   "price_cents": 74900,
+   "compare_at_cents": 82900,
+   "stock": 9,
+   "image_url": "/products/bbshd-1000w-kit-2.png",
+   "featured": true,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "dde24604-cfd6-4859-9c08-bbf7f4d9ab5a",
+   "slug": "cyc-photon-mid",
+   "name": "Photon Mid-Drive",
+   "brand": "CYC Motor",
+   "category_id": "6c913fc1-adfc-41d0-ad91-140940d01a6e",
+   "condition": "new",
+   "description": "Compact 250W-rated mid-drive that peaks near 750W. Torque-sensing, quiet, and legal-limit friendly out of the box.",
+   "specs": {
+    "peak": "750W",
+    "rated": "250W",
+    "sensor": "Torque"
+   },
+   "fits": [
+    "BSA 68-73mm",
+    "Most hardtails"
+   ],
+   "price_cents": 99000,
+   "compare_at_cents": null,
+   "stock": 6,
+   "image_url": "/products/cyc-photon-mid-2.png",
+   "featured": false,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "204151c4-0c12-4d57-8564-c2b1fd22f223",
+   "slug": "eggrider-v2",
+   "name": "EggRider V2 Bluetooth Display",
+   "brand": "EggRider",
+   "category_id": "f8dddd27-2327-44a3-8b40-f5d45f26785b",
+   "condition": "new",
+   "description": "Tiny display, huge control. Change speed limits, current limits, and PAS curves from your phone. Two rider profiles.",
+   "specs": {
+    "app": "iOS/Android",
+    "protocol": "UART/CAN"
+   },
+   "fits": [
+    "Bafang BBS/BBSHD",
+    "Bafang hub drives"
+   ],
+   "price_cents": 11500,
+   "compare_at_cents": null,
+   "stock": 40,
+   "image_url": "/products/eggrider-v2-2.png",
+   "featured": true,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "257fd3ad-295b-4ebc-8da5-2e704aa4efef",
+   "slug": "linkglide-11-50",
+   "name": "CUES LinkGlide 11-50T Cassette",
+   "brand": "Shimano",
+   "category_id": "7295211b-d86c-4841-801e-57ef180026b8",
+   "condition": "new",
+   "description": "LinkGlide steel is rated for three times the wear life of standard cassettes. Built specifically for mid-drive torque.",
+   "specs": {
+    "range": "11-50T",
+    "speeds": "10",
+    "freehub": "HG"
+   },
+   "fits": [
+    "Shimano HG freehubs",
+    "Mid-drive conversions"
+   ],
+   "price_cents": 8900,
+   "compare_at_cents": 10500,
+   "stock": 25,
+   "image_url": "/products/linkglide-11-50-2.png",
+   "featured": false,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "d4fb3b9e-4834-4db7-8b4d-3b924ca1d463",
+   "slug": "ebike-chain-e10",
+   "name": "E-Bike Rated 10sp Chain",
+   "brand": "KMC",
+   "category_id": "7295211b-d86c-4841-801e-57ef180026b8",
+   "condition": "new",
+   "description": "e10 EPT chain with hardened pins for mid-drive loads and anti-rust coating for all-weather commuters.",
+   "specs": {
+    "links": "136",
+    "speeds": "10",
+    "coating": "EPT anti-rust"
+   },
+   "fits": [
+    "10-speed drivetrains"
+   ],
+   "price_cents": 4200,
+   "compare_at_cents": null,
+   "stock": 48,
+   "image_url": "/products/ebike-chain-e10-2.png",
+   "featured": false,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "7fb742b5-bc0b-4868-ba6b-01ebd45794d0",
+   "slug": "mt5e-brake-set",
+   "name": "MT5e 4-Piston Brake Set",
+   "brand": "Magura",
+   "category_id": "435a9ce0-781a-4658-8ace-9fd8415ad9a0",
+   "condition": "new",
+   "description": "Front and rear 4-piston hydraulics with cut-off sensors. The single most important upgrade on any 60lb+ e-bike.",
+   "specs": {
+    "cutoff": "Yes",
+    "rotors": "203mm included",
+    "pistons": "4"
+   },
+   "fits": [
+    "Most e-bikes with post-mount frames"
+   ],
+   "price_cents": 32900,
+   "compare_at_cents": 38900,
+   "stock": 12,
+   "image_url": "/products/mt5e-brake-set-2.png",
+   "featured": true,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "09849fd9-40b8-44ee-b7d7-bb2585184c57",
+   "slug": "galfer-203-rotor",
+   "name": "Disc Wave 203mm E-Rated Rotor",
+   "brand": "Galfer",
+   "category_id": "435a9ce0-781a-4658-8ace-9fd8415ad9a0",
+   "condition": "new",
+   "description": "Thicker 2.0mm e-bike rated rotor that resists fade on long descents with a loaded bike.",
+   "specs": {
+    "size": "203mm",
+    "mount": "6-bolt",
+    "thickness": "2.0mm"
+   },
+   "fits": [
+    "6-bolt hubs"
+   ],
+   "price_cents": 5400,
+   "compare_at_cents": null,
+   "stock": 35,
+   "image_url": "/products/galfer-203-rotor-2.png",
+   "featured": false,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "b8b06a22-2284-4e2b-bf8f-ee4b1b408168",
+   "slug": "marathon-eplus-26",
+   "name": "Marathon E-Plus 26x2.15",
+   "brand": "Schwalbe",
+   "category_id": "bc5399d0-6389-4e17-8a64-483a62e99ac2",
+   "condition": "new",
+   "description": "The flat-proof standard for e-bikes. Smart DualGuard belt, ECE-R75 rated for fast e-bikes, reflective sidewall.",
+   "specs": {
+    "size": "26x2.15",
+    "rating": "ECE-R75 50km/h",
+    "protection": "DualGuard"
+   },
+   "fits": [
+    "26\" wheels"
+   ],
+   "price_cents": 7800,
+   "compare_at_cents": null,
+   "stock": 44,
+   "image_url": "/products/marathon-eplus-26-2.png",
+   "featured": false,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "f4ef1fce-27d5-437f-b521-2d9fa5e57759",
+   "slug": "hookworm-20",
+   "name": "Hookworm 20x1.95 Fat-Resist",
+   "brand": "Maxxis",
+   "category_id": "bc5399d0-6389-4e17-8a64-483a62e99ac2",
+   "condition": "new",
+   "description": "Favorite swap for 20\" folding and cargo bikes. Smooth-rolling, huge air volume, wears like iron.",
+   "specs": {
+    "tpi": "60",
+    "bead": "Wire",
+    "size": "20x1.95"
+   },
+   "fits": [
+    "20\" folders",
+    "Lectric XP",
+    "Rad Expand"
+   ],
+   "price_cents": 4900,
+   "compare_at_cents": null,
+   "stock": 38,
+   "image_url": "/products/hookworm-20-2.png",
+   "featured": false,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "04423453-7589-4654-8342-764a9edea423",
+   "slug": "suntour-ncx-post",
+   "name": "NCX Suspension Seatpost",
+   "brand": "SR Suntour",
+   "category_id": "73411bb3-99bf-4a9f-bd86-c378e02768a2",
+   "condition": "new",
+   "description": "Parallelogram suspension post that erases chatter better than most front forks. 50mm travel, tool-free preload.",
+   "specs": {
+    "travel": "50mm",
+    "weight": "755g",
+    "diameters": "27.2/30.9/31.6"
+   },
+   "fits": [
+    "27.2, 30.9, 31.6mm seat tubes"
+   ],
+   "price_cents": 9900,
+   "compare_at_cents": 12900,
+   "stock": 27,
+   "image_url": "/products/suntour-ncx-post-2.png",
+   "featured": true,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "9fd4589a-019d-4d4e-9fe6-7235e51b1fc4",
+   "slug": "ergon-gp1-grips",
+   "name": "GP1 Evo Ergonomic Grips",
+   "brand": "Ergon",
+   "category_id": "73411bb3-99bf-4a9f-bd86-c378e02768a2",
+   "condition": "new",
+   "description": "Wing-shaped grips that fix numb hands on upright commuters. Clamp-on, no glue.",
+   "specs": {
+    "clamp": "Lock-on",
+    "sizes": "S/L"
+   },
+   "fits": [
+    "22.2mm bars"
+   ],
+   "price_cents": 3500,
+   "compare_at_cents": null,
+   "stock": 52,
+   "image_url": "/products/ergon-gp1-grips-2.png",
+   "featured": false,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "4b30132d-6a9f-47b8-b744-66b1425ddaeb",
+   "slug": "topeak-uni-explorer",
+   "name": "Explorer Rack + MTX QuickTrack",
+   "brand": "Topeak",
+   "category_id": "58c8e0e6-bb3c-46a4-89d7-bff728186acc",
+   "condition": "new",
+   "description": "Disc-compatible rear rack with the MTX quick-release track. 26kg rated, fits fat and standard frames.",
+   "specs": {
+    "mount": "Disc compatible",
+    "system": "MTX 2.0",
+    "capacity": "26kg"
+   },
+   "fits": [
+    "Most frames incl. fat tire"
+   ],
+   "price_cents": 7900,
+   "compare_at_cents": null,
+   "stock": 19,
+   "image_url": "/products/topeak-uni-explorer-2.png",
+   "featured": false,
+   "source": "retail",
+   "condition_note": null,
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "6069d7e2-2704-4618-a665-95ad303783ff",
+   "slug": "used-bosch-purion",
+   "name": "Bosch Purion Display (Takeoff)",
+   "brand": "Bosch",
+   "category_id": "f8dddd27-2327-44a3-8b40-f5d45f26785b",
+   "condition": "like_new",
+   "description": "Removed at 40 miles when the owner swapped to a Kiox 300. Zero scratches, includes bar clamp.",
+   "specs": {
+    "mount": "Included",
+    "system": "Bosch Gen4"
+   },
+   "fits": [
+    "Bosch Active/Performance Line"
+   ],
+   "price_cents": 6900,
+   "compare_at_cents": 12900,
+   "stock": 2,
+   "image_url": "/products/used-bosch-purion-2.png",
+   "featured": false,
+   "source": "trade_in",
+   "condition_note": "Effectively new. Original clamp included.",
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "a49fc801-3b9a-4ec6-8ee2-4bd583d3a0af",
+   "slug": "used-kenda-krusade-26",
+   "name": "Kenda Krusade 26x4 Pair (Takeoff)",
+   "brand": "Kenda",
+   "category_id": "bc5399d0-6389-4e17-8a64-483a62e99ac2",
+   "condition": "used",
+   "description": "Stock fat-bike takeoffs with visible tread wear but plenty of life for a season of street riding. Sold as a pair.",
+   "specs": {
+    "pair": "Yes",
+    "size": "26x4.0",
+    "tread": "~70%"
+   },
+   "fits": [
+    "26\" fat rims"
+   ],
+   "price_cents": 4500,
+   "compare_at_cents": 12000,
+   "stock": 2,
+   "image_url": "/products/used-kenda-krusade-26-2.png",
+   "featured": false,
+   "source": "trade_in",
+   "condition_note": "Tread ~70%. Small sidewall scuff on one tire.",
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "a868822a-ecd2-4528-9d40-f2c673f7ca0e",
+   "slug": "used-selle-royal",
+   "name": "Selle Royal Stock Comfort Saddle",
+   "brand": "Selle Royal",
+   "category_id": "73411bb3-99bf-4a9f-bd86-c378e02768a2",
+   "condition": "like_new",
+   "description": "The saddle everyone replaces on day one, in case yours went the other direction and you want it back.",
+   "specs": {
+    "rails": "Steel",
+    "width": "210mm"
+   },
+   "fits": [
+    "Standard 7mm rails"
+   ],
+   "price_cents": 1900,
+   "compare_at_cents": 4500,
+   "stock": 5,
+   "image_url": "/products/used-selle-royal-2.png",
+   "featured": false,
+   "source": "trade_in",
+   "condition_note": "Showroom condition.",
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "4786a43c-bac4-43ad-95fa-38cbab196776",
+   "slug": "used-rad-48v-14ah",
+   "name": "Rad Power 48V 14Ah Battery (Takeoff)",
+   "brand": "Rad Power",
+   "category_id": "33e2efe0-3303-47e3-b793-15045ee39825",
+   "condition": "lightly_used",
+   "description": "Pulled from a 2025 RadCity 5 with 210 miles when the owner upgraded to a 52V pack. Capacity tested at 97% of rated.",
+   "specs": {
+    "cycles": "~15",
+    "tested": "97% capacity",
+    "voltage": "48V",
+    "capacity": "14Ah"
+   },
+   "fits": [
+    "RadCity 5",
+    "RadRover 6",
+    "Rad rail mounts"
+   ],
+   "price_cents": 17900,
+   "compare_at_cents": 54900,
+   "stock": 1,
+   "image_url": "/products/used-rad-48v-14ah-2.png",
+   "featured": true,
+   "source": "trade_in",
+   "condition_note": "Capacity tested 97%. Light rail scuffs. 90-day warranty.",
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  },
+  {
+   "id": "f58cd9e2-b732-4797-9b0d-ac05d39ca342",
+   "slug": "used-shimano-mt200",
+   "name": "MT200 Hydraulic Brake Set (Takeoff)",
+   "brand": "Shimano",
+   "category_id": "435a9ce0-781a-4658-8ace-9fd8415ad9a0",
+   "condition": "lightly_used",
+   "description": "The classic first-week takeoff: pulled when the owner went to 4-piston Maguras. Bled, pads at 90%, ready to bolt on.",
+   "specs": {
+    "hoses": "Pre-bled",
+    "levers": "Included",
+    "pistons": "2"
+   },
+   "fits": [
+    "Post-mount frames"
+   ],
+   "price_cents": 4400,
+   "compare_at_cents": 12000,
+   "stock": 3,
+   "image_url": "/products/used-shimano-mt200-2.png",
+   "featured": true,
+   "source": "trade_in",
+   "condition_note": "Pads at ~90%. Freshly bled. Rotors not included.",
+   "created_at": "2026-07-02T00:07:20.184603+00:00"
+  }
+ ]
+}

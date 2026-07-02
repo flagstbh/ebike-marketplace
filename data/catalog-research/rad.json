@@ -1,0 +1,1330 @@
+{
+  "brand_family": "Rad Power Bikes",
+  "tier": "volume",
+  "bikes": [
+    {
+      "slug": "radrover-6-plus",
+      "brand": "Rad Power Bikes",
+      "model": "RadRover 6 Plus",
+      "style": "Fat tire",
+      "motor": "750W geared rear hub",
+      "battery": "48V 14Ah (672Wh) semi-integrated",
+      "years": "2021-2024",
+      "tier": "volume",
+      "blurb": "Rad's flagship fat bike, sold in huge numbers from 2021 on. Semi-integrated battery, dual displays, hydraulic brakes. Takeoff supply is deep and parts demand stays steady.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Rad stock padded comfort saddle (Velo)",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Rad stock comfort saddle",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 1500,
+          "comp_confidence": "estimated",
+          "comp_note": "No confirmed sold comps; stock Rad saddles ride along in eBay parts lots around $10-20 (searched Jul 2026). Estimated low.",
+          "base_value_cents": 700,
+          "upgrade": {
+            "name": "Cloud-9 Comfort Airflow saddle",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 3900,
+            "note": "Stock seat is a plank; this is the standard first-week fix."
+          }
+        },
+        {
+          "component": "Grips",
+          "stock_part": "Rad stock rubber grips",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad stock rubber grips",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "Zero standalone resale demand for stock rubber grips; parts-lot filler at best.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Ergon GP1 lock-on grips",
+            "brand": "Ergon",
+            "category_slug": "cockpit",
+            "price_cents": 3500,
+            "note": "Locks on and saves your palms on long throttle days."
+          }
+        },
+        {
+          "component": "Pedals",
+          "stock_part": "Wellgo alloy platform pedals",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Wellgo stock platform pedals",
+          "catalog_brand": "Wellgo",
+          "ebay_comp_cents": 1000,
+          "comp_confidence": "estimated",
+          "comp_note": "Generic Wellgo takeoffs, filler in parts lots; no standalone sold comps found (Jul 2026). Estimated at $10.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Race Face Chester composite pedals",
+            "brand": "Race Face",
+            "category_slug": "drivetrain",
+            "price_cents": 5500,
+            "note": "Bigger platform and real pins; stock pedals get slick when wet."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "Kenda Juggernaut 26x4 tire pair",
+          "swap_likelihood": "common",
+          "catalog_name": "Kenda Juggernaut 26x4 tire pair",
+          "catalog_brand": "Kenda",
+          "ebay_comp_cents": 5000,
+          "comp_confidence": "estimated",
+          "comp_note": "New pair runs $110-250 retail (Kenda, Rad, eBay listings Jul 2026); active used listings seen but zero confirmed sold takeoff pairs. Estimated $50/pair.",
+          "base_value_cents": 2500,
+          "upgrade": {
+            "name": "Origin8 Supercell 26x4 street tires (pair)",
+            "brand": "Origin8",
+            "category_slug": "tires-wheels",
+            "price_cents": 12000,
+            "note": "Street slick pair; kills the knobby hum and rolls faster on pavement."
+          }
+        },
+        {
+          "component": "Display",
+          "stock_part": "Rad dual-screen set: LED remote + center LCD",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad dual-screen display set (LED remote + LCD)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4500,
+          "comp_confidence": "estimated",
+          "comp_note": "New Rad UI display sells for $110 at dealers (Jul 2026); no direct sold comps for the dual set. One forum-cited combo sale ($150 for controller + LCD, Feb 2022) anchors the ceiling. Estimated $45.",
+          "base_value_cents": 2200,
+          "upgrade": {
+            "name": "EggRider V2 Bluetooth Display",
+            "brand": "EggRider",
+            "category_slug": "controllers-displays",
+            "price_cents": 12500,
+            "note": "Bluetooth tuning and real ride data; unlocks settings Rad hides."
+          }
+        },
+        {
+          "component": "Controller",
+          "stock_part": "Rad 48V controller (RadRover 6 gen)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad 48V controller (RadRover 6/RadCity 5 gen)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "Forum-cited $150 eBay sale for a controller + LCD combo (Feb 2022); new Rad controller $110 at dealers (Jul 2026). Alone estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": {
+            "name": "Bolton Ebikes 35A controller + color LCD kit",
+            "brand": "Bolton Ebikes",
+            "category_slug": "controllers-displays",
+            "price_cents": 22900,
+            "note": "Doubles usable power from the stock motor; the classic Rad hot-rod move."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "Rad 48V 14Ah semi-integrated pack",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad 48V 14Ah semi-integrated battery pack",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 20000,
+          "comp_confidence": "solid",
+          "comp_note": "3 eBay sellers with 29, 25, and 11 recorded sales (Jul 2026); new OEM $395, used/refurb marketed near 50% off. Semi-integrated packs track the external market. $200 is conservative for a tested pack.",
+          "base_value_cents": 10000,
+          "upgrade": null
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "RST spring fork, 60mm travel, 26in",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad RST spring fork 26in",
+          "catalog_brand": "RST",
+          "ebay_comp_cents": 8000,
+          "comp_confidence": "estimated",
+          "comp_note": "Multiple pre-owned OEM Rad fork listings at $129.99 on eBay (Jul 2026); asking prices, not solds. Estimated $80.",
+          "base_value_cents": 4000,
+          "upgrade": {
+            "name": "RST Renegade fat bike air fork",
+            "brand": "RST",
+            "category_slug": "suspension",
+            "price_cents": 28900,
+            "note": "Air spring with damping; the stock coil fork is a pogo stick."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "radcity-5-plus",
+      "brand": "Rad Power Bikes",
+      "model": "RadCity 5 Plus",
+      "style": "Commuter",
+      "motor": "750W geared rear hub",
+      "battery": "48V 14Ah (672Wh) semi-integrated",
+      "years": "2021-2025",
+      "tier": "volume",
+      "blurb": "Commuter workhorse with the RadRover 6 Plus electronics in a 27.5 package. Owners swap contact points fast and the battery holds value.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Rad stock padded comfort saddle (Velo)",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Rad stock comfort saddle",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 1500,
+          "comp_confidence": "estimated",
+          "comp_note": "No confirmed sold comps; stock Rad saddles ride along in eBay parts lots around $10-20 (searched Jul 2026). Estimated low.",
+          "base_value_cents": 700,
+          "upgrade": {
+            "name": "Cloud-9 Comfort Airflow saddle",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 3900,
+            "note": "Stock seat is a plank; this is the standard first-week fix."
+          }
+        },
+        {
+          "component": "Grips",
+          "stock_part": "Rad stock rubber grips",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad stock rubber grips",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "Zero standalone resale demand for stock rubber grips; parts-lot filler at best.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Ergon GP1 lock-on grips",
+            "brand": "Ergon",
+            "category_slug": "cockpit",
+            "price_cents": 3500,
+            "note": "Locks on and saves your palms on long throttle days."
+          }
+        },
+        {
+          "component": "Pedals",
+          "stock_part": "Wellgo alloy platform pedals",
+          "swap_likelihood": "common",
+          "catalog_name": "Wellgo stock platform pedals",
+          "catalog_brand": "Wellgo",
+          "ebay_comp_cents": 1000,
+          "comp_confidence": "estimated",
+          "comp_note": "Generic Wellgo takeoffs, filler in parts lots; no standalone sold comps found (Jul 2026). Estimated at $10.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Race Face Chester composite pedals",
+            "brand": "Race Face",
+            "category_slug": "drivetrain",
+            "price_cents": 5500,
+            "note": "Bigger platform and real pins; stock pedals get slick when wet."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "Kenda 27.5x2.0 commuter tires",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Kenda 27.5x2.0 commuter tire pair",
+          "catalog_brand": "Kenda",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "No sold comps for takeoff commuter pairs; new Kendas run $40-55 each (Jul 2026). Estimated $40/pair.",
+          "base_value_cents": 2000,
+          "upgrade": {
+            "name": "Schwalbe Marathon Plus 27.5 (pair)",
+            "brand": "Schwalbe",
+            "category_slug": "tires-wheels",
+            "price_cents": 12500,
+            "note": "Flat-proof commuter rubber; buy once and forget tires exist."
+          }
+        },
+        {
+          "component": "Display",
+          "stock_part": "Rad dual-screen set: LED remote + center LCD",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad dual-screen display set (LED remote + LCD)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4500,
+          "comp_confidence": "estimated",
+          "comp_note": "New Rad UI display sells for $110 at dealers (Jul 2026); no direct sold comps for the dual set. Estimated $45.",
+          "base_value_cents": 2200,
+          "upgrade": {
+            "name": "EggRider V2 Bluetooth Display",
+            "brand": "EggRider",
+            "category_slug": "controllers-displays",
+            "price_cents": 12500,
+            "note": "Bluetooth tuning and real ride data; unlocks settings Rad hides."
+          }
+        },
+        {
+          "component": "Controller",
+          "stock_part": "Rad 48V controller (RadCity 5 gen)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad 48V controller (RadRover 6/RadCity 5 gen)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "Forum-cited $150 eBay sale for a controller + LCD combo (Feb 2022); new Rad controller $110 at dealers (Jul 2026). Alone estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": {
+            "name": "Bolton Ebikes 35A controller + color LCD kit",
+            "brand": "Bolton Ebikes",
+            "category_slug": "controllers-displays",
+            "price_cents": 22900,
+            "note": "Doubles usable power from the stock motor; the classic Rad hot-rod move."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "Rad 48V 14Ah semi-integrated pack",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad 48V 14Ah semi-integrated battery pack",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 20000,
+          "comp_confidence": "solid",
+          "comp_note": "3 eBay sellers with 29, 25, and 11 recorded sales (Jul 2026); new OEM $395, used/refurb marketed near 50% off. $200 is conservative for a tested pack.",
+          "base_value_cents": 10000,
+          "upgrade": null
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "Rad coil suspension fork, 50mm, 27.5in",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad suspension fork 27.5in",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 7000,
+          "comp_confidence": "estimated",
+          "comp_note": "OEM Rad 29in/27.5 forks listed used at $129.99 on eBay (Jul 2026); asking prices, not solds. Estimated $70.",
+          "base_value_cents": 3500,
+          "upgrade": {
+            "name": "Suntour NCX E25 suspension fork",
+            "brand": "Suntour",
+            "category_slug": "suspension",
+            "price_cents": 27000,
+            "note": "Real damping for commuter duty; the stock coil unit dives under braking."
+          }
+        },
+        {
+          "component": "Fenders + rear rack",
+          "stock_part": "Rad fender set + rear rack (27.5)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad fender set + rear rack (27.5)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 3000,
+          "comp_confidence": "estimated",
+          "comp_note": "Takeoff fender and rack sets show up at $20-35 asking on forums and owner groups; no solds confirmed (Jul 2026). Estimated $30.",
+          "base_value_cents": 1500,
+          "upgrade": null
+        }
+      ]
+    },
+    {
+      "slug": "radrunner-2",
+      "brand": "Rad Power Bikes",
+      "model": "RadRunner 2",
+      "style": "Utility",
+      "motor": "750W geared rear hub",
+      "battery": "48V 14Ah (672Wh) external",
+      "years": "2022-2025",
+      "tier": "volume",
+      "blurb": "The budget moped-style runabout. Single speed, LED control pad, external battery. Cheap bike, so takeoffs are cheap, except the battery.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Rad stock padded comfort saddle (Velo)",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Rad stock comfort saddle",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 1500,
+          "comp_confidence": "estimated",
+          "comp_note": "No confirmed sold comps; stock Rad saddles ride along in eBay parts lots around $10-20 (searched Jul 2026). Estimated low.",
+          "base_value_cents": 700,
+          "upgrade": {
+            "name": "Cloud-9 Comfort Airflow saddle",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 3900,
+            "note": "Stock seat is a plank; this is the standard first-week fix."
+          }
+        },
+        {
+          "component": "Grips",
+          "stock_part": "Rad stock rubber grips",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad stock rubber grips",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "Zero standalone resale demand for stock rubber grips; parts-lot filler at best.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Ergon GP1 lock-on grips",
+            "brand": "Ergon",
+            "category_slug": "cockpit",
+            "price_cents": 3500,
+            "note": "Locks on and saves your palms on long throttle days."
+          }
+        },
+        {
+          "component": "Pedals",
+          "stock_part": "Wellgo alloy platform pedals",
+          "swap_likelihood": "common",
+          "catalog_name": "Wellgo stock platform pedals",
+          "catalog_brand": "Wellgo",
+          "ebay_comp_cents": 1000,
+          "comp_confidence": "estimated",
+          "comp_note": "Generic Wellgo takeoffs, filler in parts lots; no standalone sold comps found (Jul 2026). Estimated at $10.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Race Face Chester composite pedals",
+            "brand": "Race Face",
+            "category_slug": "drivetrain",
+            "price_cents": 5500,
+            "note": "Bigger platform and real pins; stock pedals get slick when wet."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "Kenda K-Rad 20x3.3 pair (K-Shield)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Kenda K-Rad 20x3.3 tire pair",
+          "catalog_brand": "Kenda",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "New $54.95 each at Rad dealers (Jul 2026); no confirmed used sales found. Pair estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": null
+        },
+        {
+          "component": "Display",
+          "stock_part": "Rad LED control pad",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad LED control pad",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Small proprietary pad; parts-lot item, no standalone sold comps found (Jul 2026). Estimated $20.",
+          "base_value_cents": 1000,
+          "upgrade": {
+            "name": "Rad LCD Display Upgrade",
+            "brand": "Rad Power Bikes",
+            "category_slug": "controllers-displays",
+            "price_cents": 9900,
+            "note": "Rad's own LCD kit; adds real speed and battery readout to the base pad."
+          }
+        },
+        {
+          "component": "Controller",
+          "stock_part": "Rad 48V external controller",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad 48V external controller",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "Forum-cited $150 eBay sale for a 15A controller + LCD combo (Feb 2022); new controllers $110 at dealers (Jul 2026). Alone estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": {
+            "name": "Bolton Ebikes 35A controller + color LCD kit",
+            "brand": "Bolton Ebikes",
+            "category_slug": "controllers-displays",
+            "price_cents": 22900,
+            "note": "Doubles usable power from the stock motor; the classic Rad hot-rod move."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "Rad 48V 14Ah external pack",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad 48V 14Ah external battery pack",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 20000,
+          "comp_confidence": "solid",
+          "comp_note": "3 eBay sellers with 29, 25, and 11 recorded sales (Jul 2026); new OEM $395, used/refurb marketed near 50% off. $200 is conservative for a tested pack.",
+          "base_value_cents": 10000,
+          "upgrade": null
+        }
+      ]
+    },
+    {
+      "slug": "radrunner-3-plus",
+      "brand": "Rad Power Bikes",
+      "model": "RadRunner 3 Plus",
+      "style": "Utility",
+      "motor": "750W geared rear hub",
+      "battery": "48V 14Ah (672Wh)",
+      "years": "2023-2026",
+      "tier": "volume",
+      "blurb": "2023 refresh of the RadRunner with hydraulic brakes and a suspension fork. Newer proprietary electronics mean a thin used market for now.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Rad stock padded comfort saddle (Velo)",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Rad stock comfort saddle",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 1500,
+          "comp_confidence": "estimated",
+          "comp_note": "No confirmed sold comps; stock Rad saddles ride along in eBay parts lots around $10-20 (searched Jul 2026). Estimated low.",
+          "base_value_cents": 700,
+          "upgrade": {
+            "name": "Cloud-9 Comfort Airflow saddle",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 3900,
+            "note": "Stock seat is a plank; this is the standard first-week fix."
+          }
+        },
+        {
+          "component": "Pedals",
+          "stock_part": "Wellgo alloy platform pedals",
+          "swap_likelihood": "common",
+          "catalog_name": "Wellgo stock platform pedals",
+          "catalog_brand": "Wellgo",
+          "ebay_comp_cents": 1000,
+          "comp_confidence": "estimated",
+          "comp_note": "Generic Wellgo takeoffs, filler in parts lots; no standalone sold comps found (Jul 2026). Estimated at $10.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Race Face Chester composite pedals",
+            "brand": "Race Face",
+            "category_slug": "drivetrain",
+            "price_cents": 5500,
+            "note": "Bigger platform and real pins; stock pedals get slick when wet."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "Kenda 20x3.3 K-Shield tires",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Kenda 20x3.3 K-Shield tire pair (RadRunner 3)",
+          "catalog_brand": "Kenda",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "New Kenda 20x3.3 runs $54.95 each at dealers (Jul 2026); no used solds found for this generation. Estimated $40/pair.",
+          "base_value_cents": 2000,
+          "upgrade": null
+        },
+        {
+          "component": "Display",
+          "stock_part": "Rad UI display w/ backlit remote",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad UI display",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4500,
+          "comp_confidence": "estimated",
+          "comp_note": "New Rad UI display is $110 at Mostly e-Bikes (Jul 2026); used market on 2023+ parts is thin, no solds found. Estimated $45.",
+          "base_value_cents": 2200,
+          "upgrade": null
+        },
+        {
+          "component": "Controller",
+          "stock_part": "Rad 48V controller (2023+ platform)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad 48V controller (2023+ models)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "New RadRunner 3 wiring and controllers stocked at dealers ($49-110, Jul 2026); no used solds found. Aftermarket kits do not target this platform yet. Estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": null
+        },
+        {
+          "component": "Battery",
+          "stock_part": "Rad 48V 14Ah pack (RadRunner 3)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "RadRunner 3 Plus 48V 14Ah battery",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 18000,
+          "comp_confidence": "estimated",
+          "comp_note": "No sold comps for the 2023+ pack; the older 14Ah externals sell used around $200 with real volume. Newer pack but thinner spares demand so far. Estimated $180.",
+          "base_value_cents": 9000,
+          "upgrade": null
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "Rad suspension fork, 20in",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad suspension fork 20in (2023+ models)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 7000,
+          "comp_confidence": "estimated",
+          "comp_note": "OEM Rad forks list used around $129.99 on eBay (Jul 2026); the 20in current-gen version had no direct comps. Estimated $70.",
+          "base_value_cents": 3500,
+          "upgrade": null
+        }
+      ]
+    },
+    {
+      "slug": "radrunner-plus",
+      "brand": "Rad Power Bikes",
+      "model": "RadRunner Plus",
+      "style": "Utility",
+      "motor": "750W geared rear hub",
+      "battery": "48V 14Ah (672Wh) external",
+      "years": "2020-2022",
+      "tier": "volume",
+      "blurb": "Gen 1 RadRunner with the works: LCD, suspension fork, fenders, passenger-ready. Discontinued, so its parts feed the big RadRunner fleet still on the road.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Rad stock padded comfort saddle (Velo)",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Rad stock comfort saddle",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 1500,
+          "comp_confidence": "estimated",
+          "comp_note": "No confirmed sold comps; stock Rad saddles ride along in eBay parts lots around $10-20 (searched Jul 2026). Estimated low.",
+          "base_value_cents": 700,
+          "upgrade": {
+            "name": "Cloud-9 Comfort Airflow saddle",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 3900,
+            "note": "Stock seat is a plank; this is the standard first-week fix."
+          }
+        },
+        {
+          "component": "Pedals",
+          "stock_part": "Wellgo alloy platform pedals",
+          "swap_likelihood": "common",
+          "catalog_name": "Wellgo stock platform pedals",
+          "catalog_brand": "Wellgo",
+          "ebay_comp_cents": 1000,
+          "comp_confidence": "estimated",
+          "comp_note": "Generic Wellgo takeoffs, filler in parts lots; no standalone sold comps found (Jul 2026). Estimated at $10.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Race Face Chester composite pedals",
+            "brand": "Race Face",
+            "category_slug": "drivetrain",
+            "price_cents": 5500,
+            "note": "Bigger platform and real pins; stock pedals get slick when wet."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "Kenda K-Rad 20x3.3 pair (K-Shield)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Kenda K-Rad 20x3.3 tire pair",
+          "catalog_brand": "Kenda",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "New $54.95 each at Rad dealers (Jul 2026); no confirmed used sales found. Pair estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": null
+        },
+        {
+          "component": "Display",
+          "stock_part": "Rad LCD (King Meter SW-LCD) + remote",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad LCD display (King Meter SW-LCD)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "One forum-cited eBay sale: 15A controller + LCD together for $150 (Feb 2022). New Rad LCD upgrade runs about $130. Display alone estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": {
+            "name": "EggRider V2 Bluetooth Display",
+            "brand": "EggRider",
+            "category_slug": "controllers-displays",
+            "price_cents": 12500,
+            "note": "Bluetooth tuning and real ride data; unlocks settings Rad hides."
+          }
+        },
+        {
+          "component": "Controller",
+          "stock_part": "Rad 48V external controller",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad 48V external controller",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "Forum-cited $150 eBay sale for a 15A controller + LCD combo (Feb 2022); new controllers $110 at dealers (Jul 2026). Alone estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": {
+            "name": "Bolton Ebikes 35A controller + color LCD kit",
+            "brand": "Bolton Ebikes",
+            "category_slug": "controllers-displays",
+            "price_cents": 22900,
+            "note": "Doubles usable power from the stock motor; the classic Rad hot-rod move."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "Rad 48V 14Ah external pack",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad 48V 14Ah external battery pack",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 20000,
+          "comp_confidence": "solid",
+          "comp_note": "3 eBay sellers with 29, 25, and 11 recorded sales (Jul 2026); new OEM $395, used/refurb marketed near 50% off. $200 is conservative for a tested pack.",
+          "base_value_cents": 10000,
+          "upgrade": null
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "RST spring fork, 20in (RadRunner Plus)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "RST spring fork 20in (RadRunner Plus)",
+          "catalog_brand": "RST",
+          "ebay_comp_cents": 6000,
+          "comp_confidence": "estimated",
+          "comp_note": "No direct comps for the 20in RST unit; smaller and cheaper than the 26in OEM Rad forks listed used at $129.99 (Jul 2026). Estimated $60.",
+          "base_value_cents": 3000,
+          "upgrade": null
+        },
+        {
+          "component": "Fenders",
+          "stock_part": "Rad full fender set (20in)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "RadRunner fender set",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 2500,
+          "comp_confidence": "estimated",
+          "comp_note": "Takeoff fender sets show up at $20-35 asking on forums and owner groups; no solds confirmed (Jul 2026). Estimated $25.",
+          "base_value_cents": 1200,
+          "upgrade": null
+        }
+      ]
+    },
+    {
+      "slug": "radwagon-4",
+      "brand": "Rad Power Bikes",
+      "model": "RadWagon 4",
+      "style": "Cargo",
+      "motor": "750W geared rear hub",
+      "battery": "48V 14Ah (672Wh) external",
+      "years": "2020-2023",
+      "tier": "volume",
+      "blurb": "The 22-inch-wheel cargo hauler with the infamous tire recall. Never resell the stock tires. Everything else trades like standard Rad kit.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Rad stock padded comfort saddle (Velo)",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Rad stock comfort saddle",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 1500,
+          "comp_confidence": "estimated",
+          "comp_note": "No confirmed sold comps; stock Rad saddles ride along in eBay parts lots around $10-20 (searched Jul 2026). Estimated low.",
+          "base_value_cents": 700,
+          "upgrade": {
+            "name": "Cloud-9 Comfort Airflow saddle",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 3900,
+            "note": "Stock seat is a plank; this is the standard first-week fix."
+          }
+        },
+        {
+          "component": "Pedals",
+          "stock_part": "Wellgo alloy platform pedals",
+          "swap_likelihood": "common",
+          "catalog_name": "Wellgo stock platform pedals",
+          "catalog_brand": "Wellgo",
+          "ebay_comp_cents": 1000,
+          "comp_confidence": "estimated",
+          "comp_note": "Generic Wellgo takeoffs, filler in parts lots; no standalone sold comps found (Jul 2026). Estimated at $10.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Race Face Chester composite pedals",
+            "brand": "Race Face",
+            "category_slug": "drivetrain",
+            "price_cents": 5500,
+            "note": "Bigger platform and real pins; stock pedals get slick when wet."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "Vee Tire 22x3 custom tires (recalled)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Vee Tire 22x3 tire pair (RadWagon 4, recalled)",
+          "catalog_brand": "Vee Tire Co",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "CPSC recall Nov 2022 after 137 blowout and separation reports and 8 injuries. Do not buy, credit, or resell these. No legitimate market.",
+          "base_value_cents": 0,
+          "upgrade": null
+        },
+        {
+          "component": "Display",
+          "stock_part": "Rad LCD (King Meter SW-LCD) + remote",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad LCD display (King Meter SW-LCD)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "One forum-cited eBay sale: 15A controller + LCD together for $150 (Feb 2022). New Rad LCD upgrade runs about $130. Display alone estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": {
+            "name": "EggRider V2 Bluetooth Display",
+            "brand": "EggRider",
+            "category_slug": "controllers-displays",
+            "price_cents": 12500,
+            "note": "Bluetooth tuning and real ride data; unlocks settings Rad hides."
+          }
+        },
+        {
+          "component": "Controller",
+          "stock_part": "Rad 48V external controller",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad 48V external controller",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "Forum-cited $150 eBay sale for a 15A controller + LCD combo (Feb 2022); new controllers $110 at dealers (Jul 2026). Alone estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": {
+            "name": "Bolton Ebikes 35A controller + color LCD kit",
+            "brand": "Bolton Ebikes",
+            "category_slug": "controllers-displays",
+            "price_cents": 22900,
+            "note": "Doubles usable power from the stock motor; a common fix for loaded cargo climbs."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "Rad 48V 14Ah external pack",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad 48V 14Ah external battery pack",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 20000,
+          "comp_confidence": "solid",
+          "comp_note": "3 eBay sellers with 29, 25, and 11 recorded sales (Jul 2026); new OEM $395, used/refurb marketed near 50% off. $200 is conservative for a tested pack.",
+          "base_value_cents": 10000,
+          "upgrade": null
+        },
+        {
+          "component": "Cargo deck",
+          "stock_part": "RadWagon wood deck + running boards",
+          "swap_likelihood": "occasional",
+          "catalog_name": "RadWagon 4 deck + running boards",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 3000,
+          "comp_confidence": "estimated",
+          "comp_note": "RadWagon deck hardware trades on owner groups at $30-50 asking; no solds confirmed (Jul 2026). Estimated $30.",
+          "base_value_cents": 1500,
+          "upgrade": null
+        }
+      ]
+    },
+    {
+      "slug": "radwagon-5",
+      "brand": "Rad Power Bikes",
+      "model": "RadWagon 5",
+      "style": "Cargo",
+      "motor": "750W geared rear hub (90Nm)",
+      "battery": "48V 15Ah (720Wh) Safe Shield",
+      "years": "2024-2026",
+      "tier": "volume",
+      "blurb": "2024 cargo redo: torque sensor, 720Wh Safe Shield pack, hydraulic brakes, standard 20-inch wheels. Too new for a real takeoff market yet.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Rad stock padded comfort saddle (Velo)",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Rad stock comfort saddle",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 1500,
+          "comp_confidence": "estimated",
+          "comp_note": "No confirmed sold comps; stock Rad saddles ride along in eBay parts lots around $10-20 (searched Jul 2026). Estimated low.",
+          "base_value_cents": 700,
+          "upgrade": {
+            "name": "Cloud-9 Comfort Airflow saddle",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 3900,
+            "note": "Stock seat is a plank; this is the standard first-week fix."
+          }
+        },
+        {
+          "component": "Pedals",
+          "stock_part": "Wellgo alloy platform pedals",
+          "swap_likelihood": "common",
+          "catalog_name": "Wellgo stock platform pedals",
+          "catalog_brand": "Wellgo",
+          "ebay_comp_cents": 1000,
+          "comp_confidence": "estimated",
+          "comp_note": "Generic Wellgo takeoffs, filler in parts lots; no standalone sold comps found (Jul 2026). Estimated at $10.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Race Face Chester composite pedals",
+            "brand": "Race Face",
+            "category_slug": "drivetrain",
+            "price_cents": 5500,
+            "note": "Bigger platform and real pins; stock pedals get slick when wet."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "20x3.0 street tires (standard size)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "RadWagon 5 20x3.0 tire pair",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "Bike launched Apr 2024; takeoffs scarce and no used solds found. Standard 20in sizing helps future demand. Estimated $40/pair.",
+          "base_value_cents": 2000,
+          "upgrade": null
+        },
+        {
+          "component": "Display",
+          "stock_part": "Rad UI display w/ remote",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad UI display",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4500,
+          "comp_confidence": "estimated",
+          "comp_note": "New Rad UI display is $110 at Mostly e-Bikes (Jul 2026); used market on 2024+ parts is thin, no solds found. Estimated $45.",
+          "base_value_cents": 2200,
+          "upgrade": null
+        },
+        {
+          "component": "Battery",
+          "stock_part": "Rad Safe Shield 48V 15Ah (720Wh) pack",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad Safe Shield 48V 15Ah battery (720Wh)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 22000,
+          "comp_confidence": "estimated",
+          "comp_note": "Safe Shield packs run $479-599 new at dealers (Jul 2026); no used solds found yet. UL-certified pack should hold value but evidence is thin. Estimated $220.",
+          "base_value_cents": 11000,
+          "upgrade": null
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "Rad suspension fork, bolt-on thru-axle, 20in",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad suspension fork 20in (2023+ models)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 7000,
+          "comp_confidence": "estimated",
+          "comp_note": "OEM Rad forks list used around $129.99 on eBay, including a 17in RadWagon unit (Jul 2026); asking not sold. Estimated $70.",
+          "base_value_cents": 3500,
+          "upgrade": null
+        },
+        {
+          "component": "Cargo deck",
+          "stock_part": "RadWagon 5 deck + running boards",
+          "swap_likelihood": "occasional",
+          "catalog_name": "RadWagon 5 deck + running boards",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 3000,
+          "comp_confidence": "estimated",
+          "comp_note": "Owner-group asking prices $30-50 for deck hardware; no solds confirmed (Jul 2026). Estimated $30.",
+          "base_value_cents": 1500,
+          "upgrade": null
+        }
+      ]
+    },
+    {
+      "slug": "radexpand-5",
+      "brand": "Rad Power Bikes",
+      "model": "RadExpand 5",
+      "style": "Folding",
+      "motor": "750W geared rear hub",
+      "battery": "48V 14Ah (672Wh) external",
+      "years": "2022-2024",
+      "tier": "volume",
+      "blurb": "Folding 20x4 runabout on the classic Rad external-battery platform. Same electronics as the old fleet, so parts cross over.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Rad stock padded comfort saddle (Velo)",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Rad stock comfort saddle",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 1500,
+          "comp_confidence": "estimated",
+          "comp_note": "No confirmed sold comps; stock Rad saddles ride along in eBay parts lots around $10-20 (searched Jul 2026). Estimated low.",
+          "base_value_cents": 700,
+          "upgrade": {
+            "name": "Cloud-9 Comfort Airflow saddle",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 3900,
+            "note": "Stock seat is a plank; this is the standard first-week fix."
+          }
+        },
+        {
+          "component": "Pedals",
+          "stock_part": "Wellgo folding platform pedals",
+          "swap_likelihood": "common",
+          "catalog_name": "Wellgo stock platform pedals",
+          "catalog_brand": "Wellgo",
+          "ebay_comp_cents": 1000,
+          "comp_confidence": "estimated",
+          "comp_note": "Generic Wellgo takeoffs, filler in parts lots; no standalone sold comps found (Jul 2026). Estimated at $10.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Race Face Chester composite pedals",
+            "brand": "Race Face",
+            "category_slug": "drivetrain",
+            "price_cents": 5500,
+            "note": "Bigger platform and real pins; stock pedals get slick when wet."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "Kenda 20x4 tires (K-Shield)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Kenda 20x4 folding-bike tire pair",
+          "catalog_brand": "Kenda",
+          "ebay_comp_cents": 4500,
+          "comp_confidence": "estimated",
+          "comp_note": "No sold comps found; 20x4 is a common small-fat size with steady demand from other brands too. Estimated $45/pair.",
+          "base_value_cents": 2200,
+          "upgrade": {
+            "name": "Vee Tire Speedster 20x4 (pair)",
+            "brand": "Vee Tire Co",
+            "category_slug": "tires-wheels",
+            "price_cents": 12000,
+            "note": "Faster street rubber for the 20x4 rims; quieter than the stock tread."
+          }
+        },
+        {
+          "component": "Display",
+          "stock_part": "Rad LCD (King Meter SW-LCD) + remote",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad LCD display (King Meter SW-LCD)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "One forum-cited eBay sale: 15A controller + LCD together for $150 (Feb 2022). New Rad LCD upgrade runs about $130. Display alone estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": {
+            "name": "EggRider V2 Bluetooth Display",
+            "brand": "EggRider",
+            "category_slug": "controllers-displays",
+            "price_cents": 12500,
+            "note": "Bluetooth tuning and real ride data; unlocks settings Rad hides."
+          }
+        },
+        {
+          "component": "Controller",
+          "stock_part": "Rad 48V external controller",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad 48V external controller",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "Forum-cited $150 eBay sale for a 15A controller + LCD combo (Feb 2022); new controllers $110 at dealers (Jul 2026). Alone estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": {
+            "name": "Bolton Ebikes 35A controller + color LCD kit",
+            "brand": "Bolton Ebikes",
+            "category_slug": "controllers-displays",
+            "price_cents": 22900,
+            "note": "Doubles usable power from the stock motor; the classic Rad hot-rod move."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "Rad 48V 14Ah external pack",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad 48V 14Ah external battery pack",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 20000,
+          "comp_confidence": "solid",
+          "comp_note": "3 eBay sellers with 29, 25, and 11 recorded sales (Jul 2026); new OEM $395, used/refurb marketed near 50% off. $200 is conservative for a tested pack.",
+          "base_value_cents": 10000,
+          "upgrade": null
+        }
+      ]
+    },
+    {
+      "slug": "radmission-1",
+      "brand": "Rad Power Bikes",
+      "model": "RadMission 1",
+      "style": "City",
+      "motor": "500W geared rear hub",
+      "battery": "48V 10.5Ah (504Wh) external",
+      "years": "2020-2022",
+      "tier": "volume",
+      "blurb": "Discontinued single-speed city bike on a lighter 500W platform. Batteries are the only takeoff with real legs; owners hunt spares.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Rad stock padded comfort saddle (Velo)",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Rad stock comfort saddle",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 1500,
+          "comp_confidence": "estimated",
+          "comp_note": "No confirmed sold comps; stock Rad saddles ride along in eBay parts lots around $10-20 (searched Jul 2026). Estimated low.",
+          "base_value_cents": 700,
+          "upgrade": {
+            "name": "Cloud-9 Comfort Airflow saddle",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 3900,
+            "note": "Stock seat is a plank; this is the standard first-week fix."
+          }
+        },
+        {
+          "component": "Pedals",
+          "stock_part": "Wellgo alloy platform pedals",
+          "swap_likelihood": "common",
+          "catalog_name": "Wellgo stock platform pedals",
+          "catalog_brand": "Wellgo",
+          "ebay_comp_cents": 1000,
+          "comp_confidence": "estimated",
+          "comp_note": "Generic Wellgo takeoffs, filler in parts lots; no standalone sold comps found (Jul 2026). Estimated at $10.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Race Face Chester composite pedals",
+            "brand": "Race Face",
+            "category_slug": "drivetrain",
+            "price_cents": 5500,
+            "note": "Bigger platform and real pins; stock pedals get slick when wet."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "Kenda 27.5 street tires",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Kenda 27.5 tire pair (RadMission)",
+          "catalog_brand": "Kenda",
+          "ebay_comp_cents": 3000,
+          "comp_confidence": "estimated",
+          "comp_note": "Thin market on a discontinued bike; no solds found. Estimated $30/pair.",
+          "base_value_cents": 1500,
+          "upgrade": {
+            "name": "Schwalbe Marathon Plus 27.5 (pair)",
+            "brand": "Schwalbe",
+            "category_slug": "tires-wheels",
+            "price_cents": 12500,
+            "note": "Flat-proof commuter rubber; buy once and forget tires exist."
+          }
+        },
+        {
+          "component": "Display",
+          "stock_part": "Rad LED control pad",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad LED control pad",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 2000,
+          "comp_confidence": "estimated",
+          "comp_note": "Small proprietary pad; parts-lot item, no standalone sold comps found (Jul 2026). Estimated $20.",
+          "base_value_cents": 1000,
+          "upgrade": {
+            "name": "Rad LCD Display Upgrade",
+            "brand": "Rad Power Bikes",
+            "category_slug": "controllers-displays",
+            "price_cents": 9900,
+            "note": "Rad's own LCD kit; adds real speed and battery readout to the base pad."
+          }
+        },
+        {
+          "component": "Controller",
+          "stock_part": "Rad 500W controller (RadMission)",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad 500W controller (RadMission)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 3500,
+          "comp_confidence": "estimated",
+          "comp_note": "500W platform has thinner demand than the 750W Rads; no comps found (Jul 2026). Estimated $35.",
+          "base_value_cents": 1700,
+          "upgrade": null
+        },
+        {
+          "component": "Battery",
+          "stock_part": "Rad 48V 10.5Ah external pack",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad 48V 10.5Ah external battery (RadMission)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 15000,
+          "comp_confidence": "estimated",
+          "comp_note": "Discontinued bike keeps spares demand alive but the pack is smaller (504Wh) and no direct solds surfaced; 14Ah packs sell ~$200 with volume. Estimated $150.",
+          "base_value_cents": 7500,
+          "upgrade": null
+        },
+        {
+          "component": "Brakes",
+          "stock_part": "Tektro Aries mechanical disc calipers",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Tektro Aries mechanical disc caliper set",
+          "catalog_brand": "Tektro",
+          "ebay_comp_cents": 2500,
+          "comp_confidence": "estimated",
+          "comp_note": "Mechanical Tektro calipers move as cheap pairs in parts lots; no standalone solds found (Jul 2026). Estimated $25/set.",
+          "base_value_cents": 1200,
+          "upgrade": {
+            "name": "Tektro HD-E350 hydraulic brake set",
+            "brand": "Tektro",
+            "category_slug": "brakes",
+            "price_cents": 13000,
+            "note": "Hydraulic stoppers made for heavy e-bikes; mechanicals need constant cable fiddling."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "radrover-5",
+      "brand": "Rad Power Bikes",
+      "model": "RadRover 5",
+      "style": "Fat tire",
+      "motor": "750W geared rear hub",
+      "battery": "48V 14Ah (672Wh) external",
+      "years": "2019-2021",
+      "tier": "volume",
+      "blurb": "The classic external-battery fat bike that built Rad. Biggest mod community of the bunch; Bolton kits, tire swaps and hydraulic conversions are routine.",
+      "stock_parts": [
+        {
+          "component": "Saddle",
+          "stock_part": "Rad stock padded comfort saddle (Velo)",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Rad stock comfort saddle",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 1500,
+          "comp_confidence": "estimated",
+          "comp_note": "No confirmed sold comps; stock Rad saddles ride along in eBay parts lots around $10-20 (searched Jul 2026). Estimated low.",
+          "base_value_cents": 700,
+          "upgrade": {
+            "name": "Cloud-9 Comfort Airflow saddle",
+            "brand": "Cloud-9",
+            "category_slug": "cockpit",
+            "price_cents": 3900,
+            "note": "Stock seat is a plank; this is the standard first-week fix."
+          }
+        },
+        {
+          "component": "Pedals",
+          "stock_part": "Wellgo alloy platform pedals",
+          "swap_likelihood": "very_common",
+          "catalog_name": "Wellgo stock platform pedals",
+          "catalog_brand": "Wellgo",
+          "ebay_comp_cents": 1000,
+          "comp_confidence": "estimated",
+          "comp_note": "Generic Wellgo takeoffs, filler in parts lots; no standalone sold comps found (Jul 2026). Estimated at $10.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "Race Face Chester composite pedals",
+            "brand": "Race Face",
+            "category_slug": "drivetrain",
+            "price_cents": 5500,
+            "note": "Bigger platform and real pins; stock pedals get slick when wet."
+          }
+        },
+        {
+          "component": "Tires",
+          "stock_part": "Kenda Juggernaut 26x4 tire pair",
+          "swap_likelihood": "common",
+          "catalog_name": "Kenda Juggernaut 26x4 tire pair",
+          "catalog_brand": "Kenda",
+          "ebay_comp_cents": 5000,
+          "comp_confidence": "estimated",
+          "comp_note": "New pair runs $110-250 retail (Kenda, Rad, eBay listings Jul 2026); active used listings seen but zero confirmed sold takeoff pairs. Estimated $50/pair.",
+          "base_value_cents": 2500,
+          "upgrade": {
+            "name": "Origin8 Supercell 26x4 street tires (pair)",
+            "brand": "Origin8",
+            "category_slug": "tires-wheels",
+            "price_cents": 12000,
+            "note": "Street slick pair; multiple RadRover owners on EBR forums run these on day one."
+          }
+        },
+        {
+          "component": "Display",
+          "stock_part": "Rad LCD (King Meter SW-LCD) + remote",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad LCD display (King Meter SW-LCD)",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "One forum-cited eBay sale: 15A controller + LCD together for $150 (Feb 2022). New Rad LCD upgrade runs about $130. Display alone estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": {
+            "name": "EggRider V2 Bluetooth Display",
+            "brand": "EggRider",
+            "category_slug": "controllers-displays",
+            "price_cents": 12500,
+            "note": "Bluetooth tuning and real ride data; the go-to display swap on this platform."
+          }
+        },
+        {
+          "component": "Controller",
+          "stock_part": "Rad 48V 15A external controller",
+          "swap_likelihood": "common",
+          "catalog_name": "Rad 48V external controller",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 4000,
+          "comp_confidence": "estimated",
+          "comp_note": "Forum-cited $150 eBay sale for the 15A controller + LCD combo (Feb 2022); new controllers $110 at dealers (Jul 2026). Alone estimated $40.",
+          "base_value_cents": 2000,
+          "upgrade": {
+            "name": "Bolton Ebikes 35A controller + color LCD kit",
+            "brand": "Bolton Ebikes",
+            "category_slug": "controllers-displays",
+            "price_cents": 22900,
+            "note": "The kit that made Bolton famous; doubles power on the RadRover 5 platform."
+          }
+        },
+        {
+          "component": "Battery",
+          "stock_part": "Rad 48V 14Ah external pack",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad 48V 14Ah external battery pack",
+          "catalog_brand": "Rad Power Bikes",
+          "ebay_comp_cents": 20000,
+          "comp_confidence": "solid",
+          "comp_note": "3 eBay sellers with 29, 25, and 11 recorded sales (Jul 2026); new OEM $395, used/refurb marketed near 50% off. $200 is conservative for a tested pack.",
+          "base_value_cents": 10000,
+          "upgrade": null
+        },
+        {
+          "component": "Suspension fork",
+          "stock_part": "RST spring fork, 26in",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Rad RST spring fork 26in",
+          "catalog_brand": "RST",
+          "ebay_comp_cents": 8000,
+          "comp_confidence": "estimated",
+          "comp_note": "Multiple pre-owned OEM Rad fork listings at $129.99 on eBay (Jul 2026); asking prices, not solds. Estimated $80.",
+          "base_value_cents": 4000,
+          "upgrade": {
+            "name": "RST Renegade fat bike air fork",
+            "brand": "RST",
+            "category_slug": "suspension",
+            "price_cents": 28900,
+            "note": "Air spring with damping; the stock coil fork is a pogo stick."
+          }
+        },
+        {
+          "component": "Brakes",
+          "stock_part": "Tektro Aries mechanical disc calipers",
+          "swap_likelihood": "common",
+          "catalog_name": "Tektro Aries mechanical disc caliper set",
+          "catalog_brand": "Tektro",
+          "ebay_comp_cents": 2500,
+          "comp_confidence": "estimated",
+          "comp_note": "Mechanical Tektro calipers move as cheap pairs in parts lots; no standalone solds found (Jul 2026). Estimated $25/set.",
+          "base_value_cents": 1200,
+          "upgrade": {
+            "name": "Tektro HD-E350 hydraulic brake set",
+            "brand": "Tektro",
+            "category_slug": "brakes",
+            "price_cents": 13000,
+            "note": "Hydraulic stoppers made for heavy e-bikes; mechanicals fade fast on a 70 lb fat bike."
+          }
+        },
+        {
+          "component": "Freewheel",
+          "stock_part": "Shimano MF-TZ500 14-28 7sp freewheel",
+          "swap_likelihood": "occasional",
+          "catalog_name": "Shimano 14-28 7-speed freewheel",
+          "catalog_brand": "Shimano",
+          "ebay_comp_cents": null,
+          "comp_confidence": "estimated",
+          "comp_note": "Worn wear item with no used market; new ones cost $15.",
+          "base_value_cents": 500,
+          "upgrade": {
+            "name": "DNP Epoch 11-32 nickel freewheel",
+            "brand": "DNP",
+            "category_slug": "drivetrain",
+            "price_cents": 4500,
+            "note": "Taller top gear so you can pedal past 20 mph instead of ghost pedaling."
+          }
+        }
+      ]
+    }
+  ]
+}
