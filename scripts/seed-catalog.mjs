@@ -21,6 +21,7 @@ if (!KEY) {
   process.exit(1);
 }
 const EXECUTE = process.argv.includes("--execute");
+const DIR_ARG = process.argv.find((a) => a.startsWith("--dir="))?.slice(6) ?? "catalog-research";
 
 const H = {
   apikey: KEY,
@@ -96,7 +97,7 @@ function categoryFor(component, upgradeSlug) {
 }
 
 async function main() {
-  const dir = path.join(process.cwd(), "data", "catalog-research");
+  const dir = path.join(process.cwd(), "data", DIR_ARG);
   const dossiers = readdirSync(dir)
     .filter((f) => f.endsWith(".json"))
     .map((f) => JSON.parse(readFileSync(path.join(dir, f), "utf8")));
@@ -118,7 +119,12 @@ async function main() {
   const bikeByKey = new Map(dbBikes.map((b) => [norm(b.brand + b.model), b]));
   const bikeBySlug = new Map(dbBikes.map((b) => [b.slug, b]));
   const productByKey = new Map(dbProducts.map((p) => [norm(p.brand + p.name), p]));
-  const oldGenericCatalogIds = dbCatalog.filter((c) => c.brand === "OEM").map((c) => c.id);
+  const oldGenericCatalogIds = dbCatalog.filter((c) => c.brand === "OEM" && c.active).map((c) => c.id);
+  // Re-seed support: match active model-specific entries by name so a second
+  // run patches instead of duplicating.
+  const existingCatalogByName = new Map(
+    dbCatalog.filter((c) => c.active && c.brand !== "OEM").map((c) => [norm(c.name), c])
+  );
 
   const report = { newBikes: [], matchedBikes: [], newProducts: [], matchedProducts: [], clamps: [], warnings: [] };
 
@@ -163,6 +169,11 @@ async function main() {
       const u = p.upgrade;
       if (!u) continue;
       if (p.swap_likelihood === "occasional") continue;
+      // DB product names carry the brand as a separate field; strip a
+      // duplicated leading brand from the upgrade name before matching.
+      if (u.name.toLowerCase().startsWith(u.brand.toLowerCase() + " ")) {
+        u.name = u.name.slice(u.brand.length + 1);
+      }
       const key = norm(u.brand + u.name);
       if (productsOut.has(key)) continue;
       const existing = productByKey.get(key) ?? dbProducts.find((dp) => norm(dp.name) === norm(u.name));
@@ -269,14 +280,27 @@ async function main() {
   }
   console.log(`inserted ${insertedProducts.length} products`);
 
-  // catalog entries (all new, model-specific)
-  const catalogRows = [...catalogOut.values()].map((c) => ({
-    ...c.row,
-    replaces_with_product_id: c.upgradeKey ? (productIdByKey.get(c.upgradeKey) ?? null) : null,
-  }));
-  const insertedCatalog = await insertChunked("trade_in_catalog", catalogRows);
-  const catalogIdByName = new Map(insertedCatalog.map((c) => [norm(c.name), c.id]));
-  console.log(`inserted ${insertedCatalog.length} catalog entries`);
+  // catalog entries: patch entries whose name matches an active row, insert the rest
+  const catalogIdByName = new Map();
+  const toInsert = [];
+  let patched = 0;
+  for (const c of catalogOut.values()) {
+    const row = {
+      ...c.row,
+      replaces_with_product_id: c.upgradeKey ? (productIdByKey.get(c.upgradeKey) ?? null) : null,
+    };
+    const existing = existingCatalogByName.get(norm(row.name));
+    if (existing) {
+      await rest(`trade_in_catalog?id=eq.${existing.id}`, { method: "PATCH", body: JSON.stringify(row) });
+      catalogIdByName.set(norm(row.name), existing.id);
+      patched++;
+    } else {
+      toInsert.push(row);
+    }
+  }
+  const insertedCatalog = await insertChunked("trade_in_catalog", toInsert);
+  for (const c of insertedCatalog) catalogIdByName.set(norm(c.name), c.id);
+  console.log(`patched ${patched} catalog entries, inserted ${insertedCatalog.length}`);
 
   // bikes: patch existing, insert new
   const bikeIdBySlug = new Map();
@@ -305,6 +329,7 @@ async function main() {
         stock_part: p.stock_part,
         swap_likelihood: p.swap_likelihood,
         sort: i + 1,
+        years: p.years ?? null,
       });
     });
   }
@@ -312,11 +337,27 @@ async function main() {
   console.log(`rebuilt ${partRows.length} bike_stock_parts rows`);
 
   // deactivate old generic entries last
-  await rest(`trade_in_catalog?id=in.(${oldGenericCatalogIds.join(",")})`, {
-    method: "PATCH",
-    body: JSON.stringify({ active: false }),
-  });
-  console.log(`deactivated ${oldGenericCatalogIds.length} generic catalog entries`);
+  if (oldGenericCatalogIds.length) {
+    await rest(`trade_in_catalog?id=in.(${oldGenericCatalogIds.join(",")})`, {
+      method: "PATCH",
+      body: JSON.stringify({ active: false }),
+    });
+    console.log(`deactivated ${oldGenericCatalogIds.length} generic catalog entries`);
+  }
+
+  // retire active entries that no mapping references anymore (superseded by
+  // year-variant splits); trade_in_items FKs keep the rows, just inactive
+  const freshParts = await fetchAll("bike_stock_parts", "catalog_id");
+  const referenced = new Set(freshParts.map((r) => r.catalog_id).filter(Boolean));
+  const activeNow = await fetchAll("trade_in_catalog", "id,active");
+  const orphaned = activeNow.filter((c) => c.active && !referenced.has(c.id)).map((c) => c.id);
+  if (orphaned.length) {
+    await rest(`trade_in_catalog?id=in.(${orphaned.join(",")})`, {
+      method: "PATCH",
+      body: JSON.stringify({ active: false }),
+    });
+    console.log(`retired ${orphaned.length} unreferenced entries (superseded by splits)`);
+  }
   console.log("DONE");
 }
 

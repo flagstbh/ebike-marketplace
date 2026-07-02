@@ -164,7 +164,14 @@ export default async function BikePage({
                 <span className="label-mono text-ink-soft">
                   {part.component}
                 </span>
-                <span className="font-medium">{part.stock_part}</span>
+                <span className="font-medium">
+                  {part.stock_part}
+                  {part.years && (
+                    <span className="label-mono ml-2 border border-line px-1.5 py-0.5 text-ink-soft">
+                      {part.years}
+                    </span>
+                  )}
+                </span>
                 <span
                   className={`label-mono max-w-max border px-2 py-0.5 ${
                     part.swap_likelihood === "very_common"
