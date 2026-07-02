@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import type { BikeModel, BikeStockPart, TradeInCatalogEntry } from "@/lib/types";
 import { SWAP_LIKELIHOOD_LABELS } from "@/lib/types";
+import { takeoffPotential } from "@/lib/takeoff-value";
 import { usd } from "@/lib/format";
 
 export const revalidate = 300;
@@ -69,10 +70,7 @@ export default async function BikePage({
   if (!data) notFound();
   const bike = data as BikeModel & { bike_stock_parts: PartRow[] };
   const parts = [...bike.bike_stock_parts].sort((a, b) => a.sort - b.sort);
-  const potential = parts.reduce(
-    (sum, p) => sum + (p.trade_in_catalog?.base_value_cents ?? 0),
-    0
-  );
+  const potential = takeoffPotential(parts);
   const isHalo = bike.tier === "halo";
 
   return (

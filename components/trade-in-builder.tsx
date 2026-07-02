@@ -24,11 +24,13 @@ export default function TradeInBuilder({
   categories,
   preloadIds = [],
   preloadLabel,
+  preloadSkippedYearVariants = false,
 }: {
   catalog: TradeInCatalogEntry[];
   categories: Category[];
   preloadIds?: string[];
   preloadLabel?: string;
+  preloadSkippedYearVariants?: boolean;
 }) {
   const [lines, setLines] = useState<QuoteLine[]>(() =>
     preloadIds
@@ -39,16 +41,25 @@ export default function TradeInBuilder({
   const [nextKey, setNextKey] = useState(preloadIds.length + 1);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [query, setQuery] = useState("");
   const router = useRouter();
 
   const grouped = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    const matches = q
+      ? catalog.filter(
+          (e) =>
+            e.name.toLowerCase().includes(q) ||
+            e.brand.toLowerCase().includes(q)
+        )
+      : catalog;
     return categories
       .map((cat) => ({
         cat,
-        entries: catalog.filter((e) => e.category_id === cat.id),
+        entries: matches.filter((e) => e.category_id === cat.id),
       }))
       .filter((g) => g.entries.length > 0);
-  }, [catalog, categories]);
+  }, [catalog, categories, query]);
 
   const quoteFor = (line: QuoteLine) =>
     Math.round(
@@ -95,6 +106,25 @@ export default function TradeInBuilder({
     <div className="grid lg:grid-cols-[3fr_2fr]">
       {/* Value book */}
       <div className="border-b border-line lg:border-b-0 lg:border-r">
+        <div className="border-b border-line px-4 py-3 sm:px-8">
+          <label htmlFor="part-search" className="sr-only">
+            Search parts
+          </label>
+          <input
+            id="part-search"
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search your part: brand, bike, or part name"
+            className="w-full border border-line bg-paper-raised px-3 py-2.5 text-sm outline-none focus:border-ink"
+          />
+        </div>
+        {grouped.length === 0 && (
+          <p className="px-4 py-10 text-sm text-ink-soft sm:px-8">
+            Nothing matches &quot;{query}&quot;. Try the brand or a simpler
+            part name, or clear the search.
+          </p>
+        )}
         {grouped.map(({ cat, entries }) => (
           <div key={cat.id} className="border-b border-line last:border-b-0">
             <p className="label-mono border-b border-line bg-paper-raised px-4 py-2.5 text-ink-soft sm:px-8">
@@ -107,7 +137,10 @@ export default function TradeInBuilder({
               >
                 <div>
                   <p className="font-medium">{entry.name}</p>
-                  <p className="label-mono mt-0.5 text-ink-soft">
+                  <p
+                    className="label-mono mt-0.5 text-ink-soft"
+                    title={entry.comp_note ?? undefined}
+                  >
                     {entry.ebay_comp_cents
                       ? `${entry.comp_confidence === "solid" ? "eBay sold avg" : "est. resale"} ${usd(entry.ebay_comp_cents)} · we pay up to ${usd(entry.base_value_cents)}`
                       : `up to ${usd(entry.base_value_cents)}`}
@@ -132,6 +165,8 @@ export default function TradeInBuilder({
           <p className="mt-2 border-l-2 border-accent bg-paper-raised p-3 text-sm text-ink-soft">
             We preloaded the usual {preloadLabel} takeoffs. Remove anything
             you&apos;re keeping and grade the rest.
+            {preloadSkippedYearVariants &&
+              " Some parts changed by model year, so we left those out. Search for yours and add the version that matches your year."}
           </p>
         )}
         {lines.length === 0 ? (

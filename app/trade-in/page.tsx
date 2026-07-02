@@ -24,18 +24,40 @@ export default async function TradeInPage({
 
   let preloadIds: string[] = [];
   let preloadLabel: string | undefined;
+  let preloadSkippedYearVariants = false;
   if (bikeSlug) {
     const { data: bike } = await supabase
       .from("bike_models")
-      .select("brand, model, bike_stock_parts(catalog_id, sort)")
+      .select("brand, model, bike_stock_parts(catalog_id, component, sort)")
       .eq("slug", bikeSlug)
       .single();
     if (bike) {
       preloadLabel = `${bike.brand} ${bike.model}`;
-      preloadIds = (bike.bike_stock_parts as { catalog_id: string | null; sort: number }[])
-        .sort((a, b) => a.sort - b.sort)
-        .map((p) => p.catalog_id)
-        .filter((id): id is string => Boolean(id));
+      const rows = (
+        bike.bike_stock_parts as {
+          catalog_id: string | null;
+          component: string;
+          sort: number;
+        }[]
+      ).sort((a, b) => a.sort - b.sort);
+      // Components with multiple catalog entries changed by model year; any
+      // one bike only has one of them, so preloading both would inflate the
+      // quote. The rider picks their year's version from the list instead.
+      const idsByComponent = new Map<string, Set<string>>();
+      for (const r of rows) {
+        if (!r.catalog_id) continue;
+        const set = idsByComponent.get(r.component) ?? new Set();
+        set.add(r.catalog_id);
+        idsByComponent.set(r.component, set);
+      }
+      for (const r of rows) {
+        if (!r.catalog_id) continue;
+        if ((idsByComponent.get(r.component)?.size ?? 0) > 1) {
+          preloadSkippedYearVariants = true;
+          continue;
+        }
+        preloadIds.push(r.catalog_id);
+      }
       // A bike can map several parts to the same catalog entry; quote each once.
       preloadIds = [...new Set(preloadIds)];
     }
@@ -86,6 +108,7 @@ export default async function TradeInPage({
         categories={(categories as Category[] | null) ?? []}
         preloadIds={preloadIds}
         preloadLabel={preloadLabel}
+        preloadSkippedYearVariants={preloadSkippedYearVariants}
       />
     </div>
   );

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { createClient } from "@/lib/supabase/server";
 import type { BikeModel, BikeStockPart } from "@/lib/types";
+import { takeoffPotential } from "@/lib/takeoff-value";
 import { usd } from "@/lib/format";
 
 export const revalidate = 300;
@@ -19,10 +20,7 @@ type BikeWithParts = BikeModel & {
 };
 
 function potential(b: BikeWithParts) {
-  return b.bike_stock_parts.reduce(
-    (sum, p) => sum + (p.trade_in_catalog?.base_value_cents ?? 0),
-    0
-  );
+  return takeoffPotential(b.bike_stock_parts);
 }
 
 function BikeRow({ bike }: { bike: BikeWithParts }) {
