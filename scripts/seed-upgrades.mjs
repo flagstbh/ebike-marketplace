@@ -153,17 +153,27 @@ async function main() {
   report.imageFails.forEach((f) => console.log("IMG FAIL", f));
   for (const row of inserted) productByKey.set(norm(row.brand + row.name), row);
 
-  // resolve + upsert fitments
-  const rows = [];
+  // resolve + dedupe fitments: one row per (product, bike). A dossier can
+  // list the same pair twice (e.g. a product that fits multiple year ranges);
+  // Postgres upsert forbids touching a row twice per command, so collapse
+  // here, keeping verified over check and the longer evidence note.
+  const byPair = new Map();
   for (const f of fitmentsBySlug) {
     const product = productByKey.get(f.key);
     if (!product) {
       report.fitments.badProduct.push(`fitment for unknown product: ${f.key}`);
       continue;
     }
-    if (seenPair.has(product.id + f.bikeId)) continue; // updated below via upsert anyway
-    rows.push({ product_id: product.id, bike_id: f.bikeId, years: f.years, status: f.status, note: f.note });
+    const pair = product.id + f.bikeId;
+    const cand = { product_id: product.id, bike_id: f.bikeId, years: f.years, status: f.status, note: f.note };
+    const prev = byPair.get(pair);
+    if (!prev) { byPair.set(pair, cand); continue; }
+    const better =
+      (cand.status === "verified" && prev.status !== "verified") ||
+      (cand.status === prev.status && (cand.note?.length ?? 0) > (prev.note?.length ?? 0));
+    if (better) byPair.set(pair, cand);
   }
+  const rows = [...byPair.values()];
   for (let i = 0; i < rows.length; i += 200) {
     await rest("product_fitments?on_conflict=product_id,bike_id", {
       method: "POST",
