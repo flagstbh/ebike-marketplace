@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { useCart } from "@/lib/cart";
+import YourRideChip from "@/components/your-ride-chip";
 
 const NAV = [
   { href: "/bikes", label: "Your bike" },
@@ -43,6 +44,7 @@ export default function Header() {
           </span>
         </Link>
         <nav className="flex items-stretch">
+          <YourRideChip />
           {NAV.map((item) => (
             <Link
               key={item.href}

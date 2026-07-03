@@ -7,9 +7,8 @@ import AddToCart from "@/components/add-to-cart";
 import ProductCard from "@/components/product-card";
 import type { Product, ProductFitment } from "@/lib/types";
 import { CONDITION_LABELS } from "@/lib/types";
+import { getYourBike } from "@/lib/your-bike";
 import { usd, partNumber } from "@/lib/format";
-
-export const revalidate = 60;
 
 function truncate(text: string, max = 155): string {
   if (text.length <= max) return text;
@@ -62,22 +61,47 @@ export default async function ProductPage({
   if (!product) notFound();
   const p = product as Product;
 
-  const [{ data: related }, { data: fitments }] = await Promise.all([
-    supabase
-      .from("products")
-      .select("*")
-      .eq("category_id", p.category_id)
-      .neq("id", p.id)
-      .gt("stock", 0)
-      .limit(4),
-    supabase
-      .from("product_fitments")
-      .select("id, product_id, bike_id, years, status, note, bike_models(slug, brand, model)")
-      .eq("product_id", p.id),
-  ]);
+  const [yourBike, { data: related }, { data: fitments }, { data: replacesRows }] =
+    await Promise.all([
+      getYourBike(),
+      supabase
+        .from("products")
+        .select("*")
+        .eq("category_id", p.category_id)
+        .neq("id", p.id)
+        .gt("stock", 0)
+        .limit(4),
+      supabase
+        .from("product_fitments")
+        .select("id, product_id, bike_id, years, status, note, bike_models(slug, brand, model)")
+        .eq("product_id", p.id),
+      supabase
+        .from("trade_in_catalog")
+        .select("name")
+        .eq("replaces_with_product_id", p.id),
+    ]);
   const fits = (fitments ?? []) as unknown as ProductFitment[];
   const verifiedFits = fits.filter((f) => f.status === "verified" && f.bike_models);
   const checkFits = fits.filter((f) => f.status === "check" && f.bike_models);
+  const replacesNames = [
+    ...new Set((replacesRows ?? []).map((r) => (r as { name: string }).name)),
+  ].slice(0, 4);
+
+  // The one question a rider has: does this fit MY bike? Answer it up top when
+  // we know their bike, using only the verified/likely fitment data.
+  const myVerified = yourBike
+    ? verifiedFits.find((f) => f.bike_models!.slug === yourBike.slug)
+    : undefined;
+  const myCheck = yourBike
+    ? checkFits.find((f) => f.bike_models!.slug === yourBike.slug)
+    : undefined;
+  const verdict: "verified" | "check" | "none" | null = !yourBike
+    ? null
+    : myVerified
+      ? "verified"
+      : myCheck
+        ? "check"
+        : "none";
 
   const specs = Object.entries(p.specs ?? {});
   const savings =
@@ -148,6 +172,63 @@ export default async function ProductPage({
               </span>
             )}
           </div>
+
+          {/* Fits-your-bike verdict */}
+          {verdict === "verified" && (
+            <div className="mt-6 border-2 border-accent bg-accent/10 p-4">
+              <p className="font-semibold text-ink">
+                ✓ Fits your {yourBike!.brand} {yourBike!.model}
+                {myVerified!.years && (
+                  <span className="label-mono ml-2 text-accent">
+                    {myVerified!.years}
+                  </span>
+                )}
+              </p>
+              <p className="mt-1 text-sm text-ink-soft">
+                {myVerified!.note ?? "Confirmed against manufacturer fitment data."}
+              </p>
+            </div>
+          )}
+          {verdict === "check" && (
+            <div className="mt-6 border border-ink bg-paper-raised p-4">
+              <p className="font-semibold">
+                Likely fits your {yourBike!.brand} {yourBike!.model}
+              </p>
+              <p className="mt-1 text-sm text-ink-soft">
+                {myCheck!.note ??
+                  "Check your year and exact spec before ordering."}
+              </p>
+            </div>
+          )}
+          {verdict === "none" && (
+            <div className="mt-6 border border-line bg-paper-raised p-4">
+              <p className="font-medium text-ink-soft">
+                Not confirmed for your {yourBike!.brand} {yourBike!.model}
+              </p>
+              <p className="mt-1 text-sm text-ink-soft">
+                We don&apos;t have verified fitment data for this combination. It
+                may still fit — check the spec against your bike, or{" "}
+                <Link href={`/parts?bike=${yourBike!.slug}`} className="text-accent underline">
+                  see what is confirmed to fit
+                </Link>
+                .
+              </p>
+            </div>
+          )}
+          {!yourBike && (verifiedFits.length > 0 || checkFits.length > 0) && (
+            <Link
+              href="/bikes"
+              className="label-mono mt-6 inline-block border border-line px-3 py-2 hover:border-ink"
+            >
+              Set your bike to check fit →
+            </Link>
+          )}
+
+          {replacesNames.length > 0 && (
+            <p className="label-mono mt-6 text-ink-soft">
+              Upgrades from stock: {replacesNames.join(", ")}
+            </p>
+          )}
 
           <p className="mt-6 max-w-prose leading-relaxed text-ink-soft">
             {p.description}
@@ -226,6 +307,15 @@ export default async function ProductPage({
                 ? `${p.stock} in stock — trade-in credit applies automatically`
                 : "Sold out — trade-ins restock the board daily"}
             </p>
+            <ul className="label-mono mt-4 space-y-1.5 text-ink-soft">
+              <li>Free shipping, ships from Madison, WI</li>
+              {p.source === "trade_in" ? (
+                <li>90-day warranty on used parts</li>
+              ) : (
+                <li>New and warrantied · 30-day returns if unused</li>
+              )}
+              <li>Trade-in credit applies itself at checkout</li>
+            </ul>
           </div>
         </div>
       </div>
