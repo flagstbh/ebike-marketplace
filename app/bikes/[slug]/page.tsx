@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import ProductCard from "@/components/product-card";
@@ -26,7 +27,7 @@ export async function generateMetadata({
 
   const { data: bike } = await supabase
     .from("bike_models")
-    .select("brand, model, blurb")
+    .select("brand, model, blurb, image_url")
     .eq("slug", slug)
     .single();
 
@@ -37,6 +38,13 @@ export async function generateMetadata({
     description: bike.blurb
       ? truncate(bike.blurb)
       : `Trade-in values for the stock parts that come off a ${bike.brand} ${bike.model}. See what each takeoff is worth in store credit.`,
+    ...(bike.image_url && {
+      openGraph: {
+        siteName: "Takeoff Parts Co.",
+        type: "website",
+        images: [bike.image_url],
+      },
+    }),
   };
 }
 
@@ -96,6 +104,23 @@ export default async function BikePage({
         {" / "}
         {bike.brand}
       </div>
+
+      {bike.image_url && (
+        <div className="relative flex items-center justify-center border-b border-line bg-paper-raised">
+          <Image
+            src={bike.image_url}
+            alt={`${bike.brand} ${bike.model}`}
+            width={1400}
+            height={800}
+            sizes="100vw"
+            priority
+            className="max-h-[440px] w-auto object-contain"
+          />
+          <span className="label-mono absolute bottom-0 left-0 bg-paper px-3 py-2 text-ink-soft">
+            {bike.brand} {bike.model} · manufacturer photo
+          </span>
+        </div>
+      )}
 
       <div className="grid border-b border-line lg:grid-cols-[3fr_2fr]">
         <div className="px-4 py-12 sm:px-8 lg:border-r lg:border-line">

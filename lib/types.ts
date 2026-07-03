@@ -61,6 +61,7 @@ export interface BikeModel {
   blurb: string | null;
   sort: number;
   tier: BikeTier;
+  image_url: string | null;
 }
 
 export interface BikeStockPart {
