@@ -1,6 +1,10 @@
 import sharp from "sharp";
 const FAL = process.env.FAL_KEY;
 const BASE = "https://lithiumpowersports.com/cdn/shop/files/";
+// These 7 slugs are the permissioned partner-store (lithiumpowersports.com)
+// photos. They must ALSO be tagged bike_models.image_source='partner' in the DB
+// so the bike page does NOT caption them "manufacturer photo". If you add/remove
+// a slug here, mirror it with an UPDATE on bike_models.image_source.
 const MAP = {
   "surron-light-bee-x": "surron-light-bee-x-electric-bike-mco-nationwide-warranty-centers-black-erides-365.webp",
   "surron-ultra-bee": "surron-ultra-bee-21kw-electric-bike-mco-nationwide-warranty-centers-carbon-black-lower-erides-467.webp",

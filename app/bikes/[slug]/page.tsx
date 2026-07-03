@@ -31,7 +31,12 @@ export async function generateMetadata({
     .eq("slug", slug)
     .single();
 
-  if (!bike) return { title: "Bike not found" };
+  // Missing slug -> not-found boundary. Because app/loading.tsx streams the
+  // response, the HTTP status stays 200 (documented Next 16 behavior), but the
+  // not-found UI ships <meta robots noindex>, which is what actually keeps bad
+  // slugs out of search. A hard 404 would need a middleware existence check;
+  // not worth the per-request cost. See next docs .../loading.md#status-codes.
+  if (!bike) notFound();
 
   return {
     title: `${bike.brand} ${bike.model} takeoff values`,
@@ -117,7 +122,8 @@ export default async function BikePage({
             className="max-h-[440px] w-auto object-contain"
           />
           <span className="label-mono absolute bottom-0 left-0 bg-paper px-3 py-2 text-ink-soft">
-            {bike.brand} {bike.model} · manufacturer photo
+            {bike.brand} {bike.model}
+            {bike.image_source === "manufacturer" && " · manufacturer photo"}
           </span>
         </div>
       )}

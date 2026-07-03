@@ -62,6 +62,9 @@ export interface BikeModel {
   sort: number;
   tier: BikeTier;
   image_url: string | null;
+  // 'manufacturer' press image or 'partner' (permissioned, bg-swapped) store
+  // photo — drives whether the photo band claims "manufacturer photo".
+  image_source: "manufacturer" | "partner";
 }
 
 export interface BikeStockPart {
