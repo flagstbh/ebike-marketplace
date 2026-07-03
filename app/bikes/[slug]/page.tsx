@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
-import type { BikeModel, BikeStockPart, TradeInCatalogEntry } from "@/lib/types";
+import ProductCard from "@/components/product-card";
+import type { BikeModel, BikeStockPart, Product, TradeInCatalogEntry } from "@/lib/types";
 import { SWAP_LIKELIHOOD_LABELS } from "@/lib/types";
 import { takeoffPotential } from "@/lib/takeoff-value";
 import { usd } from "@/lib/format";
@@ -68,10 +69,22 @@ export default async function BikePage({
     .single();
 
   if (!data) notFound();
-  const bike = data as BikeModel & { bike_stock_parts: PartRow[] };
+  const bike = data as BikeModel & { id: string; bike_stock_parts: PartRow[] };
   const parts = [...bike.bike_stock_parts].sort((a, b) => a.sort - b.sort);
   const potential = takeoffPotential(parts);
   const isHalo = bike.tier === "halo";
+
+  // Verified-fit upgrades for this bike, leading with in-stock. Only verified
+  // shows on the bike page; the full /parts?bike= view carries the likely-fits.
+  const { data: fitRows } = await supabase
+    .from("product_fitments")
+    .select("products(*)")
+    .eq("bike_id", bike.id)
+    .eq("status", "verified");
+  const upgradeProducts = ((fitRows ?? []) as unknown as { products: Product | null }[])
+    .map((r) => r.products)
+    .filter((p): p is Product => Boolean(p) && p!.stock > 0)
+    .slice(0, 8);
 
   return (
     <div>
@@ -134,6 +147,34 @@ export default async function BikePage({
           </Link>
         </div>
       </div>
+
+      {upgradeProducts.length > 0 && (
+        <div className="border-b border-line px-4 py-10 sm:px-8">
+          <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <p className="label-mono text-accent">Verified fit</p>
+              <h2 className="font-display text-3xl font-bold uppercase tracking-tight">
+                Upgrades that fit your {bike.model}
+              </h2>
+              <p className="mt-2 max-w-xl text-sm text-ink-soft">
+                Confirmed against manufacturer fitment data, not guessed. Every
+                part here is checked to bolt on.
+              </p>
+            </div>
+            <Link
+              href={`/parts?bike=${bike.slug}`}
+              className="label-mono text-accent hover:text-ink"
+            >
+              All upgrades that fit →
+            </Link>
+          </div>
+          <div className="grid gap-px sm:grid-cols-2 lg:grid-cols-4">
+            {upgradeProducts.map((p) => (
+              <ProductCard key={p.id} product={p} />
+            ))}
+          </div>
+        </div>
+      )}
 
       <div className="px-4 py-10 sm:px-8">
         <p className="label-mono mb-1 text-ink-soft">The takeoff list</p>
