@@ -29,7 +29,12 @@ export async function generateMetadata({
     .eq("slug", slug)
     .single();
 
-  if (!product) return { title: "Part not found" };
+  // Missing slug -> not-found boundary. Because app/loading.tsx streams the
+  // response, the HTTP status stays 200 (documented Next 16 behavior), but the
+  // not-found UI ships <meta robots noindex>, which is what actually keeps bad
+  // slugs out of search. A hard 404 would need a middleware existence check;
+  // not worth the per-request cost. See next docs .../loading.md#status-codes.
+  if (!product) notFound();
 
   return {
     title: `${product.brand} ${product.name}`,

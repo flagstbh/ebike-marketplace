@@ -19,13 +19,18 @@ const { data: signin, error: signinErr } = await supabase.auth.signInWithPasswor
 if (signinErr) throw signinErr;
 console.log("signin ok:", signin.user.email);
 
-// Pick low-value parts so total stays under $50 instant-credit threshold
+// Pick the two cheapest *active* catalog items with real value so the total
+// stays under the $50 instant-credit threshold but the credit is non-zero.
+// Selecting by `active` (not hardcoded names) keeps this correct as the
+// catalog churns, and matches what submit_trade_in will accept.
 const { data: catalog } = await supabase
   .from("trade_in_catalog")
   .select("id, name, base_value_cents")
-  .in("name", ["Stock pedals", "Stock grips / cockpit parts"])
-  .order("base_value_cents");
-if (!catalog?.length) throw new Error("catalog items not found");
+  .eq("active", true)
+  .gt("base_value_cents", 0)
+  .order("base_value_cents")
+  .limit(2);
+if (!catalog || catalog.length < 2) throw new Error("no active catalog items found");
 console.log("catalog sample:", catalog.map((c) => `${c.name} (${c.base_value_cents})`));
 
 const { data: tradeIn, error: tiErr } = await supabase.rpc("submit_trade_in", {
