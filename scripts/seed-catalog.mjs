@@ -141,15 +141,17 @@ async function main() {
       }
       seenBikeKeys.add(key);
       const existing = bikeByKey.get(key) ?? bikeBySlug.get(bike.slug);
+      // Coerce optional fields to null: JSON.stringify drops undefined keys
+      // and PostgREST bulk inserts require identical keys on every object.
       const row = {
         slug: existing ? existing.slug : bikeBySlug.has(bike.slug) ? `${bike.slug}-2` : bike.slug,
         brand: existing ? existing.brand : bike.brand,
         model: existing ? existing.model : bike.model,
-        style: bike.style,
-        motor: bike.motor,
-        battery: bike.battery,
-        years: bike.years,
-        blurb: bike.blurb,
+        style: bike.style ?? null,
+        motor: bike.motor ?? null,
+        battery: bike.battery ?? null,
+        years: bike.years ?? null,
+        blurb: bike.blurb ?? existing?.blurb ?? null,
         tier: bike.tier,
         sort: existing ? existing.sort : sortNext++,
       };
