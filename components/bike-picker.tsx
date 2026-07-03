@@ -1,16 +1,16 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { setYourBike, clearYourBike } from "@/lib/your-bike-client";
 
 export default function BikePicker({
   bikes,
+  selected = "",
 }: {
   bikes: { slug: string; brand: string; model: string }[];
+  selected?: string;
 }) {
   const router = useRouter();
-  const params = useSearchParams();
-  const current = params.get("bike") ?? "";
 
   return (
     <div>
@@ -19,7 +19,7 @@ export default function BikePicker({
       </label>
       <select
         id="bike-picker"
-        value={current}
+        value={selected}
         onChange={(e) => {
           const slug = e.target.value;
           if (slug) {

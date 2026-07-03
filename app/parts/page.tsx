@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { Suspense } from "react";
-import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import ProductCard from "@/components/product-card";
 import BikePicker from "@/components/bike-picker";
@@ -12,15 +10,14 @@ export default async function PartsPage({
 }: {
   searchParams: Promise<{ category?: string; bike?: string }>;
 }) {
-  const { category, bike: bikeSlug } = await searchParams;
+  const { category, bike: bikeParam } = await searchParams;
 
-  // Bike-first: if the rider has a bike set and hasn't asked for a specific
-  // one, canonicalize to their bike so the whole browse is "parts for my bike".
+  // Bike-first: with no explicit bike in the URL, fall back to the rider's
+  // saved bike so the whole browse defaults to "parts for my bike".
+  let bikeSlug = bikeParam;
   if (!bikeSlug) {
     const yb = await getYourBike();
-    if (yb) {
-      redirect(`/parts?bike=${yb.slug}${category ? `&category=${category}` : ""}`);
-    }
+    if (yb) bikeSlug = yb.slug;
   }
 
   const supabase = await createClient();
@@ -95,9 +92,7 @@ export default async function PartsPage({
             </p>
           )}
         </div>
-        <Suspense>
-          <BikePicker bikes={bikes ?? []} />
-        </Suspense>
+        <BikePicker bikes={bikes ?? []} selected={bikeSlug ?? ""} />
       </div>
 
       <div className="mb-8 flex flex-wrap gap-2">
