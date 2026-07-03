@@ -1,0 +1,417 @@
+{
+  "family": "commuter-fill",
+  "products": [
+    {
+      "name": "Bar-End Mirror (pair)",
+      "brand": "Hafny",
+      "category_slug": "cockpit",
+      "price_cents": 3299,
+      "description": "Handlebar bar-end mirror with HD anti-glare stainless lens, mounts inside 14-21mm inner-diameter bars. A universal commuter safety upgrade for flat-bar city ebikes.",
+      "image_url": "https://www.hafny.com/cdn/shop/products/HF-M901.jpg",
+      "image_source_page": "https://www.hafny.com/products/hafny-bar-end-bike-mirror-hf-m901"
+    }
+  ],
+  "fitments": [
+    {
+      "product_brand": "Schwalbe",
+      "product_name": "Marathon 700x38 tires (pair)",
+      "bike_slug": "aventon-soltera-2",
+      "years": "2023-2024",
+      "status": "verified",
+      "note": "Exact size match. Aventon lists the Soltera.2 stock tire as 700x38c (700c wheel). Schwalbe Marathon in 700x38 is the same 700x38 ETRTO fitment. Bike spec: https://electricbikereport.com/aventon-soltera-2-review/ (700c, 38mm); Aventon tire sizing: https://support.aventon.com/04-tire-specs"
+    },
+    {
+      "product_brand": "Continental",
+      "product_name": "Gatorskin 700x32 (pair)",
+      "bike_slug": "aventon-soltera-2",
+      "years": "2023-2024",
+      "status": "check",
+      "note": "Spec-inference: Soltera.2 uses 700c rims with 700x38c stock tires (https://electricbikereport.com/aventon-soltera-2-review/). A 700x32 slick mounts on the same 700c rim as a faster/narrower option; confirm rim internal width and fender clearance. No vendor naming statement for this bike."
+    },
+    {
+      "product_brand": "SR Suntour",
+      "product_name": "NCX SP12 suspension seatpost",
+      "bike_slug": "aventon-soltera-2",
+      "years": "2023-2024",
+      "status": "check",
+      "note": "Diameter match. Soltera.2 seatpost is 27.2mm (Aventon spec, forged alloy 27.2mm 2-bolt clamp, per multiple listings e.g. https://www.amegoev.com/products/aventon-soltera-2-high-step). Suntour NCX SP12 is offered in 27.2mm (https://www.srsuntour.us/products/sp12-ncx-seatpost). Fits by diameter; not a vendor-named fitment."
+    },
+    {
+      "product_brand": "Cane Creek",
+      "product_name": "Thudbuster ST Suspension Seatpost",
+      "bike_slug": "aventon-soltera-2",
+      "years": "2023-2024",
+      "status": "check",
+      "note": "Diameter match. Soltera.2 = 27.2mm seatpost. Cane Creek Thudbuster ST ships in 27.2/30.9/31.6mm direct-fit (https://www.canecreek.com/products/thudbuster). 27.2mm variant fits by diameter; not a vendor-named fitment for this bike."
+    },
+    {
+      "product_brand": "Hafny",
+      "product_name": "Bar-End Mirror (pair)",
+      "bike_slug": "aventon-soltera-2",
+      "years": "2023-2024",
+      "status": "check",
+      "note": "Universal flat-bar fit. Soltera.2 has flat aluminum handlebars (31.8mm clamp, open bar ends). Hafny bar-end mirror mounts inside 14-21mm inner-diameter bar ends; confirm the bike's grips allow open bar ends. Not bike-specific."
+    },
+
+    {
+      "product_brand": "Maxxis",
+      "product_name": "Minion DHF/DHR II 29x2.4 combo (pair)",
+      "bike_slug": "aventon-ramblas",
+      "years": "2024-2025",
+      "status": "verified",
+      "note": "Exact size match. Ramblas stock tire is Maxxis Rekon 29x2.4 on 29\" wheels (https://electricbikereview.com/aventon/aventon-ramblas-review/, https://www.aventon.com/products/ramblas-adv-ebike). Maxxis Minion DHF/DHR II 29x2.4 is the same 29x2.4 fitment, a grippier eMTB tread on identical wheel/width."
+    },
+    {
+      "product_brand": "RockShox",
+      "product_name": "Pike Select 130mm fork",
+      "bike_slug": "aventon-ramblas",
+      "years": "2024-2025",
+      "status": "check",
+      "note": "Spec-inference: Ramblas ships with a RockShox Psylo Silver 130mm-travel 29\" fork (https://electricbikereview.com/aventon/aventon-ramblas-review/). RockShox Pike Select is a same-travel (130mm) 29\" air fork upgrade; confirm tapered steerer + 15x110 Boost axle before install. No vendor naming statement."
+    },
+    {
+      "product_brand": "Magura",
+      "product_name": "MT5e 4-Piston Brake Set",
+      "bike_slug": "aventon-ramblas",
+      "years": "2024-2025",
+      "status": "check",
+      "note": "Category fit: Ramblas is a 100Nm mid-drive eMTB with hydraulic disc brakes and 180mm+ rotors. Magura MT5e is an e-bike-rated 4-piston set for exactly this use. Confirm rotor size/mount and lever routing; not a vendor-named fitment for this bike."
+    },
+
+    {
+      "product_brand": "Schwalbe",
+      "product_name": "Marathon E-Plus 26x2.15",
+      "bike_slug": "velotric-discover-1",
+      "years": "2022-2024",
+      "status": "check",
+      "note": "Spec-inference by wheel size. Discover 1 uses 26\" wheels with 26x2.5 stock tires (https://ccecycles.com/product/velotric-discover-1-high-step/). Schwalbe Marathon E-Plus 26x2.15 mounts on the same 26\" rim as a narrower puncture-armored commuter tire; confirm rim internal width. Not a vendor-named fitment; width steps down from 2.5 to 2.15."
+    },
+    {
+      "product_brand": "SR Suntour",
+      "product_name": "NCX SP12 suspension seatpost",
+      "bike_slug": "velotric-discover-1",
+      "years": "2022-2024",
+      "status": "check",
+      "note": "Diameter match. Discover 1 seatpost is 30.4mm x 350mm (https://ccecycles.com/product/velotric-discover-1-high-step/). Suntour NCX is offered in 30.4mm (https://www.walmart.com/ip/SR-Suntour-NCX-Bicycle-Suspension-Seat-Post-with-Standard-Spring-Specification-30-4-400mm/5388676101). 30.4mm variant fits by diameter; verify exact size when ordering."
+    },
+    {
+      "product_brand": "Cloud-9",
+      "product_name": "Cruiser Select saddle",
+      "bike_slug": "velotric-discover-1",
+      "years": "2022-2024",
+      "status": "check",
+      "note": "Universal saddle fit. Discover 1 uses standard twin-rail saddle clamp. Cloud-9 Cruiser Select is a wide comfort saddle fitting any standard 7mm-rail post; not bike-specific."
+    },
+
+    {
+      "product_brand": "Schwalbe",
+      "product_name": "Super Moto-X 27.5x2.4 (pair)",
+      "bike_slug": "velotric-discover-2",
+      "years": "2024-2026",
+      "status": "verified",
+      "note": "Exact size match. Discover 2 stock tire is Kenda 27.5x2.4 on 27.5\" wheels (https://electricbikereport.com/velotric-discover-2-review/). Schwalbe Super Moto-X in 27.5x2.4 is the identical 27.5x2.4 fitment, a balloon commuter tire on the same wheel/width."
+    },
+    {
+      "product_brand": "SR Suntour",
+      "product_name": "NCX SP12 suspension seatpost",
+      "bike_slug": "velotric-discover-2",
+      "years": "2024-2026",
+      "status": "check",
+      "note": "Diameter match. Discover 2 seatpost is 30.9mm x 350mm (https://electricbikereport.com/velotric-discover-2-review/). Suntour NCX is offered in 30.9mm (https://www.walmart.com/ip/SR-Suntour-NCX-Bicycle-Suspension-Seat-Post-with-Standard-Spring-Specification-30-9-350mm/5387334658). Fits by diameter; not a vendor-named fitment."
+    },
+    {
+      "product_brand": "Cane Creek",
+      "product_name": "Thudbuster ST Suspension Seatpost",
+      "bike_slug": "velotric-discover-2",
+      "years": "2024-2026",
+      "status": "check",
+      "note": "Diameter match. Discover 2 = 30.9mm seatpost. Thudbuster ST ships direct-fit in 30.9mm (https://www.canecreek.com/products/thudbuster). Fits by diameter; not a vendor-named fitment."
+    },
+    {
+      "product_brand": "Kinekt",
+      "product_name": "Active Suspension Seatpost LR Aluminum",
+      "bike_slug": "velotric-discover-2",
+      "years": "2024-2026",
+      "status": "check",
+      "note": "Diameter match. Discover 2 = 30.9mm seatpost; Kinekt Active seatposts are offered in 27.2/30.9/31.6mm. 30.9mm variant fits by diameter; verify size at order. Not a vendor-named fitment."
+    },
+    {
+      "product_brand": "Cloud-9",
+      "product_name": "Comfort Airflow saddle",
+      "bike_slug": "velotric-discover-2",
+      "years": "2024-2026",
+      "status": "check",
+      "note": "Universal saddle fit. Discover 2 uses a standard twin-rail clamp; Cloud-9 Comfort Airflow fits any 7mm-rail post. Not bike-specific."
+    },
+
+    {
+      "product_brand": "Schwalbe",
+      "product_name": "Super Moto-X 27.5x2.4 (pair)",
+      "bike_slug": "velotric-discover-3",
+      "years": "2026-present",
+      "status": "verified",
+      "note": "Exact size match. Discover 3 runs the same Kenda 27.5x2.4 puncture-resistant tire as the Discover 2 (https://electricbikereport.com/velotric-discover-3-review/). Schwalbe Super Moto-X 27.5x2.4 is the identical 27.5x2.4 fitment. Bike is new; tire fit is by published-spec match, not aftermarket track record."
+    },
+    {
+      "product_brand": "SR Suntour",
+      "product_name": "NCX SP12 suspension seatpost",
+      "bike_slug": "velotric-discover-3",
+      "years": "2026-present",
+      "status": "check",
+      "note": "Diameter-inference. Discover 3 shares the Discover 2 comfort chassis; Discover 2 seatpost is 30.9mm. Suntour NCX is offered in 30.9mm. Discover 3 is very new - confirm the 30.9mm seatpost diameter on the actual unit before ordering. No vendor naming statement."
+    },
+
+    {
+      "product_brand": "Schwalbe",
+      "product_name": "Marathon 700x38 tires (pair)",
+      "bike_slug": "velotric-t1",
+      "years": "2023-2025",
+      "status": "verified",
+      "note": "Exact size match. Velotric T1 stock tire is Kenda 700x38c on 700c wheels (T1 ST variant is 700x40c) per https://velotric-t1.autologr.com/ and https://ebikeescape.com/velotric-t1-t1st-review/. Schwalbe Marathon 700x38 is the same 700x38 fitment, an armored commuter tire on the identical wheel/width."
+    },
+    {
+      "product_brand": "SR Suntour",
+      "product_name": "NCX SP12 suspension seatpost",
+      "bike_slug": "velotric-t1",
+      "years": "2023-2025",
+      "status": "check",
+      "note": "Diameter match. T1 seatpost is 30.9mm x 350mm (https://velotric-t1.autologr.com/). Suntour NCX is offered in 30.9mm. Fits by diameter; note the T1 has an integrated non-removable battery but that does not affect seatpost fit. Not a vendor-named fitment."
+    },
+    {
+      "product_brand": "Redshift",
+      "product_name": "Cruise Control grips",
+      "bike_slug": "velotric-t1",
+      "years": "2023-2025",
+      "status": "check",
+      "note": "Universal grip fit. T1 is a flat/riser-bar fitness ebike with standard 22.2mm grip clamp area. Redshift Cruise Control lock-on grips fit standard bars; not bike-specific."
+    },
+
+    {
+      "product_brand": "Schwalbe",
+      "product_name": "Marathon Plus MTB 27.5x2.25 (pair)",
+      "bike_slug": "ride1up-prodigy-v2",
+      "years": "2023-present",
+      "status": "verified",
+      "note": "Exact size match. Prodigy V2 stock tire is Maxxis Rekon Race 27.5x2.25 on 27.5\" wheels (https://electricbikereview.com/ride1up/prodigy-v2-review/). Schwalbe Marathon Plus MTB in 27.5x2.25 is the identical 27.5x2.25 fitment, a puncture-armored commuter tire on the same wheel/width."
+    },
+    {
+      "product_brand": "Cane Creek",
+      "product_name": "Thudbuster ST Suspension Seatpost",
+      "bike_slug": "ride1up-prodigy-v2",
+      "years": "2023-present",
+      "status": "check",
+      "note": "Diameter match. Prodigy V2 uses a 31.6mm seatpost (Ride1Up's own Zoom suspension seatpost for this platform is 31.6mm x 350mm, https://ride1up.com/product/suspension-seatpost/). Thudbuster ST ships direct-fit in 31.6mm. Fits by diameter; not a vendor-named fitment."
+    },
+    {
+      "product_brand": "Magura",
+      "product_name": "MT5e 4-Piston Brake Set",
+      "bike_slug": "ride1up-prodigy-v2",
+      "years": "2023-present",
+      "status": "check",
+      "note": "Category fit: Prodigy V2 is a 90Nm Brose mid-drive with hydraulic discs (180mm rotors). Magura MT5e is an e-bike-rated 4-piston set suited to this weight/torque. Confirm rotor/mount spec; not a vendor-named fitment."
+    },
+
+    {
+      "product_brand": "Continental",
+      "product_name": "Gatorskin 700x32 (pair)",
+      "bike_slug": "ride1up-roadster-v2",
+      "years": "2020-2024",
+      "status": "verified",
+      "note": "Size match on a road wheel. Roadster V2 stock tire is Kenda Kwest 700x28c on 700c wheels (https://electricbikereport.com/ride1up-roadster-review/). Continental Gatorskin in 700x32 mounts on the same 700c rim; 32mm is a common up-size from 28mm on this rim. Verify caliper/fork clearance for 32mm."
+    },
+    {
+      "product_brand": "Continental",
+      "product_name": "Gatorskin 700x32 (pair)",
+      "bike_slug": "ride1up-roadster-v3",
+      "years": "2024-present",
+      "status": "check",
+      "note": "Spec-inference. Roadster V3 stock tire is Schwalbe G-One RS 700x45c on 700c wheels (https://ride1up.com/product/roadster-v3/). Gatorskin 700x32 is a narrower slick on the same 700c rim - a faster/lower-rolling-resistance option; the bike clears up to 45mm so 32mm fits with room. Not a vendor-named fitment."
+    },
+    {
+      "product_brand": "Schwalbe",
+      "product_name": "Marathon 700x38 tires (pair)",
+      "bike_slug": "ride1up-roadster-v3",
+      "years": "2024-present",
+      "status": "check",
+      "note": "Spec-inference. Roadster V3 = 700c wheels, stock 700x45c, clears wide rubber (https://ride1up.com/product/roadster-v3/). Schwalbe Marathon 700x38 mounts on the same 700c rim as an armored commuter option within the bike's clearance. Not a vendor-named fitment."
+    },
+
+    {
+      "product_brand": "Schwalbe",
+      "product_name": "Marathon E-Plus 27.5 (pair)",
+      "bike_slug": "lectric-xpress-750",
+      "years": "2024-2026",
+      "status": "verified",
+      "note": "Size match on a 27.5\" wheel. XPress 750 stock tire is 27.5x2.2 on 27.5\" wheels (https://ebikepsi.com/models/lectric-xpress-750). Schwalbe Marathon E-Plus 27.5 is an e-bike-rated armored tire for the same 27.5\" wheel; confirm the exact 2.0-2.15 width variant vs the 2.2 stock. Same wheel diameter, commuter-appropriate."
+    },
+    {
+      "product_brand": "SR Suntour",
+      "product_name": "NCX SP12 suspension seatpost",
+      "bike_slug": "lectric-xpress-750",
+      "years": "2024-2026",
+      "status": "check",
+      "note": "Diameter match. XPress 750 seatpost is 31.6mm alloy (https://electricbikereview.com/lectric-ebikes/xpress-750-review/). Suntour NCX SP25 is offered in 31.6mm. Fits by diameter; not a vendor-named fitment for this bike."
+    },
+    {
+      "product_brand": "Cloud-9",
+      "product_name": "Comfort Airflow saddle",
+      "bike_slug": "lectric-xpress-750",
+      "years": "2024-2026",
+      "status": "check",
+      "note": "Universal saddle fit. XPress 750 uses a standard twin-rail clamp; Cloud-9 Comfort Airflow fits any 7mm-rail post. Not bike-specific."
+    },
+
+    {
+      "product_brand": "Lectric",
+      "product_name": "Street Tire 20x3 (single)",
+      "bike_slug": "lectric-xp-3",
+      "years": "2022-2024",
+      "status": "verified",
+      "note": "OEM part for this exact bike. XP 3.0 stock tire is 20x3.0 on 20\" wheels (https://ebikepsi.com/models/lectric-xp-3). Lectric's own Street Tire 20x3 is sold by Lectric as the direct replacement/upgrade tire for the XP 3.0 (https://lectricebikes.com/products/street-tire-1-20-x-3-with-reflective-strip)."
+    },
+    {
+      "product_brand": "Tannus",
+      "product_name": "Armour Tire Insert 20x3.0-4.0",
+      "bike_slug": "lectric-xp-3",
+      "years": "2022-2024",
+      "status": "verified",
+      "note": "OEM-sold fitment. XP 3.0 runs 20x3.0 tires; Tannus Armour 20x3.0-4.0 insert is sold by Lectric as the anti-flat insert for the 20x3 XP tire (https://lectricebikes.com/products/tannus-armour-insert-20-x-3-0-4-0). Size range 3.0-4.0 covers the 3.0 tire."
+    },
+    {
+      "product_brand": "Cane Creek",
+      "product_name": "Thudbuster ST Suspension Seatpost",
+      "bike_slug": "lectric-xp-3",
+      "years": "2022-2024",
+      "status": "check",
+      "note": "Diameter match. Lectric XP family (incl. XP 3.0) uses a 31.6mm seatpost - Lectric's own suspension post lists XP 3.0 fitment at 1 1/4\"/31.6mm (https://lectricebikes.com/products/xp-suspension-seatpost). Thudbuster ST ships direct-fit in 31.6mm. Fits by diameter; verify folding-frame post length/insertion (step-thru vs high-step differ)."
+    },
+
+    {
+      "product_brand": "Lectric",
+      "product_name": "Street Tire 20x3 (single)",
+      "bike_slug": "lectric-xp4",
+      "years": "2025-present",
+      "status": "verified",
+      "note": "OEM part, same wheel/tire family. XP4 stock tire is 20x3.0 on 20\" wheels (https://ebikepsi.com/models/lectric-xp4-750). Lectric's Street Tire 20x3 is Lectric's own 20x3 replacement tire; same 20x3.0 fitment as the XP4. Bike is new but shares the established XP 20x3 tire standard."
+    },
+    {
+      "product_brand": "Tannus",
+      "product_name": "Armour Tire Insert 20x3.0-4.0",
+      "bike_slug": "lectric-xp4",
+      "years": "2025-present",
+      "status": "verified",
+      "note": "Size-range fitment. XP4 runs 20x3.0 tires (https://ebikepsi.com/models/lectric-xp4-750); Tannus Armour 20x3.0-4.0 covers the 3.0 width. Same insert Lectric sells for its 20x3 XP tires."
+    },
+    {
+      "product_brand": "SR Suntour",
+      "product_name": "NCX SP12 suspension seatpost",
+      "bike_slug": "lectric-xp4",
+      "years": "2025-present",
+      "status": "check",
+      "note": "Diameter match. XP4 is named in Lectric's XP suspension-seatpost fitment list at 1 1/4\"/31.6mm (https://lectricebikes.com/products/xp-suspension-seatpost). Suntour NCX SP25 is offered in 31.6mm. Fits by diameter; verify folding-frame insertion depth. Not a vendor-named fitment."
+    },
+
+    {
+      "product_brand": "Lectric",
+      "product_name": "Street Tire 20x3 (single)",
+      "bike_slug": "lectric-xp-lite-2",
+      "years": "2024-present",
+      "status": "check",
+      "note": "Wheel-size fit, width step-up. XP Lite 2.0 stock tire is 20x2.4 on 20\" wheels (https://electricbikereport.com/lectric-xp-lite-review/). Lectric's 20x3 street tire mounts on the same 20\" rim but is wider (3.0 vs 2.4) - confirm fork/chainstay clearance before fitting the wider tire. Lectric also sells a 20x2.4 XP Lite tire as the exact-size option."
+    },
+    {
+      "product_brand": "Cane Creek",
+      "product_name": "Thudbuster ST Suspension Seatpost",
+      "bike_slug": "lectric-xp-lite-2",
+      "years": "2024-present",
+      "status": "check",
+      "note": "Diameter match. XP Lite 2.0 uses a 31.6mm seatpost (https://electricbikereview.com/lectric-ebikes/lectric-xp-lite-2-0-review/), and is named in Lectric's XP suspension-post fitment list. Thudbuster ST ships in 31.6mm direct-fit. Fits by diameter; verify insertion depth on the lightweight frame. Not a vendor-named fitment."
+    },
+
+    {
+      "product_brand": "Schwalbe",
+      "product_name": "Marathon E-Plus 27.5 (pair)",
+      "bike_slug": "lectric-xpress2",
+      "years": "2026-present",
+      "status": "check",
+      "note": "Wheel-size fit. XPress2 stock tire is a 27.5x2.1 slick on 27.5\" wheels (https://electricbikereview.com/lectric-ebikes/lectric-xpress2-review/). Schwalbe Marathon E-Plus 27.5 (2.0-2.15 width) is an armored commuter tire on the same 27.5\" wheel and close width. Bike is brand-new (2026) - confirm exact width variant and clearance. No vendor naming statement."
+    },
+    {
+      "product_brand": "SR Suntour",
+      "product_name": "NCX SP12 suspension seatpost",
+      "bike_slug": "lectric-xpress2",
+      "years": "2026-present",
+      "status": "check",
+      "note": "Diameter-inference. XPress2 shares the Lectric 31.6mm seatpost standard (XPress 750 predecessor is 31.6mm). Suntour NCX SP25 comes in 31.6mm. Bike is brand-new - confirm the 31.6mm seatpost on the actual unit. No vendor naming statement."
+    },
+
+    {
+      "product_brand": "Cloud-9",
+      "product_name": "Tri-Cruiser saddle with backrest",
+      "bike_slug": "lectric-xp-trike",
+      "years": "2023-2025",
+      "status": "check",
+      "note": "Comfort saddle for a trike. XP Trike uses a standard twin-rail seatpost clamp; the Cloud-9 Tri-Cruiser with backrest is a wide comfort saddle well-suited to the upright trike position. Fits any 7mm-rail post; not trike-specific but appropriate. Confirm rider prefers backrest style."
+    },
+    {
+      "product_brand": "Cane Creek",
+      "product_name": "Thudbuster ST Suspension Seatpost",
+      "bike_slug": "lectric-xp-trike",
+      "years": "2023-2025",
+      "status": "check",
+      "note": "Diameter match. XP Trike is named in Lectric's XP suspension-post fitment list at 1 1/4\"/31.6mm (https://lectricebikes.com/products/xp-suspension-seatpost). Thudbuster ST ships in 31.6mm direct-fit. Fits by diameter; verify the trike's seatpost length/insertion. Not a vendor-named fitment."
+    },
+
+    {
+      "product_brand": "Cloud-9",
+      "product_name": "Cruiser Select saddle",
+      "bike_slug": "radwagon-5",
+      "years": "2024-2026",
+      "status": "check",
+      "note": "Universal comfort saddle. RadWagon 5 (20x3.3 tires, cargo/utility) uses a standard twin-rail clamp. Cloud-9 Cruiser Select fits any 7mm-rail post; a common upright-cargo comfort upgrade. Not bike-specific."
+    },
+    {
+      "product_brand": "Hafny",
+      "product_name": "Bar-End Mirror (pair)",
+      "bike_slug": "radwagon-5",
+      "years": "2024-2026",
+      "status": "check",
+      "note": "Universal flat-bar fit. RadWagon 5 has flat handlebars; a rear-view mirror is a common cargo/family-hauler safety upgrade. Hafny bar-end mirror needs open bar ends (14-21mm ID) - confirm grip/shifter layout allows it. Not bike-specific."
+    },
+
+    {
+      "product_brand": "Cloud-9",
+      "product_name": "Cruiser Select saddle",
+      "bike_slug": "radrunner-plus-2025",
+      "years": "2025-present",
+      "status": "check",
+      "note": "Universal comfort saddle. RadRunner Plus (2025) is a utility ebike on 20x3.5 tires (https://newatlas.com/bicycles/radrunner-plus-max-2025-refresh/) with a standard twin-rail clamp. Cloud-9 Cruiser Select fits any 7mm-rail post. Bike is new; saddle fit is by standard-clamp inference, not vendor naming."
+    },
+    {
+      "product_brand": "Hafny",
+      "product_name": "Bar-End Mirror (pair)",
+      "bike_slug": "radrunner-plus-2025",
+      "years": "2025-present",
+      "status": "check",
+      "note": "Universal flat-bar fit. RadRunner Plus has flat bars; bar-end mirror is a common commuter add-on. Requires open bar ends (14-21mm ID) - confirm grip layout. Not bike-specific."
+    },
+
+    {
+      "product_brand": "Cloud-9",
+      "product_name": "Cruiser Select saddle",
+      "bike_slug": "radrunner-max",
+      "years": "2025-present",
+      "status": "check",
+      "note": "Universal comfort saddle. RadRunner Max is a new (2025) Class-3 utility ebike on 20x3.5 tires with a standard twin-rail seat clamp. Cloud-9 Cruiser Select fits any 7mm-rail post. Bike too new for verified aftermarket track record; fit is by standard-clamp inference."
+    },
+
+    {
+      "product_brand": "Cloud-9",
+      "product_name": "Comfort Airflow saddle",
+      "bike_slug": "radster-trail",
+      "years": "2024-present",
+      "status": "check",
+      "note": "Universal comfort saddle. Radster Trail (27.5x3 off-road tires, https://electricbikereport.com/rad-power-bikes-radster-trail-review/) uses a standard twin-rail clamp. Cloud-9 Comfort Airflow fits any 7mm-rail post. This is an off-road model - tire/suspension upgrades need model-specific verification; comfort saddle is a safe universal fit."
+    }
+  ]
+}
