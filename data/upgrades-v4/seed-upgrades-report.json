@@ -1,9 +1,13 @@
 {
- "newProducts": [],
- "imageFails": [],
+ "newProducts": [
+  "hafny-bar-end-mirror-pair"
+ ],
+ "imageFails": [
+  "hafny-bar-end-mirror-pair: not an image / too small"
+ ],
  "fitments": {
-  "verified": 212,
-  "check": 259,
+  "verified": 226,
+  "check": 313,
   "downgraded": 0,
   "badBike": [],
   "badProduct": []

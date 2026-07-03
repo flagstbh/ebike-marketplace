@@ -1,0 +1,166 @@
+{
+  "family": "emoto-fill",
+  "products": [],
+  "fitments": [
+    {
+      "product_brand": "GreenBikeKit",
+      "product_name": "KT 52V controller (CrossCurrent/RipCurrent fit)",
+      "bike_slug": "juiced-crosscurrent-x",
+      "years": "2019-2024",
+      "status": "verified",
+      "note": "Vendor page names this fitment directly: 'This 52V 750W controller is suitable for Juiced CrossCurrent/RipCurrent' (greenbikekit.com/juiced-crosscurrent-ripcurrent-controller-52v-750w.html). CrossCurrent X is a 52V CrossCurrent-family bike. CAVEAT quoted from the same page: fits the black motor connector (Z910 plug) only; some units use a different connector, so buyer must verify the motor plug before install. Source: https://www.greenbikekit.com/juiced-crosscurrent-ripcurrent-controller-52v-750w.html"
+    },
+    {
+      "product_brand": "Schwalbe",
+      "product_name": "Marathon E-Plus 700c",
+      "bike_slug": "juiced-crosscurrent-x",
+      "years": "2019-2024",
+      "status": "verified",
+      "note": "CrossCurrent X ships stock on 700c (28x1.75 / 700x45) Schwalbe Marathon Plus tires on 700C double-wall rims: 'equipped stock with 28 x 1.75 inch (700c x 45c) Schwalbe Marathon Plus tires ... 700C rims' (electricbikereview.com; hilleater.ca '700C rim fits Juiced CrossCurrent/S/X'). The Marathon E-Plus 700c is the e-rated Schwalbe in the same 700c size, a direct like-for-like fit. Source: https://hilleater.ca/700c-rim-fits-juiced-crosscurrent-s-x-front-or-rear/"
+    },
+    {
+      "product_brand": "Continental",
+      "product_name": "Gatorskin 700x32 (pair)",
+      "bike_slug": "juiced-crosscurrent-x",
+      "years": "2019-2024",
+      "status": "check",
+      "note": "Size-based fit: CrossCurrent X uses 700c rims (~25mm inner) stock on 700x45 tires, so a 700x32 road tire mounts on the same rim for a faster/narrower setup. No vendor names the CrossCurrent X for this tire, and 32mm is at the narrow end for the rim width, so buyer should confirm rim-width compatibility. Stock-rim source: https://electricbikereview.com/juiced-bikes/crosscurrent/"
+    },
+    {
+      "product_brand": "Redshift",
+      "product_name": "ShockStop suspension stem",
+      "bike_slug": "juiced-crosscurrent-x",
+      "years": "2019-2024",
+      "status": "check",
+      "note": "Universal-fit comfort upgrade: CrossCurrent X is a rigid-fork commuter with a standard 1-1/8in threadless steerer, which the ShockStop stem targets. No vendor names the CrossCurrent X. Buyer confirms steerer/handlebar clamp diameters. Bike is a rigid 700c commuter per https://electricbikereview.com/juiced-bikes/crosscurrent/"
+    },
+    {
+      "product_brand": "Ergon",
+      "product_name": "GP1 Evo grips",
+      "bike_slug": "juiced-crosscurrent-x",
+      "years": "2019-2024",
+      "status": "check",
+      "note": "Universal ergonomic grip for standard 22.2mm flat/riser bars, which the CrossCurrent X uses. No vendor names the bike; grips are model-agnostic on any standard bar with twist-shifter clearance."
+    },
+    {
+      "product_brand": "Vee Tire Co",
+      "product_name": "Speedster 20x4.0 (pair)",
+      "bike_slug": "juiced-scorpion-x",
+      "years": "2021-2023",
+      "status": "check",
+      "note": "Size-verified fit: Scorpion X runs 20x4.0 tires (juicedbikes.com sells a '20x4 Innova tire' for it; 'wide 20\" x 4.0\" puncture-resistant tires'). The Vee Speedster is a 20x4.0 e-rated street tire whose maker lists 'Juiced' among compatible brands ('e-bike makes that use 20x4.0 tires include Ariel, Super73, Juiced, Lectric, RadPower'). No vendor names the Scorpion X specifically, so 'check' on rim-bead. Sources: https://juicedbikes.com/products/20x4-innova-tire , https://www.amazon.com/Vee-Tire-Speedster-Endurance-Compound/dp/B09Z8CSZPS"
+    },
+    {
+      "product_brand": "Tannus",
+      "product_name": "Armour Tire Insert 20x3.0-4.0",
+      "bike_slug": "juiced-scorpion-x",
+      "years": "2021-2023",
+      "status": "check",
+      "note": "Size-verified: Scorpion X uses 20x4.0 tires, within this insert's stated 20x3.0-4.0 range. No vendor names the Scorpion X. Tire size source: https://juicedbikes.com/products/20x4-innova-tire"
+    },
+    {
+      "product_brand": "GreenBikeKit",
+      "product_name": "KT 52V controller (CrossCurrent/RipCurrent fit)",
+      "bike_slug": "juiced-scorpion-x",
+      "years": "2021-2023",
+      "status": "check",
+      "note": "Scorpion X is a 52V Juiced (52V 15Ah), so voltage matches, but the vendor page names ONLY 'CrossCurrent/RipCurrent' and does NOT list the Scorpion X. The Scorpion X uses a RetroBlade motor whose connector/phase mapping is not confirmed to match the Z910 plug this controller requires. 'Check' until the motor connector and hall wiring are verified. Source: https://www.greenbikekit.com/juiced-crosscurrent-ripcurrent-controller-52v-750w.html"
+    },
+    {
+      "product_brand": "Vee Tire Co",
+      "product_name": "Speedster 20x4.0 (pair)",
+      "bike_slug": "heybike-ranger-s",
+      "years": "2023-present",
+      "status": "check",
+      "note": "Size-verified: Ranger S runs 20x4in fat tires ('The Ranger S features 20x4\" fat tires', heybike.com/blogs/heybike-blog/ranger-s-ebike-faq). Vee Speedster is a 20x4.0 e-rated tire; maker lists common 20x4.0 e-bike brands but does not name Heybike/Ranger S, so 'check' on bead fit. Source: https://www.heybike.com/blogs/heybike-blog/ranger-s-ebike-faq"
+    },
+    {
+      "product_brand": "Tannus",
+      "product_name": "Armour Tire Insert 20x3.0-4.0",
+      "bike_slug": "heybike-ranger-s",
+      "years": "2023-present",
+      "status": "check",
+      "note": "Size-verified: Ranger S uses 20x4in tires, within the 20x3.0-4.0 insert range. No vendor names the Ranger S. Tire size source: https://www.heybike.com/blogs/heybike-blog/ranger-s-ebike-faq"
+    },
+    {
+      "product_brand": "Cloud-9",
+      "product_name": "Cruiser Select saddle",
+      "bike_slug": "heybike-ranger-s",
+      "years": "2023-present",
+      "status": "check",
+      "note": "Universal comfort saddle on standard 7mm rails; Ranger S uses a standard-rail saddle clamp. No vendor names the Ranger S; buyer confirms rail type. General comfort upgrade for this fat-tire cruiser class."
+    },
+    {
+      "product_brand": "Vee Tire Co",
+      "product_name": "Speedster 20x4.0 (pair)",
+      "bike_slug": "heybike-mars-3",
+      "years": "2025-2026",
+      "status": "check",
+      "note": "Size-verified: Mars 3.0 runs 20x4 fat tires ('the Mars 3.0 also uses 20x4 fat tires', heybike.com Mars 3.0 FAQ). Vee Speedster is a 20x4.0 e-rated street tire; maker lists common 20x4.0 brands but not Heybike, so 'check' on bead. Source: https://www.heybike.com/blogs/heybike-blog/heybike-mars-3-0-faqs"
+    },
+    {
+      "product_brand": "Tannus",
+      "product_name": "Armour Tire Insert 20x3.0-4.0",
+      "bike_slug": "heybike-mars-3",
+      "years": "2025-2026",
+      "status": "check",
+      "note": "Size-verified: Mars 3.0 uses 20x4 tires, within this insert's 20x3.0-4.0 range. No vendor names the Mars 3.0. Tire size source: https://www.heybike.com/blogs/heybike-blog/heybike-mars-3-0-faqs"
+    },
+    {
+      "product_brand": "Vee Tire Co",
+      "product_name": "Speedster 20x4.0 (pair)",
+      "bike_slug": "heybike-ranger-3-pro",
+      "years": "2025-2026",
+      "status": "check",
+      "note": "Size-verified: Ranger 3.0 Pro uses '20x4-inch Kenda fat tires' (heybike.com/products/ranger-3-0-pro). Vee Speedster is a 20x4.0 e-rated street alternative; maker does not name Heybike, so 'check' on bead. Source: https://www.heybike.com/products/ranger-3-0-pro"
+    },
+    {
+      "product_brand": "Tannus",
+      "product_name": "Armour Tire Insert 20x3.0-4.0",
+      "bike_slug": "heybike-ranger-3-pro",
+      "years": "2025-2026",
+      "status": "check",
+      "note": "Size-verified: Ranger 3.0 Pro uses 20x4 Kenda tires, within the 20x3.0-4.0 insert range. No vendor names the bike. Source: https://www.heybike.com/products/ranger-3-0-pro"
+    },
+    {
+      "product_brand": "Vee Tire Co",
+      "product_name": "Speedster 20x4.0 (pair)",
+      "bike_slug": "engwe-engine-pro",
+      "years": "2021-present",
+      "status": "check",
+      "note": "Size-verified: Engine Pro runs 20x4.0 tires ('20x4.0\" Tires', engwe.com/products/engwe-engine-pro-2-0). Vee Speedster is a 20x4.0 e-rated street tire; maker does not name Engwe, so 'check' on bead. Source: https://engwe.com/products/engwe-engine-pro-2-0"
+    },
+    {
+      "product_brand": "Tannus",
+      "product_name": "Armour Tire Insert 20x3.0-4.0",
+      "bike_slug": "engwe-engine-pro",
+      "years": "2021-present",
+      "status": "check",
+      "note": "Size-verified: Engine Pro uses 20x4.0 tires, within the 20x3.0-4.0 insert range. No vendor names the Engine Pro. Source: https://engwe.com/products/engwe-engine-pro-2-0"
+    },
+    {
+      "product_brand": "Vee Tire Co",
+      "product_name": "Speedster 20x4.0 (pair)",
+      "bike_slug": "engwe-ep-2-boost",
+      "years": "2025-2026",
+      "status": "check",
+      "note": "Size-verified: EP-2 Boost runs '20x4.0-inch tubeless pneumatic fat tires' (engwe.com/products/engwe-ep-2-boost). Vee Speedster is a 20x4.0 e-rated street tire; note the EP-2 Boost is tubeless-oriented while the Speedster is a wire/clincher, so verify tube/tubeless setup. Maker does not name Engwe. Source: https://engwe.com/products/engwe-ep-2-boost"
+    },
+    {
+      "product_brand": "Tannus",
+      "product_name": "Armour Tire Insert 20x3.0-4.0",
+      "bike_slug": "engwe-ep-2-boost",
+      "years": "2025-2026",
+      "status": "check",
+      "note": "Size-verified: EP-2 Boost uses 20x4.0 tires, within the 20x3.0-4.0 insert range. No vendor names the EP-2 Boost. Source: https://engwe.com/products/engwe-ep-2-boost"
+    },
+    {
+      "product_brand": "Dunlop",
+      "product_name": "Geomax MX53 70/100-19 Off-Road Tire",
+      "bike_slug": "segway-xaber-300",
+      "years": "2026",
+      "status": "check",
+      "note": "Size match on the FRONT only: the Xaber 300 rolls '70/100-19 front and 80/100-17 rear' (rideapart.com / cyclenews.com launch specs). The Dunlop Geomax MX53 70/100-19 matches the published front size exactly, but this is a weeks-old 2026 bike with no aftermarket vendor naming it, and the rear (80/100-17) is a different size this product does not cover. 'Check' on front only; rear needs an 80/100-17. Source: https://www.rideapart.com/news/783848/segway-xaber-300-electric-dirtbike-specs-features-price/"
+    }
+  ]
+}
