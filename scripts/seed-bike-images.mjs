@@ -36,7 +36,14 @@ async function main() {
 
   const encoded = [];
   const failed = [];
+  const skipped = [];
   for (const r of downloaded) {
+    // Preserve pre-placed images (e.g. permissioned/edited photos) — never
+    // overwrite an existing public/bikes/<slug>.jpg from a manufacturer source.
+    if (existsSync(path.join("public", "bikes", `${r.slug}.jpg`))) {
+      skipped.push(r.slug);
+      continue;
+    }
     const srcPath = path.join(srcDir, r.file);
     if (!existsSync(srcPath)) {
       failed.push(`${r.slug}: file missing (${r.file})`);
@@ -53,13 +60,16 @@ async function main() {
       failed.push(`${r.slug}: ${e.message.slice(0, 60)}`);
     }
   }
-  console.log(`encoded: ${encoded.length} | encode failures: ${failed.length}`);
+  console.log(`encoded: ${encoded.length} | skipped (pre-placed): ${skipped.length} | encode failures: ${failed.length}`);
   failed.forEach((f) => console.log("  FAIL", f));
 
   if (!EXECUTE) return console.log("\nDRY RUN — pass --execute to update the DB.");
 
-  for (const slug of encoded) await patch(slug, `/bikes/${slug}.jpg`);
-  console.log(`updated ${encoded.length} bike_models.image_url`);
+  // Update image_url for everything now present in public/bikes/ (encoded +
+  // pre-placed), so the DB reflects the full set.
+  const allSlugs = [...encoded, ...skipped];
+  for (const slug of allSlugs) await patch(slug, `/bikes/${slug}.jpg`);
+  console.log(`updated ${allSlugs.length} bike_models.image_url`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
