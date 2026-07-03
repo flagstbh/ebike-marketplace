@@ -81,6 +81,16 @@ export const SWAP_LIKELIHOOD_LABELS: Record<SwapLikelihood, string> = {
   occasional: "Occasional swap",
 };
 
+export interface ProductFitment {
+  id: string;
+  product_id: string;
+  bike_id: string;
+  years: string | null;
+  status: "verified" | "check";
+  note: string | null;
+  bike_models?: Pick<BikeModel, "slug" | "brand" | "model"> | null;
+}
+
 export interface CartItem {
   productId: string;
   slug: string;

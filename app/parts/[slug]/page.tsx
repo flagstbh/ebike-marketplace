@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import AddToCart from "@/components/add-to-cart";
 import ProductCard from "@/components/product-card";
-import type { Product } from "@/lib/types";
+import type { Product, ProductFitment } from "@/lib/types";
 import { CONDITION_LABELS } from "@/lib/types";
 import { usd, partNumber } from "@/lib/format";
 
@@ -62,13 +62,22 @@ export default async function ProductPage({
   if (!product) notFound();
   const p = product as Product;
 
-  const { data: related } = await supabase
-    .from("products")
-    .select("*")
-    .eq("category_id", p.category_id)
-    .neq("id", p.id)
-    .gt("stock", 0)
-    .limit(4);
+  const [{ data: related }, { data: fitments }] = await Promise.all([
+    supabase
+      .from("products")
+      .select("*")
+      .eq("category_id", p.category_id)
+      .neq("id", p.id)
+      .gt("stock", 0)
+      .limit(4),
+    supabase
+      .from("product_fitments")
+      .select("id, product_id, bike_id, years, status, note, bike_models(slug, brand, model)")
+      .eq("product_id", p.id),
+  ]);
+  const fits = (fitments ?? []) as unknown as ProductFitment[];
+  const verifiedFits = fits.filter((f) => f.status === "verified" && f.bike_models);
+  const checkFits = fits.filter((f) => f.status === "check" && f.bike_models);
 
   const specs = Object.entries(p.specs ?? {});
   const savings =
@@ -151,7 +160,53 @@ export default async function ProductPage({
             </div>
           )}
 
-          {p.fits.length > 0 && (
+          {verifiedFits.length > 0 && (
+            <div className="mt-6">
+              <p className="label-mono mb-2 text-ink-soft">
+                Verified fit — confirmed against manufacturer fitment data
+              </p>
+              <ul className="flex flex-wrap gap-2">
+                {verifiedFits.map((f) => (
+                  <li key={f.id}>
+                    <Link
+                      href={`/bikes/${f.bike_models!.slug}`}
+                      title={f.note ?? undefined}
+                      className="block border border-ink px-2.5 py-1 text-sm hover:bg-ink hover:text-paper"
+                    >
+                      {f.bike_models!.brand} {f.bike_models!.model}
+                      {f.years && (
+                        <span className="label-mono ml-1.5 text-accent">{f.years}</span>
+                      )}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {checkFits.length > 0 && (
+            <div className="mt-4">
+              <p className="label-mono mb-2 text-ink-soft">
+                Likely fits — check your year and spec before ordering
+              </p>
+              <ul className="flex flex-wrap gap-2">
+                {checkFits.map((f) => (
+                  <li key={f.id}>
+                    <Link
+                      href={`/bikes/${f.bike_models!.slug}`}
+                      title={f.note ?? undefined}
+                      className="block border border-dashed border-line px-2.5 py-1 text-sm text-ink-soft hover:border-ink hover:text-ink"
+                    >
+                      {f.bike_models!.brand} {f.bike_models!.model}
+                      {f.years && <span className="label-mono ml-1.5">{f.years}</span>}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {fits.length === 0 && p.fits.length > 0 && (
             <div className="mt-6">
               <p className="label-mono mb-2 text-ink-soft">Fits</p>
               <ul className="flex flex-wrap gap-2">
