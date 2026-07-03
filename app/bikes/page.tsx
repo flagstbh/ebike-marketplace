@@ -29,12 +29,23 @@ function BikeRow({ bike }: { bike: BikeWithParts }) {
       href={`/bikes/${bike.slug}`}
       className="group grid gap-1 border-b border-line px-4 py-4 hover:bg-paper-raised sm:grid-cols-[2fr_1fr_1fr_1fr_auto] sm:items-center sm:gap-4 sm:px-8"
     >
-      <div>
-        <span className="label-mono text-ink-soft">{bike.brand}</span>
-        <p className="font-display text-xl font-semibold uppercase leading-tight group-hover:text-accent">
-          {bike.model}
-        </p>
-        <span className="label-mono text-ink-soft">{bike.years}</span>
+      <div className="flex items-center gap-3">
+        {bike.image_url && (
+          <Image
+            src={bike.image_url}
+            alt=""
+            width={80}
+            height={56}
+            className="h-14 w-20 shrink-0 object-contain"
+          />
+        )}
+        <div>
+          <span className="label-mono text-ink-soft">{bike.brand}</span>
+          <p className="font-display text-xl font-semibold uppercase leading-tight group-hover:text-accent">
+            {bike.model}
+          </p>
+          <span className="label-mono text-ink-soft">{bike.years}</span>
+        </div>
       </div>
       <span className="text-sm text-ink-soft">{bike.style}</span>
       <span className="hidden text-sm text-ink-soft sm:block">{bike.motor}</span>
