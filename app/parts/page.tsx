@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { Suspense } from "react";
+import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import ProductCard from "@/components/product-card";
 import BikePicker from "@/components/bike-picker";
+import { getYourBike } from "@/lib/your-bike";
 import type { Category, Product } from "@/lib/types";
-
-export const revalidate = 120;
 
 export default async function PartsPage({
   searchParams,
@@ -13,6 +13,16 @@ export default async function PartsPage({
   searchParams: Promise<{ category?: string; bike?: string }>;
 }) {
   const { category, bike: bikeSlug } = await searchParams;
+
+  // Bike-first: if the rider has a bike set and hasn't asked for a specific
+  // one, canonicalize to their bike so the whole browse is "parts for my bike".
+  if (!bikeSlug) {
+    const yb = await getYourBike();
+    if (yb) {
+      redirect(`/parts?bike=${yb.slug}${category ? `&category=${category}` : ""}`);
+    }
+  }
+
   const supabase = await createClient();
 
   const [{ data: categories }, { data: bikes }] = await Promise.all([

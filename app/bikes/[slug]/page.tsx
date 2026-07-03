@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import ProductCard from "@/components/product-card";
+import SetMyRide from "@/components/set-my-ride";
 import type { BikeModel, BikeStockPart, Product, TradeInCatalogEntry } from "@/lib/types";
 import { SWAP_LIKELIHOOD_LABELS } from "@/lib/types";
 import { takeoffPotential } from "@/lib/takeoff-value";
@@ -139,12 +140,15 @@ export default async function BikePage({
           >
             Trade in {bike.model} parts
           </Link>
-          <Link
-            href={`/parts?bike=${bike.slug}`}
-            className="label-mono mt-4 inline-block text-accent hover:text-paper"
-          >
-            Shop upgrades that fit this bike →
-          </Link>
+          <div className="mt-4 flex flex-wrap items-center gap-4">
+            <Link
+              href={`/parts?bike=${bike.slug}`}
+              className="label-mono text-accent hover:text-paper"
+            >
+              Shop upgrades that fit this bike →
+            </Link>
+            <SetMyRide slug={bike.slug} name={`${bike.brand} ${bike.model}`} />
+          </div>
         </div>
       </div>
 

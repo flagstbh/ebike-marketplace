@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
+import { setYourBike, clearYourBike } from "@/lib/your-bike-client";
 
 export default function BikePicker({
   bikes,
@@ -20,8 +21,16 @@ export default function BikePicker({
         id="bike-picker"
         value={current}
         onChange={(e) => {
-          const v = e.target.value;
-          router.push(v ? `/parts?bike=${v}` : "/parts");
+          const slug = e.target.value;
+          if (slug) {
+            const b = bikes.find((x) => x.slug === slug);
+            if (b) setYourBike(slug, `${b.brand} ${b.model}`);
+            router.push(`/parts?bike=${slug}`);
+          } else {
+            clearYourBike();
+            router.push("/parts");
+          }
+          router.refresh();
         }}
         className="border border-line bg-paper-raised px-3 py-2 text-sm outline-none focus:border-ink"
       >
