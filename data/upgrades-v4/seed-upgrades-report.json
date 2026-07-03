@@ -1,0 +1,24 @@
+{
+ "newProducts": [
+  "ebmx-72v-42ah-high-power-battery",
+  "ebmx-xlb-60-race-motor-air-cooled",
+  "torp-tc500-controller-kit",
+  "asi-bac4000-power-upgrade-kit",
+  "warp-9-custom-wheel-set",
+  "kke-17in-supermoto-wheel-set",
+  "warp-9-3in-rise-handlebar",
+  "dunlop-geomax-mx53-70-100-19-off-road-tire",
+  "powerful-lithium-60v-aura-battery",
+  "alien-rides-67-2v-10a-fast-charger",
+  "ewatt-72v-42ah-race-battery-talaria-sting",
+  "evmod-low-rise-handlebar-for-super73"
+ ],
+ "imageFails": [],
+ "fitments": {
+  "verified": 48,
+  "check": 34,
+  "downgraded": 0,
+  "badBike": [],
+  "badProduct": []
+ }
+}

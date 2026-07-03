@@ -126,6 +126,12 @@ export default async function BikePage({
           >
             Trade in {bike.model} parts
           </Link>
+          <Link
+            href={`/parts?bike=${bike.slug}`}
+            className="label-mono mt-4 inline-block text-accent hover:text-paper"
+          >
+            Shop upgrades that fit this bike →
+          </Link>
         </div>
       </div>
 

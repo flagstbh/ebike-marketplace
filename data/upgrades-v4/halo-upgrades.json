@@ -1,0 +1,771 @@
+{
+  "family": "halo",
+  "products": [
+    {
+      "name": "72V 42Ah High Power Battery",
+      "brand": "EBMX",
+      "category_slug": "batteries",
+      "price_cents": 199999,
+      "description": "The 72V swap the Light Bee scene actually runs. Potted NMC pouch cells in a stainless case, 28kW peak. Needs an aftermarket controller to use any of it.",
+      "image_url": "https://revrides.com/cdn/shop/files/EBMXSurRonLightBeeHighPoweredBattery-3_4f17fa4b-37b7-4a6b-8283-1c9f57a062e9.jpg",
+      "image_source_page": "https://revrides.com/products/ebmx-high-power-batteries-for-talaria-surron"
+    },
+    {
+      "name": "XLB-60 RACE Motor (Air Cooled)",
+      "brand": "EBMX",
+      "category_slug": "motors",
+      "price_cents": 179900,
+      "description": "Race motor for big-power Light Bee builds. Mandatory battery upgrade to run it; EBMX prices through dealers, street is around $1.8k.",
+      "image_url": "https://www.ebmx.com/web/image/product.product/11914/image_1024/%5BE-PU-AA35-BK-X%5D%20EBMX%20XLB-60%20RACE%20Motor%20%28Air%20Cooled%29%20%28Black%29?unique=1af8926",
+      "image_source_page": "https://www.ebmx.com/shop/ebmx-xlb-60-race-motor-air-cooled-4513"
+    },
+    {
+      "name": "TC500 Controller Kit",
+      "brand": "Torp",
+      "category_slug": "controllers-displays",
+      "price_cents": 99900,
+      "description": "True plug-and-play power controller. The only aftermarket unit that talks to the stock Sur-Ron and Talaria BMS. Up to 20kW peak, tuned from a phone app.",
+      "image_url": "https://www.torpmotors.com/wp-content/uploads/2026/01/TC10001.png",
+      "image_source_page": "https://www.torpmotors.com/tc500-controller-2/"
+    },
+    {
+      "name": "BAC4000 Power Upgrade Kit",
+      "brand": "ASI",
+      "category_slug": "controllers-displays",
+      "price_cents": 110995,
+      "description": "The classic Sur-Ron/Segway power kit. Doubles to triples stock power with tune options from 5.2kW to 12kW. Bypass tunes work on the stock battery.",
+      "image_url": "https://www.factoryminibikes.com/cdn/shop/products/BAC4000.png?v=1641190926&width=1200",
+      "image_source_page": "https://www.factoryminibikes.com/products/bac4000-stage-1-power-upgrade-kit-self-install"
+    },
+    {
+      "name": "Custom Wheel Set",
+      "brand": "Warp 9",
+      "category_slug": "tires-wheels",
+      "price_cents": 40800,
+      "description": "US-built custom wheels: aircraft-grade rims, billet hubs, stainless spokes. Priced per wheel, built to order in 4-6 weeks, ships with rotor and sprocket.",
+      "image_url": "https://parts.electriccyclerider.com/cdn/shop/files/thumbnail_20220216_153647_4cf1bcc3-87fb-42a0-8447-10b9e95cfdc4.jpg?v=1704260497",
+      "image_source_page": "https://parts.electriccyclerider.com/products/warp-9-custom-wheels"
+    },
+    {
+      "name": "17in Supermoto Wheel Set",
+      "brand": "KKE",
+      "category_slug": "tires-wheels",
+      "price_cents": 69900,
+      "description": "The street conversion. CNC 7050-T6 rims, bolts to OEM rotors and sprocket, bearings pre-installed. Run real supermoto rubber.",
+      "image_url": "https://parts.electriccyclerider.com/cdn/shop/files/DSC03640_dfc1da10-aae1-4fa8-93a2-ecf1b0ebcff7.jpg?v=1762795546&width=2400",
+      "image_source_page": "https://parts.electriccyclerider.com/products/kke-17-supermoto-wheel-set-for-surron-lbx-e-ride-pro"
+    },
+    {
+      "name": "3in Rise Handlebar",
+      "brand": "Warp 9",
+      "category_slug": "cockpit",
+      "price_cents": 8700,
+      "description": "7075 tapered bar in the OEM 31.8mm clamp. 3 inches of rise fixes the cramped stock cockpit for anyone over 5'10\".",
+      "image_url": "https://chargedcycleworks.com/cdn/shop/files/GOLD_W9_HANDLEBAR.jpg?v=1733507661&width=1080",
+      "image_source_page": "https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+    },
+    {
+      "name": "Geomax MX53 70/100-19 Off-Road Tire",
+      "brand": "Dunlop",
+      "category_slug": "tires-wheels",
+      "price_cents": 8195,
+      "description": "Real MX rubber that fits the stock 19in rim. The single cheapest traction upgrade on these bikes. Priced per tire.",
+      "image_url": "https://radmotousa.com/cdn/shop/files/off-road-tire-dunlop-geomax-mx53-0312-0380-dunlop_iso.jpg?v=1697482103&width=1946",
+      "image_source_page": "https://radmotousa.com/products/off-road-tire-dunlop-geomax-mx53-for-surron-and-talaria"
+    },
+    {
+      "name": "60V Aura Battery",
+      "brand": "Powerful Lithium",
+      "category_slug": "batteries",
+      "price_cents": 205000,
+      "description": "Range play, not a power play: 50-75Ah of 60V that drops in on the stock controller. The move for riders who want miles, not wheelies.",
+      "image_url": "https://powerfullithium.com/cdn/shop/files/Aion_1024x.png?v=1766661688",
+      "image_source_page": "https://powerfullithium.com/products/60v-aura-battery-for-sur-ron"
+    },
+    {
+      "name": "67.2V 10A Fast Charger",
+      "brand": "Alien Rides",
+      "category_slug": "batteries",
+      "price_cents": 24900,
+      "description": "Cuts a Light Bee charge from all evening to about 3 hours. 10A with a cooling fan, auto 110/220V. For 60V packs only.",
+      "image_url": "https://alienrides.com/cdn/shop/files/5A455E3F-850F-4E54-BC2C-C26CA5BA254A_1024x1024.png?v=1727214693",
+      "image_source_page": "https://alienrides.com/products/surron-light-bee-10a-charger"
+    },
+    {
+      "name": "72V 42Ah Race Battery (Talaria Sting)",
+      "brand": "eWatt",
+      "category_slug": "batteries",
+      "price_cents": 200000,
+      "description": "28kW Talaria race pack that fits under the OEM lid with no cutting. Not compatible with the stock 60V controller; budget for an X-9000 or Torp.",
+      "image_url": "https://chargedcycleworks.com/cdn/shop/files/ScreenShot2024-11-29at5.47.37PM_8cc717e8-6bf3-43d5-ac95-e08a70caf81d.png?v=1732922126",
+      "image_source_page": "https://chargedcycleworks.com/products/72v-42ah-battery-for-talaria-sting"
+    },
+    {
+      "name": "Low Rise Handlebar for Super73",
+      "brand": "EVMOD",
+      "category_slug": "cockpit",
+      "price_cents": 5299,
+      "description": "7/8in low-rise bar that drops the sit-up cruiser posture into something you can actually lean on. Cheap, clean, reversible.",
+      "image_url": "https://evmod.us/cdn/shop/files/3_1800x1800.png?v=1711962425",
+      "image_source_page": "https://evmod.us/products/low-rise-handlebar-for-super73"
+    }
+  ],
+  "fitments": [
+    {
+      "product_brand": "EBMX",
+      "product_name": "X-9000 V3 controller kit",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "verified",
+      "note": "Vendor fitment list: \"Surron Light Bee, Surron Ultra Bee, Talaria Sting MX3 / MX4 / MX5, Talaria XXX, Talaria XXX PRO...\" — https://parts.electriccyclerider.com/products/x-9000-controller. Years capped at 2025: the 2026 Light Bee X is a redesigned 72V factory platform (per https://surron.ae/blogs/news/2026-sur-ron-light-bee-x-vs-2025-the-biggest-factory-upgrade-yet) and no vendor statement covers it."
+    },
+    {
+      "product_brand": "EBMX",
+      "product_name": "X-9000 V3 controller kit",
+      "bike_slug": "surron-ultra-bee",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor fitment list: \"Surron Light Bee, Surron Ultra Bee, Talaria Sting MX3 / MX4 / MX5, Talaria XXX...\" — https://parts.electriccyclerider.com/products/x-9000-controller"
+    },
+    {
+      "product_brand": "EBMX",
+      "product_name": "X-9000 V3 controller kit",
+      "bike_slug": "talaria-sting-mx4",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor fitment list explicitly names \"Talaria Sting MX3 / MX4 / MX5\" — https://parts.electriccyclerider.com/products/x-9000-controller"
+    },
+    {
+      "product_brand": "EBMX",
+      "product_name": "X-9000 V3 controller kit",
+      "bike_slug": "talaria-xxx",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor fitment list explicitly names \"Talaria XXX, Talaria XXX PRO\" — https://parts.electriccyclerider.com/products/x-9000-controller"
+    },
+    {
+      "product_brand": "EBMX",
+      "product_name": "X-9000 V3 controller kit",
+      "bike_slug": "talaria-sting-mx5-pro",
+      "years": null,
+      "status": "check",
+      "note": "Vendor lists \"Talaria Sting MX3 / MX4 / MX5\" (https://parts.electriccyclerider.com/products/x-9000-controller); our bike is the MX5 Pro variant, which is not explicitly named. Confirm Pro-variant fitment before listing."
+    },
+    {
+      "product_brand": "EBMX",
+      "product_name": "72V 42Ah High Power Battery",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "verified",
+      "note": "Vendor fitment list: \"Segway X160, Segway X260, Surron Light Bee X, Eride pro SR, 79bike Falcon-M, Surron Light bee S\" — https://revrides.com/products/ebmx-high-power-batteries-for-talaria-surron. Requires aftermarket controller (EBMX recommends X-9000). Years capped at 2025: 2026 LBX is a new 72V factory platform not covered by this statement."
+    },
+    {
+      "product_brand": "EBMX",
+      "product_name": "72V 42Ah High Power Battery",
+      "bike_slug": "segway-x160",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor fitment list: \"Segway X160, Segway X260, Surron Light Bee X...\" — https://revrides.com/products/ebmx-high-power-batteries-for-talaria-surron. Requires aftermarket controller."
+    },
+    {
+      "product_brand": "EBMX",
+      "product_name": "72V 42Ah High Power Battery",
+      "bike_slug": "segway-x260",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor fitment list: \"Segway X160, Segway X260, Surron Light Bee X...\" — https://revrides.com/products/ebmx-high-power-batteries-for-talaria-surron. Requires aftermarket controller."
+    },
+    {
+      "product_brand": "EBMX",
+      "product_name": "XLB-60 RACE Motor (Air Cooled)",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "verified",
+      "note": "Manufacturer: \"Harness and mount sets are available to use this motor with SurRon Light Bee or Eride Pro\" and \"Light Bee... require a mandatory battery upgrade to run the XLB-60 RACE Motor\" — https://www.ebmx.com/shop/ebmx-xlb-60-race-motor-air-cooled-4513. Years capped at 2025 (2026 LBX = new 72V platform, not covered)."
+    },
+    {
+      "product_brand": "Torp",
+      "product_name": "TC500 Controller Kit",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "verified",
+      "note": "Manufacturer: \"FULLY COMPATIBLE WITH SURRON LIGHT BEE / SEGWAY X260, TALARIA MX3/MX4/MX5 AND THE TORP TM25 MOTOR\" — https://www.torpmotors.com/tc500-controller-2/. Years capped at 2025 (2026 LBX = redesigned 72V platform, not covered by statement)."
+    },
+    {
+      "product_brand": "Torp",
+      "product_name": "TC500 Controller Kit",
+      "bike_slug": "segway-x260",
+      "years": null,
+      "status": "verified",
+      "note": "Manufacturer: \"FULLY COMPATIBLE WITH SURRON LIGHT BEE / SEGWAY X260, TALARIA MX3/MX4/MX5...\" — https://www.torpmotors.com/tc500-controller-2/"
+    },
+    {
+      "product_brand": "Torp",
+      "product_name": "TC500 Controller Kit",
+      "bike_slug": "talaria-sting-mx4",
+      "years": null,
+      "status": "verified",
+      "note": "Manufacturer: \"...TALARIA MX3/MX4/MX5...\" — https://www.torpmotors.com/tc500-controller-2/. Note: manufacturer states it currently cannot communicate with SCUD-made stock Talaria batteries."
+    },
+    {
+      "product_brand": "Torp",
+      "product_name": "TC500 Controller Kit",
+      "bike_slug": "talaria-sting-mx5-pro",
+      "years": null,
+      "status": "check",
+      "note": "Manufacturer names \"TALARIA MX3/MX4/MX5\" (https://www.torpmotors.com/tc500-controller-2/); our bike is the MX5 Pro variant, not explicitly named. Confirm Pro-variant fitment."
+    },
+    {
+      "product_brand": "ASI",
+      "product_name": "BAC4000 Power Upgrade Kit",
+      "bike_slug": "segway-x160",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor tune chart: \"5.2kW 48V Bypass Tune = Use on the Segway X160 or SurRon Youth 48V with Bypass mod on stock battery.\" — https://www.factoryminibikes.com/products/bac4000-stage-1-power-upgrade-kit-self-install"
+    },
+    {
+      "product_brand": "ASI",
+      "product_name": "BAC4000 Power Upgrade Kit",
+      "bike_slug": "segway-x260",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor tune chart: \"8.5kW 60V Bypass Tune = Use on the Segway X260 or SurRon X 60V with Bypass mod on stock battery.\" — https://www.factoryminibikes.com/products/bac4000-stage-1-power-upgrade-kit-self-install"
+    },
+    {
+      "product_brand": "ASI",
+      "product_name": "BAC4000 Power Upgrade Kit",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "verified",
+      "note": "Vendor tune chart: \"8.5kW 60V Bypass Tune = Use on the Segway X260 or SurRon X 60V with Bypass mod on stock battery.\" — https://www.factoryminibikes.com/products/bac4000-stage-1-power-upgrade-kit-self-install. The statement is explicitly for the 60V SurRon X, i.e. pre-2026 models only; 2026 LBX is 72V."
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "aluminum rear sprocket",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "verified",
+      "note": "Vendor fitment: \"Sur Ron LBX / S, Segway X160 / X260, Talaria Sting MX3 / MX4, Talaria XXX, E Ride Pro-S / SS / 2.0...\" — https://gritshift.com/products/warp-9-e-bike-rear-sprocket. Years capped at 2025: 2026 LBX is a redesigned platform and the fitment list does not cover it."
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "aluminum rear sprocket",
+      "bike_slug": "segway-x160",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor fitment: \"Sur Ron LBX / S, Segway X160 / X260...\" — https://gritshift.com/products/warp-9-e-bike-rear-sprocket"
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "aluminum rear sprocket",
+      "bike_slug": "segway-x260",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor fitment: \"Sur Ron LBX / S, Segway X160 / X260...\" — https://gritshift.com/products/warp-9-e-bike-rear-sprocket"
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "aluminum rear sprocket",
+      "bike_slug": "talaria-sting-mx4",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor fitment: \"...Talaria Sting MX3 / MX4, Talaria XXX...\" — https://gritshift.com/products/warp-9-e-bike-rear-sprocket. 54T needs a 110-link chain, 60T needs 114-link (same page)."
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "aluminum rear sprocket",
+      "bike_slug": "talaria-xxx",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor fitment: \"...Talaria Sting MX3 / MX4, Talaria XXX...\" — https://gritshift.com/products/warp-9-e-bike-rear-sprocket"
+    },
+    {
+      "product_brand": "GritShift",
+      "product_name": "aluminum rear sprocket",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "check",
+      "note": "GritShift sells billet rear sprockets for this platform (\"EBikeZilla Billet Rear Sprocket for Sur Ron, Segway, & Talaria E-Bikes\" — https://gritshift.com/products/ebikezilla-e-bike-rear-sprocket-sur-ron-segway-talaria), but our catalog SKU is GritShift-branded and the exact SKU-to-listing match is unconfirmed. Fit pattern matches Sur-Ron LBX; confirm SKU."
+    },
+    {
+      "product_brand": "GritShift",
+      "product_name": "aluminum rear sprocket",
+      "bike_slug": "segway-x260",
+      "years": null,
+      "status": "check",
+      "note": "Same basis as the LBX row: GritShift billet sprocket listings cover Sur Ron/Segway/Talaria (https://gritshift.com/products/ebikezilla-e-bike-rear-sprocket-sur-ron-segway-talaria), but exact catalog-SKU match unconfirmed."
+    },
+    {
+      "product_brand": "GritShift",
+      "product_name": "aluminum rear sprocket",
+      "bike_slug": "talaria-sting-mx4",
+      "years": null,
+      "status": "check",
+      "note": "GritShift billet sprocket listings cover Sur Ron/Segway/Talaria (https://gritshift.com/products/ebikezilla-e-bike-rear-sprocket-sur-ron-segway-talaria); exact catalog-SKU match unconfirmed."
+    },
+    {
+      "product_brand": "GritShift",
+      "product_name": "54T aluminum rear sprocket",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "check",
+      "note": "54T sprockets in GritShift's line fit \"Sur Ron LBX / S, Segway X160 / X260, Talaria Sting MX3 / MX4, Talaria XXX\" and \"The 54T requires a 110-link chain\" (https://gritshift.com/products/warp-9-e-bike-rear-sprocket), but that listing is Warp 9-branded; our GritShift-branded 54T SKU match is unconfirmed."
+    },
+    {
+      "product_brand": "GritShift",
+      "product_name": "54T aluminum rear sprocket",
+      "bike_slug": "segway-x260",
+      "years": null,
+      "status": "check",
+      "note": "Same basis: 54T fitment pattern covers Segway X160/X260 per https://gritshift.com/products/warp-9-e-bike-rear-sprocket, but exact GritShift-branded SKU match unconfirmed. 54T requires a 110-link chain."
+    },
+    {
+      "product_brand": "GritShift",
+      "product_name": "54T aluminum rear sprocket",
+      "bike_slug": "talaria-sting-mx4",
+      "years": null,
+      "status": "check",
+      "note": "Same basis: 54T fitment pattern covers Talaria Sting MX3/MX4 per https://gritshift.com/products/warp-9-e-bike-rear-sprocket, but exact GritShift-branded SKU match unconfirmed."
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "Custom Wheel Set",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "verified",
+      "note": "Vendor model list: \"Surron Light Bee X, Talaria Sting (MX3), Talaria Sting R (MX4), Talaria XXX\", \"Fronts and rears available\" — https://parts.electriccyclerider.com/products/warp-9-custom-wheels. Years capped at 2025 (2026 LBX redesigned platform not covered)."
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "Custom Wheel Set",
+      "bike_slug": "talaria-sting-mx4",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor model list explicitly names \"Talaria Sting R (MX4)\" — https://parts.electriccyclerider.com/products/warp-9-custom-wheels"
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "Custom Wheel Set",
+      "bike_slug": "talaria-xxx",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor model list explicitly names \"Talaria XXX\" — https://parts.electriccyclerider.com/products/warp-9-custom-wheels"
+    },
+    {
+      "product_brand": "KKE",
+      "product_name": "17in Supermoto Wheel Set",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "verified",
+      "note": "Vendor compatible-models list: \"Surron LBX\", \"E Ride Pro S\", \"E Ride Pro SS 2.0\" — https://parts.electriccyclerider.com/products/kke-17-supermoto-wheel-set-for-surron-lbx-e-ride-pro. Years capped at 2025 (2026 LBX redesigned platform not covered)."
+    },
+    {
+      "product_brand": "KKE",
+      "product_name": "17in Supermoto Wheel Set",
+      "bike_slug": "surron-ultra-bee",
+      "years": "2023-2025",
+      "status": "check",
+      "note": "KKE makes an Ultra Bee-specific 17in supermoto set (eBay listing: \"KKE 17\\\" Supermoto Wheels Rims for Surron Ultra Bee 2023-2025\" — https://www.ebay.com/itm/314842574659), but that is a different SKU from this LBX set. Do not sell this SKU for Ultra Bee without confirming."
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "3in Rise Handlebar",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "verified",
+      "note": "Vendor: \"31.8mm center clamp size (OEM fit for Surron LBX/S, Segway X-160/260, Eride Pro-all models, Talaria Sting- all models)\" — https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria. Years capped at 2025; 2026 LBX cockpit specs unconfirmed."
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "3in Rise Handlebar",
+      "bike_slug": "segway-x160",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor: \"OEM fit for Surron LBX/S, Segway X-160/260...\" — https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "3in Rise Handlebar",
+      "bike_slug": "segway-x260",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor: \"OEM fit for Surron LBX/S, Segway X-160/260...\" — https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "3in Rise Handlebar",
+      "bike_slug": "talaria-sting-mx4",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor: \"OEM fit for... Talaria Sting- all models\" — https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria"
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "3in Rise Handlebar",
+      "bike_slug": "talaria-sting-mx5-pro",
+      "years": null,
+      "status": "check",
+      "note": "Vendor claim \"Talaria Sting- all models\" (https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria) may predate the MX5 Pro; MX5 Pro clamp spec not explicitly confirmed."
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "3in Rise Handlebar",
+      "bike_slug": "talaria-xxx",
+      "years": null,
+      "status": "check",
+      "note": "The XXX is not a \"Sting\" and is not named in the vendor statement (https://chargedcycleworks.com/products/warp9-3-rise-handlebar-for-surron-segway-talaria). Cockpit is believed shared 31.8mm but unconfirmed."
+    },
+    {
+      "product_brand": "Sirris",
+      "product_name": "F43 fork",
+      "bike_slug": "surron-ultra-bee",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor product page: \"Sirris F43 Front Fork | Surron Ultra Bee Suspension Upgrade\" — the F43 \"seamlessly integrates with the Surron Ultra Bee's OEM front-end setup as a direct swap\" — https://chargedcycleworks.com/products/sirris-f43-fork-for-surron-ultra-bee"
+    },
+    {
+      "product_brand": "Sirris",
+      "product_name": "R46 rear shock",
+      "bike_slug": "surron-ultra-bee",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor product page: \"Sirris R46 Shock for Surron Ultra Bee\" — https://parts.electriccyclerider.com/products/sirris-rear-shock-for-surron-ultra-bee"
+    },
+    {
+      "product_brand": "Fastace",
+      "product_name": "ALX13RC 2.0 fork",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "verified",
+      "note": "Manufacturer product page: \"FASTACE ALX13RC 2.0 Original Factory Front Fork Suspension For Surron Light Bee, Talaria MX3, Eride Pro S/SS, 79 Bike\" — https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike. Years capped at 2025 (2026 LBX ships a redesigned platform with upgraded suspension; carryover unconfirmed)."
+    },
+    {
+      "product_brand": "Fastace",
+      "product_name": "ALX13RC 2.0 fork",
+      "bike_slug": "talaria-sting-mx4",
+      "years": null,
+      "status": "check",
+      "note": "Fastace's own fitment names \"Talaria MX3\", not MX4 (https://fastace.com/products/fastace-alx13rc-2-0-original-factory-front-fork-suspension-for-surron-light-bee-talaria-mx3-eride-pro-s-ss-79-bike). Vendors sell it under a generic \"Surron/Talaria/Segway\" banner (https://chargedcycleworks.com/products/fastace-fork-for-surron-talaria-segway). MX4 steerer/axle match unconfirmed."
+    },
+    {
+      "product_brand": "Fastace",
+      "product_name": "BDA53RC rear shock",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "check",
+      "note": "Community-standard Light Bee rear shock upgrade (frequently paired with the ALX13RC fork), but no explicit manufacturer/vendor fitment statement was captured in this pass. Confirm before selling."
+    },
+    {
+      "product_brand": "DNM",
+      "product_name": "USD-8 fat bike air fork",
+      "bike_slug": "super73-z-miami",
+      "years": null,
+      "status": "check",
+      "note": "Popular community front-suspension swap for rigid-fork Super73 Z-series bikes; no manufacturer/vendor statement naming the Z Miami was found. Headtube/axle compatibility must be confirmed per model year."
+    },
+    {
+      "product_brand": "Dunlop",
+      "product_name": "Geomax MX53 70/100-19 Off-Road Tire",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "verified",
+      "note": "Vendor: \"Dunlop Performance Off-Road Tire for Talaria Sting, Sur-Ron LB-X and Segway X260. 70/100-19 is for 19'' Original Rim (OEM)\" — https://radmotousa.com/products/off-road-tire-dunlop-geomax-mx53-for-surron-and-talaria. Years capped at 2025 pending confirmation the 2026 platform keeps 19in rims."
+    },
+    {
+      "product_brand": "Dunlop",
+      "product_name": "Geomax MX53 70/100-19 Off-Road Tire",
+      "bike_slug": "talaria-sting-mx4",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor: \"...for Talaria Sting, Sur-Ron LB-X and Segway X260. 70/100-19 is for 19'' Original Rim (OEM)\" — https://radmotousa.com/products/off-road-tire-dunlop-geomax-mx53-for-surron-and-talaria. MX4 runs OEM 19in rims front and rear."
+    },
+    {
+      "product_brand": "Dunlop",
+      "product_name": "Geomax MX53 70/100-19 Off-Road Tire",
+      "bike_slug": "segway-x260",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor: \"...for Talaria Sting, Sur-Ron LB-X and Segway X260. 70/100-19 is for 19'' Original Rim (OEM)\" — https://radmotousa.com/products/off-road-tire-dunlop-geomax-mx53-for-surron-and-talaria"
+    },
+    {
+      "product_brand": "Dunlop",
+      "product_name": "Geomax MX53 70/100-19 Off-Road Tire",
+      "bike_slug": "talaria-sting-mx5-pro",
+      "years": null,
+      "status": "check",
+      "note": "Vendor statement covers \"Talaria Sting\" generically (https://radmotousa.com/products/off-road-tire-dunlop-geomax-mx53-for-surron-and-talaria); MX5 Pro rim sizes not explicitly confirmed in that statement."
+    },
+    {
+      "product_brand": "Shinko",
+      "product_name": "505 Cheater tire set",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "check",
+      "note": "505 Cheater rear sizes (90/100-16, 110/100-18) do NOT fit the stock 19in rear rim. Charged Cycle Works: \"you cannot buy a 'sticky' 18\\\" or 19\\\" rear tire that will fit on the Surron\" — requires a 16in/18in rear wheel conversion (https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260). Only sell alongside a wheel conversion."
+    },
+    {
+      "product_brand": "Shinko",
+      "product_name": "546 front and 505 rear tire set",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "check",
+      "note": "Same caveat as the 505 set: the 505 rear sizes need an aftermarket 16in/18in rear wheel; stock LBX rear is 19in (see https://chargedcycleworks.com/products/shinko-r525-hybrid-cheater-tire-90-100x16-for-sur-ron-or-segway-x-260). Front 546 fitment on the stock 19in front also needs size confirmation."
+    },
+    {
+      "product_brand": "Shinko",
+      "product_name": "244 dual sport tire pair",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "verified",
+      "note": "Vendor product page: \"Shinko 244 Dual Sport Tires for Sur-Ron or Segway X260\" — https://chargedcycleworks.com/products/shinko-244-dual-sport-tires. Years capped at 2025 (2026 platform rims unconfirmed)."
+    },
+    {
+      "product_brand": "Shinko",
+      "product_name": "244 dual sport tire pair",
+      "bike_slug": "segway-x260",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor product page: \"Shinko 244 Dual Sport Tires for Sur-Ron or Segway X260\" — https://chargedcycleworks.com/products/shinko-244-dual-sport-tires"
+    },
+    {
+      "product_brand": "Shinko",
+      "product_name": "244 dual sport tire pair",
+      "bike_slug": "onyx-rcr",
+      "years": null,
+      "status": "check",
+      "note": "The RCR runs 17in moped rims and the 244 in 2.75-17 is a common community fitment, but no vendor statement naming the RCR was found. Confirm size on the RCR rim before listing."
+    },
+    {
+      "product_brand": "Shinko",
+      "product_name": "241 street tire pair",
+      "bike_slug": "onyx-rcr",
+      "years": null,
+      "status": "check",
+      "note": "2.75-17 moped tire (sold as a moped knobby: https://radmotousa.com/products/shinko-2-75-17-knobby-moped-tire-sr241) commonly run on the RCR's 17in rims; the RCR itself is not named by any vendor statement found. Community-reported fitment only."
+    },
+    {
+      "product_brand": "Michelin",
+      "product_name": "Pilot Street 2 tire pair",
+      "bike_slug": "onyx-rcr",
+      "years": null,
+      "status": "check",
+      "note": "Community-standard street tire for the RCR's 17in moped wheels; no manufacturer/vendor RCR fitment statement found in this pass. Confirm sizes against RCR rim width before listing."
+    },
+    {
+      "product_brand": "ONYX",
+      "product_name": "Motors upgraded RCR rear shocks",
+      "bike_slug": "onyx-rcr",
+      "years": null,
+      "status": "verified",
+      "note": "Manufacturer product page: \"ONYX RCR 72V Rear Shocks\" — https://onyxmotors.com/products/onyx-rcr-rear-shocks. Title specifies the RCR 72V; confirm shock length (stock 350mm) for older/CTY-adjacent variants."
+    },
+    {
+      "product_brand": "Charged Cycle Works",
+      "product_name": "tall comfort seat",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "check",
+      "note": "Charged Cycle Works sells a tall/extra-padded seat for this bike (\"eBikeZilla Comfort Seat for Surron Light Bee\" — https://chargedcycleworks.com/products/comfort-seat-surron-light-bee), but that listing is eBikeZilla-manufactured; our CCW-branded SKU match is unconfirmed. Fit target is clearly the Light Bee."
+    },
+    {
+      "product_brand": "Super73",
+      "product_name": "GRZLY 20x5 tire pair",
+      "bike_slug": "super73-rx",
+      "years": null,
+      "status": "verified",
+      "note": "Manufacturer fitment: fits \"All R-Series Models\" — https://super73.com/products/grzly-tire-override-single-5. Note: 20x5 is the REAR size; front runs the 20x4.5."
+    },
+    {
+      "product_brand": "Super73",
+      "product_name": "GRZLY 20x5 tire pair",
+      "bike_slug": "super73-r-brooklyn",
+      "years": null,
+      "status": "verified",
+      "note": "Manufacturer fitment: fits \"All R-Series Models\" (R Brooklyn is R-Series) — https://super73.com/products/grzly-tire-override-single-5. 20x5 is the rear size; front is 20x4.5."
+    },
+    {
+      "product_brand": "Super73",
+      "product_name": "GRZLY 20x5 tire pair",
+      "bike_slug": "super73-s2",
+      "years": null,
+      "status": "verified",
+      "note": "Manufacturer fitment: fits \"All S-Series Models\" — https://super73.com/products/grzly-tire-override-single-5. 20x5 rear / 20x4.5 front."
+    },
+    {
+      "product_brand": "Super73",
+      "product_name": "GRZLY 20x5 tire pair",
+      "bike_slug": "super73-z-miami",
+      "years": "2022-2023",
+      "status": "verified",
+      "note": "Manufacturer fitment: \"SUPER73-Z Miami (2023 and earlier)\" — https://super73.com/products/grzly-tire-override-single-5. Years limited to 2023 and earlier per Super73's own statement; do NOT list for 2024-2025 Z Miami."
+    },
+    {
+      "product_brand": "Super73",
+      "product_name": "BDGR Override 20x4.5 tire pair",
+      "bike_slug": "super73-rx",
+      "years": null,
+      "status": "verified",
+      "note": "Manufacturer fitment: \"All R-Series Models, All S-Series Models, SUPER73-Z Miami (2023 and earlier)...\" — https://super73.com/products/bdgr-tire-override-single-4-5"
+    },
+    {
+      "product_brand": "Super73",
+      "product_name": "BDGR Override 20x4.5 tire pair",
+      "bike_slug": "super73-r-brooklyn",
+      "years": null,
+      "status": "verified",
+      "note": "Manufacturer fitment: \"All R-Series Models...\" — https://super73.com/products/bdgr-tire-override-single-4-5"
+    },
+    {
+      "product_brand": "Super73",
+      "product_name": "BDGR Override 20x4.5 tire pair",
+      "bike_slug": "super73-s2",
+      "years": null,
+      "status": "verified",
+      "note": "Manufacturer fitment: \"All S-Series Models...\" — https://super73.com/products/bdgr-tire-override-single-4-5"
+    },
+    {
+      "product_brand": "Super73",
+      "product_name": "BDGR Override 20x4.5 tire pair",
+      "bike_slug": "super73-z-miami",
+      "years": "2022-2023",
+      "status": "verified",
+      "note": "Manufacturer fitment: \"SUPER73-Z Miami (2023 and earlier)\" — https://super73.com/products/bdgr-tire-override-single-4-5. Do NOT list for 2024-2025 Z Miami."
+    },
+    {
+      "product_brand": "EVMOD",
+      "product_name": "Low Rise Handlebar for Super73",
+      "bike_slug": "super73-rx",
+      "years": null,
+      "status": "check",
+      "note": "Vendor claims it is \"designed to fit all Super73 models\" but also says \"Confirm your Super73 model, wheel size, mounting points, connector type and installation space before ordering\" — https://evmod.us/products/low-rise-handlebar-for-super73. Brand-level claim, no per-model statement; verify per model."
+    },
+    {
+      "product_brand": "EVMOD",
+      "product_name": "Low Rise Handlebar for Super73",
+      "bike_slug": "super73-s2",
+      "years": null,
+      "status": "check",
+      "note": "Same basis: \"designed to fit all Super73 models\" with a confirm-before-ordering caveat — https://evmod.us/products/low-rise-handlebar-for-super73"
+    },
+    {
+      "product_brand": "EVMOD",
+      "product_name": "Low Rise Handlebar for Super73",
+      "bike_slug": "super73-z-miami",
+      "years": null,
+      "status": "check",
+      "note": "Same basis: \"designed to fit all Super73 models\" with a confirm-before-ordering caveat — https://evmod.us/products/low-rise-handlebar-for-super73"
+    },
+    {
+      "product_brand": "EVMOD",
+      "product_name": "Low Rise Handlebar for Super73",
+      "bike_slug": "super73-r-brooklyn",
+      "years": null,
+      "status": "check",
+      "note": "Same basis: \"designed to fit all Super73 models\" with a confirm-before-ordering caveat — https://evmod.us/products/low-rise-handlebar-for-super73. Claim predates 2026 models, so 2026 M1D/B1G/MZFT are deliberately excluded."
+    },
+    {
+      "product_brand": "Powerful Lithium",
+      "product_name": "60V Aura Battery",
+      "bike_slug": "segway-x160",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor: \"Meet our 60 volt 'Aura' long-range battery for the Sur-Ron & Segway X160/X260\" — https://powerfullithium.com/products/60v-aura-battery-for-sur-ron. Drop-in on stock controller."
+    },
+    {
+      "product_brand": "Powerful Lithium",
+      "product_name": "60V Aura Battery",
+      "bike_slug": "segway-x260",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor: \"...for the Sur-Ron & Segway X160/X260\" — https://powerfullithium.com/products/60v-aura-battery-for-sur-ron. Drop-in on stock controller."
+    },
+    {
+      "product_brand": "Powerful Lithium",
+      "product_name": "60V Aura Battery",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "check",
+      "note": "Vendor says \"for the Sur-Ron\" without naming the Light Bee X specifically (https://powerfullithium.com/products/60v-aura-battery-for-sur-ron). 60V architecture matches only the 60V-era Light Bee (Ultra Bee is 74V, Storm Bee higher, 2026 LBX is 72V) — hence the check status and year cap."
+    },
+    {
+      "product_brand": "Alien Rides",
+      "product_name": "67.2V 10A Fast Charger",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "verified",
+      "note": "Vendor: a \"60V 10A charger\" for the \"Surron Light Bee\" with \"auto switch from 110V to 220V\" — https://alienrides.com/products/surron-light-bee-10a-charger. 67.2V output charges 60V packs ONLY — never the 2026 72V platform, hence the hard year cap."
+    },
+    {
+      "product_brand": "Alien Rides",
+      "product_name": "67.2V 10A Fast Charger",
+      "bike_slug": "segway-x260",
+      "years": null,
+      "status": "check",
+      "note": "X260 uses the same 60V/67.2V charge architecture and third-party listings market 67.2V 10A chargers as \"Compatible with Surron Light Bee X Segway X260\" (https://www.amazon.com/67-2V-10A-Compatible-Electric-Waterproof/dp/B0FCMC84T6), but the Alien Rides page itself does not name Segway. Confirm connector before selling."
+    },
+    {
+      "product_brand": "eWatt",
+      "product_name": "72V 42Ah Race Battery (Talaria Sting)",
+      "bike_slug": "talaria-sting-mx4",
+      "years": null,
+      "status": "verified",
+      "note": "Vendor: fits \"Talaria Sting MX3/MX4/MX5 perfectly\" and \"fits under the OEM lid without modifications\"; \"not compatible with your OEM 60v controller\" — pair with X-9000 or Torp TC1000 — https://chargedcycleworks.com/products/72v-42ah-battery-for-talaria-sting"
+    },
+    {
+      "product_brand": "eWatt",
+      "product_name": "72V 42Ah Race Battery (Talaria Sting)",
+      "bike_slug": "talaria-sting-mx5-pro",
+      "years": null,
+      "status": "check",
+      "note": "Vendor names \"Talaria Sting MX3/MX4/MX5\" (https://chargedcycleworks.com/products/72v-42ah-battery-for-talaria-sting); our bike is the MX5 Pro variant, not explicitly named. Confirm Pro-variant tray/lid fit."
+    },
+    {
+      "product_brand": "GritShift",
+      "product_name": "billet footpegs",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "check",
+      "note": "GritShift carries footpeg lines for the Sur-Ron/Segway/Talaria platform (see https://gritshift.com/collections/segway-x260-parts-accessories), but no explicit per-model fitment statement for this exact SKU was captured. Confirm SKU fitment."
+    },
+    {
+      "product_brand": "GritShift",
+      "product_name": "billet footpegs",
+      "bike_slug": "talaria-sting-mx4",
+      "years": null,
+      "status": "check",
+      "note": "Same basis: platform-level GritShift coverage, no per-model statement captured for this SKU. Confirm before listing."
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "billet footpegs",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "check",
+      "note": "Warp 9 makes e-moto footpegs sold across the Sur-Ron/Talaria/E-Ride platform by scene vendors (e.g. https://darwinev.com/product-category/accessories/warp9/), but no explicit per-model fitment statement was captured for this SKU. Confirm."
+    },
+    {
+      "product_brand": "Warp 9",
+      "product_name": "billet footpegs",
+      "bike_slug": "talaria-sting-mx4",
+      "years": null,
+      "status": "check",
+      "note": "Same basis: platform-level Warp 9 coverage via scene vendors, no per-model statement captured for this SKU. Confirm."
+    },
+    {
+      "product_brand": "EggRider",
+      "product_name": "V2 Bluetooth Display",
+      "bike_slug": "surron-light-bee-x",
+      "years": "2018-2025",
+      "status": "check",
+      "note": "Ships as the display in some ASI BAC4000 Sur-Ron/Segway kits (emotobros kit includes \"EggRider v2 display\" — https://emotobros.com/products/ols/products/asi-bac4000-plug-and-play-kit-for-surron). NOT a plug-in on the stock controller — only relevant with an ASI controller conversion."
+    },
+    {
+      "product_brand": "EggRider",
+      "product_name": "V2 Bluetooth Display",
+      "bike_slug": "segway-x260",
+      "years": null,
+      "status": "check",
+      "note": "Same basis: bundled with ASI BAC4000 Sur-Ron/Segway conversion kits (https://emotobros.com/products/ols/products/asi-bac4000-plug-and-play-kit-for-surron); useless on the stock controller."
+    }
+  ]
+}
